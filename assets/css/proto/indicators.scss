@@ -1,0 +1,26 @@
+.date__range{
+    font-weight: bold;
+}
+.visualizer{
+    margin-top: 10px;
+}
+.visualizer__links{
+    display: grid;
+    grid-template-columns: 0.5fr 0.3fr 2fr;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.contributers{
+    margin-bottom: 20px;
+}
+.contributers span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.contributers a{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.indicator__desc{
+    font-style: italic;
+}

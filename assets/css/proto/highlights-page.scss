@@ -1,0 +1,30 @@
+.intro__text{
+    width: 100%;
+    margin-top: 20px;
+}
+.body-text{
+    margin-top: 20px;
+}
+.body__content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    margin-top: 40px;
+}
+.filters{
+    margin-bottom: 30px;
+}
+.filter-tags{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.filter-tags span{
+    background-color: gray;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+}
