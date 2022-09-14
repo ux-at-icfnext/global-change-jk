@@ -1,5 +1,5 @@
 ---
-layout: proto/highlights-page
+layout: proto/highlights
 categories: [prototype, highlight]
 title: Highlights
 type: [sub-nav-item, prototype]

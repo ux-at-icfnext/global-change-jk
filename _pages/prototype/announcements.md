@@ -1,5 +1,5 @@
 ---
-layout: proto/announcements-page
+layout: proto/announcements
 categories: [prototype, announcements]
 title: Announcements
 type: [sub-nav-item, prototype]
