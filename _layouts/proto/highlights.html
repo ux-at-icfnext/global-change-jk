@@ -3,18 +3,18 @@ layout: default
 ---
 <link href="/assets/css/proto/highlights.scss" rel="stylesheet">
 
-<div class="page__header">
+<div class="page__header grid-container">
   <div class="title">
       <h2>{{page.title}}</h2>
   </div>
 </div>
-<div class="intro-text">
+<div class="intro-text grid-container">
   {{page.intro-text}}
 </div>
-<div class="body-text">
+<div class="body-text grid-container">
   {{page.body-text}}
 </div>
-<div class="body__content">
+<div class="body__content grid-container">
   <div class="filters">
     <h4>Filters</h4>
     {% include patterns/accordion/accordion-bordered-jk.md %}
