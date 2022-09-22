@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: proto/assessment
 categories: [prototype, assessment]
 title: Assessment report
 type: [sub-nav-item, prototype]
@@ -31,15 +31,27 @@ cards:
 
 tabs:
     - title: Overview
+      content: >
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In vitae turpis massa sed. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Amet cursus sit amet dictum sit amet justo donec. Porta lorem mollis aliquam ut porttitor. Netus et malesuada fames ac turpis egestas sed tempus urna. Viverra tellus in hac habitasse. Elementum curabitur vitae nunc sed velit dignissim. Cum sociis natoque penatibus et. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis.</p>
+              <p>Leo urna molestie at elementum eu facilisis sed odio morbi. Consequat id porta nibh venenatis cras sed felis. Lorem sed risus ultricies tristique nulla aliquet enim tortor. Eget velit aliquet sagittis id consectetur purus ut faucibus. Cursus mattis molestie a iaculis at. Morbi tristique senectus et netus et malesuada. Elementum eu facilisis sed odio morbi. Ut placerat orci nulla pellentesque dignissim enim sit amet. Tristique senectus et netus et. Et ligula ullamcorper malesuada proin libero. Lacus vestibulum sed arcu non odio euismod lacinia at.</p>
     - title: Mandate
+      content: Mandate
     - title: Chapters
+      content: Chapters
     - title: Roles
+      content: Roles
     - title: Leadership
+      content: Leadership
     - title: Regions
+      content: Regions
     - title: Engagement
+      content: Engagement
     - title: Workshops
+      content: Workshops
     - title: FAQs
+      content: FAQs
     - title: Timeline
+      content: Timeline
 ---
 # {{ page.title }}
 
@@ -50,13 +62,6 @@ tabs:
       </p>
     </div>
   </div>
-
-
-<ul class="tabs">
-    {% for t in page.tabs %}
-			<li class="tab"><label for="tab1">{{ t.title }}</label></li>
-    {% endfor %}
-</ul>
 
 
 ## Upcoming

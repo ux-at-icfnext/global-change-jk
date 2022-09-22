@@ -1,12 +1,19 @@
 ---
 layout: default
 ---
-<h1>{{page.title}}</h1>
-<div class="content-flex">
-    left nav here
-
+<link href="/assets/css/proto/assessment.scss" rel="stylesheet">
+<div class="grid-container">
+    <div class="tabs">
+        {%for item in page.tabs%}
+            <input type="radio" class="tabs__radio" name="tabs-example" id="{{item.title}}" checked>
+            <label for="{{item.title}}" class="tabs__label">{{item.title}}</label>
+            <div class="tabs__content">
+                <h3>{{item.title}}</h3>
+                <p>{{item.content}}</p>
+            </div>
+        {%endfor%}
+    </div>
     <div class="text">
-        
         {{ content }}
     </div>
 </div>
