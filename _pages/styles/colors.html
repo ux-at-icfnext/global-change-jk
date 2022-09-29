@@ -9,8 +9,9 @@ permalink: /styles/colors/
     {% for color in site.data.colors %}
         <div class="color">
             <div class="{{color.name}}"></div>
-            <span>{{ color.name }}</span>
-            <span>{{ color.value }}</span>
+            <span class="display-block">{{ color.name }}</span>
+            <span class="display-block">hsla: {{ color.hsla }}</span>
+            <span class="display-block">hex: {{ color.value }}</span>
         </div>
     {% endfor %}
 </div>

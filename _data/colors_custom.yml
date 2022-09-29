@@ -1,10 +1,10 @@
-- name: paper
+- name: navy
   value: "#096BA3"
   hsla: "(202, 94, 64, 1)"
-- name: ink
+- name: denim
   value: "#08527D"
   hsla: "(202, 94, 49, 1)"
-- name: inverse
+- name: midnight
   value: "#053A59"
   hsla: "(202, 94, 35, 1)"
 - name: sky
