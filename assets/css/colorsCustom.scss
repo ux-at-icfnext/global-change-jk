@@ -1,0 +1,34 @@
+$navycolor: {{ site.data.colorsCustom[0].value}};
+$denimcolor: {{ site.data.colorsCustom[1].value }};
+$midnightcolor: {{ site.data.colorsCustom[2].value }};
+$skycolor: {{ site.data.colorsCustom[3].value }};
+$azurecolor: {{ site.data.colorsCustom[4].value }};
+$teacolor: {{ site.data.colorsCustom[5].value }};
+$limecolor: {{ site.data.colorsCustom[6].value }};
+$emeraldcolor: {{ site.data.colorsCustom[7].value }};
+$forestcolor: {{ site.data.colorsCustom[8].value }};
+$huntercolor: {{ site.data.colorsCustom[9].value }};
+$cloudcolor: {{ site.data.colorsCustom[10].value }};
+$fogcolor: {{ site.data.colorsCustom[11].value }};
+$smokecolor: {{ site.data.colorsCustom[12].value }};
+$charcoalcolor: {{ site.data.colorsCustom[13].value }};
+$lemoncolor: {{ site.data.colorsCustom[14].value }};
+$pumpkincolor: {{ site.data.colorsCustom[15].value }};
+$scarletcolor: {{ site.data.colorsCustom[16].value }};
+.navy{background-color: $navycolor}
+.denim{background-color: $denimcolor}
+.midnight{background-color:$midnightcolor}
+.sky{background-color:$skycolor}
+.azure{background-color:$azurecolor}
+.tea{background-color:$teacolor}
+.lime{background-color:$limecolor}
+.emerald{background-color:$emeraldcolor}
+.forest{background-color:$forestcolor}
+.hunter{background-color:$huntercolor}
+.cloud{background-color:$cloudcolor}
+.fog{background-color:$fogcolor}
+.smoke{background-color:$smokecolor}
+.charcoal{background-color:$charcoalcolor}
+.lemon{background-color:$lemoncolor}
+.pumpkin{background-color:$pumpkincolor}
+.scarlet{background-color:$scarletcolor}
