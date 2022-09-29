@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: proto/assessment
 categories: [prototype, assessment]
 title: Assessment report
 type: [sub-nav-item, prototype]
@@ -31,15 +31,42 @@ cards:
 
 tabs:
     - title: Overview
+      content: >
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In vitae turpis massa sed. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Amet cursus sit amet dictum sit amet justo donec. Porta lorem mollis aliquam ut porttitor. Netus et malesuada fames ac turpis egestas sed tempus urna. Viverra tellus in hac habitasse. Elementum curabitur vitae nunc sed velit dignissim. Cum sociis natoque penatibus et. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis.</p>
+              <p>Leo urna molestie at elementum eu facilisis sed odio morbi. Consequat id porta nibh venenatis cras sed felis. Lorem sed risus ultricies tristique nulla aliquet enim tortor. Eget velit aliquet sagittis id consectetur purus ut faucibus. Cursus mattis molestie a iaculis at. Morbi tristique senectus et netus et malesuada. Elementum eu facilisis sed odio morbi. Ut placerat orci nulla pellentesque dignissim enim sit amet. Tristique senectus et netus et. Et ligula ullamcorper malesuada proin libero. Lacus vestibulum sed arcu non odio euismod lacinia at.</p>
     - title: Mandate
+      content: >
+              <p>The U.S. Global Change Research Program (USGCRP) was established by Presidential initiative in 1989 and mandated by Congress in the Global Change Research Act (GCRA) of 1990. Its mandate is to develop and coordinate “a comprehensive and integrated United States research program which will assist the Nation and the world to understand, assess, predict, and respond to human-induced and natural processes of global change.”</p>
+
+              <p>USGCRP comprises 13 federal agencies that conduct or use research on global change and its impacts on society. It functions under the direction of the Subcommittee on Global Change Research of the National Science and Technology Council’s Committee on Environment.</p>
+        
+              <p>USGCRP has four major sets of responsibilities: (a) coordinating global change research across the Federal Government, (b) developing and distributing mandated products, (c) helping to inform decisions, and (d) facilitating international research coordination.</p>  
+        
+              <p>In addition to an annual report to Congress and a Strategic Plan, the GCRA mandates that USGCRP prepare and submit to the President and the Congress a quadrennial assessment, referred to as the National Climate Assessment (NCA), which:</p>
+        
+              <ul>
+              <li>Integrate[s], evaluate[s], and interpret[s] the findings of the Program and discuss[es] the scientific    uncertainties associated with such findings</li>
+              <li>Analyze[s] the effects of global change on the natural environment, agriculture, energy production and use, land and water resources, transportation, human health and welfare, human social systems, and biological diversity</li>
+              <li>Analyze[s] current trends in global change, both human-induced and natural, and project[s] major trends for the subsequent 25 to 100 years</li>
+              </ul>
+        
+              Development of the Fifth NCA is currently underway. Please visit this page for periodic updates on its progress.
     - title: Chapters
+      content: Chapters
     - title: Roles
+      content: Roles
     - title: Leadership
+      content: Leadership
     - title: Regions
+      content: Regions
     - title: Engagement
+      content: Engagement
     - title: Workshops
+      content: Workshops
     - title: FAQs
+      content: FAQs
     - title: Timeline
+      content: Timeline
 ---
 # {{ page.title }}
 
@@ -52,39 +79,7 @@ tabs:
   </div>
 
 
-<ul class="tabs">
-    {% for t in page.tabs %}
-			<li class="tab"><label for="tab1">{{ t.title }}</label></li>
-    {% endfor %}
-</ul>
-
-
 ## Upcoming
 {% include patterns/card/event-jk.md %}
 
 <a href="/">View all events <i class="fa-solid fa-arrow-right-long"></i></a>
-
-<div class="content-rap" markdown="1">
-<div class="article" markdown="1">
-## About NCA5
-
-The Fifth National Climate Assessment (NCA5), currently in development, will analyze the impacts of global change in the United States.
- 
-The development of NCA5 is overseen by a Federal Steering Committee appointed by the Subcommittee on Global Change Research (SGCR) and comprising representatives from USGCRP agencies. NOAA, as the administrative agency for NCA5, is responsible for establishing procedures for the report, releasing Federal Register Notices, and certifying the report meets Information Quality Act and Evidence Act standards. 
- 
-The process is designed to be transparent and inclusive, offering multiple opportunities for public participation. As in previous assessments, NCA5 will undergo an extensive, multi-phase process of internal and external review from federal agency experts, the general public, and external peer review by a panel of experts established by the National Academies of Sciences, Engineering, and Medicine. This approach is designed to result in a report that is authoritative, timely, relevant, and policy neutral; valued by authors and users; accessible to the widest possible audience; and fully compliant with the GCRA and other applicable laws and policies.
-</div>
-<div class="related-resources" markdown="1">
-<div class="link-list" markdown="1">
-#### Previous Assesments
-- link one
-- link two
-- link three
-</div>
-<div class="link-list" markdown="1">
-#### Sustained Resources
-- link one
-- link two
-- link three
-</div>
-<div>

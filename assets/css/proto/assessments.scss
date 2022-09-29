@@ -1,0 +1,51 @@
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-family: sans-serif;
+  }
+  
+  .tabs__label {
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+  
+  .tabs__radio {
+    display: none;
+  }
+  
+  .tabs__content {
+    order: 1;
+    width: 100%;
+    border-bottom: 3px solid #dddddd;
+    line-height: 1.5;
+    font-size: 0.9em;
+    display: none;
+    padding-top: 20px;
+  }
+  
+  .tabs__radio:checked + .tabs__label {
+    font-weight: bold;
+    color: #009578;
+    border-bottom: 2px solid #009578;
+  }
+  
+  .tabs__radio:checked + .tabs__label + .tabs__content {
+    display: initial;
+  }
+  
+  h4{
+    font-weight: bold;
+  }
+
+  .workshop__collection{
+    padding-bottom: 20px;
+  }
+  .workshop__links{
+    display: inline;
+  }
+  .faq__question{
+    font-weight: bold;
+  }
+  
