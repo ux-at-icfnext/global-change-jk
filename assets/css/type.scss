@@ -77,7 +77,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: $inkcolor;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
 }
 .body-font{
     font-family: $body-font;
@@ -92,22 +92,23 @@ h1, h2, h3, h4, h5, h6, p {
 }
 h1 {
     font-family: $title-font;
-    font-size: 3rem;
-    line-height: 3.5rem;
+    font-size: 3.25rem;
+    line-height: 1.5rem;
+    font-weight: 300;
     @media (min-width: $grid-md-max){
-        font-size: 4rem;
-        line-height: 4.5rem;
+        font-size: 3rem;
+        line-height: 1.1rem;
     }
     margin: 2rem 0 2rem 0;
 }
 
 h2{
     font-family: $title-font;
-    font-size: 2.75rem;
-    line-height: 3rem;
+    font-size: 2.5rem;
+    line-height: 1.5rem;
     @media (min-width: $grid-md-max){
-        font-size: 3.5rem;
-        line-height: 3.75rem;
+        font-size: 2.5rem;
+        line-height: 1.55rem;
     }
     margin: 2rem 0 2rem 0;
 }
@@ -115,20 +116,31 @@ h2{
 h3 {
     font-family: $title-font;
     font-size: 2rem;
-    line-height: 2.25rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
     @media (min-width: $grid-md-max){
-        font-size: 2.75rem;
-        line-height: 3rem;
+        font-size: 2rem;
+        line-height: 1.5rem;
     }
     margin: 2rem 0 2rem 0;
 }
 
 h4 {
-    font-family: $body-font;
+    font-family: $title-font;
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.75rem;
     margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+h5{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+h6{
+    font-size: 1rem;
+    font-weight: 900;
 }
 
 .intro {
