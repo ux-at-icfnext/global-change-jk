@@ -1,8 +1,5 @@
 
 <footer class="usa-footer">
-  <div class="grid-container usa-footer__return-to-top">
-    <a href="#">Return to top</a>
-  </div>
   <div class="usa-footer__primary-section">
     <nav class="usa-footer__nav" aria-label="Footer navigation">
       <ul class="grid-row grid-gap">
@@ -14,7 +11,7 @@
           "
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
-            >[Primary link]</a
+            > Annual Reports</a
           >
         </li>
         <li
@@ -25,7 +22,7 @@
           "
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
-            >[Primary link]</a
+            >Stragegic Plan</a
           >
         </li>
         <li
@@ -36,7 +33,7 @@
           "
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
-            >[Primary link]</a
+            >Interagency Working Groups</a
           >
         </li>
         <li
@@ -47,7 +44,7 @@
           "
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
-            >[Primary link]</a
+            >National Climate Assessment (NCA)</a
           >
         </li>
       </ul>
@@ -61,71 +58,104 @@
             usa-footer__logo
             grid-row
             mobile-lg:grid-col-6 mobile-lg:grid-gap-2
-          "
-        >
-          <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="" />
-          </div>
-          <div class="mobile-lg:grid-col-auto">
-            <p class="usa-footer__logo-heading">[Name of Agency]</p>
+          ">
+      <div class="mobile-lg:grid-col-auto">
+            <p class="margin-0"><strong>U.S. Global change Research Program</strong></p>
+            <ul class="add-list-reset margin-0">
+            <li>1800 G Street, NW, Suite 9100</li>
+            <li>Washington, D. C. 20006 USA</li>
+            <li>TEL: +1 202 223 6262</li>
+            <li><a href="mailto:">Contact Us</a></li>
+            </ul>
           </div>
         </div>
-        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
-          <div class="usa-footer__social-links grid-row grid-gap-1">
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/facebook.svg"
-                  alt="Facebook"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/twitter.svg"
-                  alt="Twitter"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/youtube.svg"
-                  alt="YouTube"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/instagram.svg"
-                  alt="Instagram"
-              /></a>
-            </div>
-            <div class="grid-col-auto">
-              <a class="usa-social-link" href="javascript:void(0);"
-                ><img
-                  class="usa-social-link__icon"
-                  src="/assets/img/usa-icons/rss_feed.svg"
-                  alt="RSS"
-              /></a>
-            </div>
-          </div>
-          <p class="usa-footer__contact-heading">[Agency Contact Center]</p>
-          <address class="usa-footer__address">
-            <div class="usa-footer__contact-info grid-row grid-gap">
-              <div class="grid-col-auto">
-                <a href="tel:1-800-555-5555">[(800) 555-GOVT]</a>
-              </div>
-              <div class="grid-col-auto">
-                <a href="mailto:info@agency.gov">[info@agency.gov]</a>
-              </div>
-            </div>
-          </address>
-        </div>
+        <div class="mobile-lg:grid-col-6">
+        <p class="margin-0"><strong>Our Newsletter</strong></p>
+        <section aria-label="Newsletter component">
+  <form class="usa-search" role="email">
+    <label class="usa-sr-only" for="email-field">Sign up</label>
+    <input class="usa-input" id="email-field" type="email" name="Sign up" placeholder="Email Address" />
+    <button class="usa-button" type="submit">
+      <span class="usa-search__submit-text">Sign Up </span
+      >
+    </button>
+  </form>
+</section>
+</div>
       </div>
     </div>
   </div>
+    <div class="usa-footer__tertiary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap-lg">
+      <div class="grid-col-4">
+    <div>
+    <p>
+    <strong>GlobalChange.gov</strong> is made possible by our participating agencies
+    </p>
+    </div>
+  </div>
+  <div class="grid-col-8">
+    <div>.grid-col-8</div>
+  </div>
+      </div>
+      </div>
+    </div>
+  <div class="usa-footer__fourth-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap-lg">
+    <div class="grid-col-3">
+      <div>
+      <p>
+        <a href="">About Our Organization</a>
+      </p>
+      <p>
+        <a href="">Accessibility support</a>
+      </p>
+    </div>
+  </div>
+  <div class="grid-col-3">
+      <div>
+      <p>
+        <a href="">FOIA requests</a>
+      </p>
+      <p>
+        <a href="">No FEAR Act data</a>
+      </p>
+    </div>
+  </div>
+  <div class="grid-col-3">
+      <div>
+      <p>
+        <a href="">Office of the Inspector <br/> General</a>
+      </p>
+    </div>
+  </div>
+  <div class="grid-col-3">
+      <div>
+      <p>
+        <a href="">Performance reports</a>
+      </p>
+      <p>
+        <a href="">Privacy policy</a>
+      </p>
+    </div>
+  </div>
+      </div>
+      </div>
+    </div>
+  <div class="usa-footer__fifth-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap-lg">
+      <div class="grid-col-auto">
+    <div>
+    <p class="margin-0 padding-0">
+    Looking for U.S. government information and services? <a href="https://www.usa.gov/">Visit USA.gov</a>
+    </p>
+    </div>
+  </div>
+
+      </div>
+      </div>
+    </div>
 </footer>
