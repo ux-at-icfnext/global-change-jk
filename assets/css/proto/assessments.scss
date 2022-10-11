@@ -52,4 +52,12 @@
   .faq__question{
     font-weight: bold;
   }
-  
+  .legend ul{
+    border: solid 1px #ddd;
+    padding: 10px;
+    margin-top: 15px;
+  }
+  .legend li{
+    display: inline-block;
+    margin: auto;
+  }
