@@ -1,6 +1,7 @@
 
 <footer class="usa-footer">
   <div class="usa-footer__primary-section">
+  <div class="grid-container">
     <nav class="usa-footer__nav" aria-label="Footer navigation">
       <ul class="grid-row grid-gap">
         <li
@@ -49,6 +50,7 @@
         </li>
       </ul>
     </nav>
+    </div>
   </div>
   <div class="usa-footer__secondary-section">
     <div class="grid-container">
@@ -57,8 +59,7 @@
           class="
             usa-footer__logo
             grid-row
-            mobile-lg:grid-col-6 mobile-lg:grid-gap-2
-          ">
+            mobile-lg:grid-col-5">
       <div class="mobile-lg:grid-col-auto">
             <p class="margin-0"><strong>U.S. Global change Research Program</strong></p>
             <ul class="add-list-reset margin-0">
@@ -69,16 +70,29 @@
             </ul>
           </div>
         </div>
-        <div class="mobile-lg:grid-col-6">
+        <div class="mobile-lg:grid-col-3">
+        <p class="margin-0"><strong>Social Media</strong></p>
+        <div class="social-media-icons">
+        <a href="">
+        <img src="../../assets/../../assets/icons/icon-facebook.svg">
+        </a>
+        <a href="">
+        <img src="../../assets/../../assets/icons/icon-twitter.svg">
+        </a>
+        </div>
+        </div>
+        <div class="mobile-lg:grid-col-4">
         <p class="margin-0"><strong>Our Newsletter</strong></p>
         <section aria-label="Newsletter component">
   <form class="usa-search" role="email">
     <label class="usa-sr-only" for="email-field">Sign up</label>
+    <div class="newsletter">
     <input class="usa-input" id="email-field" type="email" name="Sign up" placeholder="Email Address" />
     <button class="usa-button" type="submit">
       <span class="usa-search__submit-text">Sign Up </span
       >
     </button>
+    </div>
   </form>
 </section>
 </div>
@@ -87,16 +101,55 @@
   </div>
     <div class="usa-footer__tertiary-section">
     <div class="grid-container">
-      <div class="grid-row grid-gap-lg">
-      <div class="grid-col-4">
+      <div class="grid-row grid-gap-lg flex-align-center">
+      <div class="grid-col-5">
     <div>
-    <p>
+    <p class="margin-bottom-0">
     <strong>GlobalChange.gov</strong> is made possible by our participating agencies
     </p>
     </div>
   </div>
-  <div class="grid-col-8">
-    <div>.grid-col-8</div>
+  <div class="grid-col-7 seals-small">
+  <div class="grid-row flex-justify-center">
+    <a href="">
+    <img src="../../assets/customImages/seals/small/USDA-55px.png" />
+    </a>
+    <a href="">
+    <img src="../../assets/customImages/seals/small/DOC-55px.png" />
+    </a>
+    <a href="">
+    <img src="../../assets/customImages/seals/small/DOD-55px.png" />
+    </a>
+     <a href="">
+    <img src="../../assets/customImages/seals/small/DOE-55px.png" />
+    </a>
+    <a href="">
+    <img src="../../assets/customImages/seals/small/HHS-55px.png" />
+    </a>
+    <a href="">
+    <img src="../../assets/customImages/seals/small/DOI-55px.png" />
+    </a>
+     <a href="">
+    <img src="../../assets/customImages/seals/small/DOS-55px.png" />
+    </a>
+    <a href="">
+    <img src="../../assets/customImages/seals/small/DOT-55px.png" />
+    </a>
+    <a href="">
+    <img src="../../assets/customImages/seals/small/EPA-55px.png" />
+    </a>
+     <a href="">
+    <img src="../../assets/customImages/seals/small/NASA-55px.png" />
+    </a>
+    <a href="">
+    <img src="../../assets/customImages/seals/small/NSF-55px.png" />
+    </a>
+    <a href="">
+    <img src="../../assets/customImages/seals/small/Smithsonian-55px.png" />
+    </a>
+    <a href="">
+    <img src="../../assets/customImages/seals/small/USAID-55px.png" />
+    </a>    
   </div>
       </div>
       </div>
