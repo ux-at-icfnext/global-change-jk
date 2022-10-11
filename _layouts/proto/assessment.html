@@ -3,9 +3,13 @@ layout: default
 ---
 <link href="/assets/css/proto/assessments.scss" rel="stylesheet">
 <div class="grid-container">
+  {%if page.cards%}
     <div class="text">
-        {{ content }}
+      <h3>Upcoming</h3>
+      {% include patterns/card/card-jk-small.md %}
+      <a href="/">View all events <i class="fa-solid fa-arrow-right-long"></i></a>
     </div>
+  {%endif%}
     <div class="tabs">
         <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
         <label for="tab1" class="tabs__label">Overview</label>
