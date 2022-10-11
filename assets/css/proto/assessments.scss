@@ -9,7 +9,9 @@
   .tabs__label {
     padding: 10px 16px;
     cursor: pointer;
-    border: 1px solid black;
+    background-color: #dddddd;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
   }
   
   .tabs__radio {
@@ -19,7 +21,6 @@
   .tabs__content {
     order: 1;
     width: 100%;
-    border-bottom: 3px solid #dddddd;
     line-height: 1.5;
     font-size: 0.9em;
     display: none;
@@ -29,11 +30,13 @@
   .tabs__radio:checked + .tabs__label {
     font-weight: bold;
     color: #009578;
-    border-bottom: 2px solid #009578;
+    background-color: white;
+    border: none;
   }
   
   .tabs__radio:checked + .tabs__label + .tabs__content {
     display: initial;
+    background-color: white;;
   }
   
   h4{
