@@ -11,6 +11,7 @@
     background-color: #f0f0f0;
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
+    height:fit-content;
   }
   
   .tabs__radio {
@@ -64,4 +65,8 @@
   .two-col{
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .chapters p{
+    font-weight: bold;
   }
