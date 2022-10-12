@@ -64,7 +64,6 @@
         >
           <div class="mobile-lg:grid-col-auto">
             <p class="usa-footer__logo-heading">U.S. Global Change Research Program </p>
-              <p>{% include partials/proto/agencies.html %}</p>
           </div>      
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-4">

@@ -1,4 +1,7 @@
-
+.header{
+  margin-right: 40px;
+  margin-left: 40px;
+}
 .tabs {
     display: flex;
     flex-wrap: wrap;
@@ -9,6 +12,10 @@
   .tabs__label {
     padding: 10px 16px;
     cursor: pointer;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    height:fit-content;
   }
   
   .tabs__radio {
@@ -18,21 +25,23 @@
   .tabs__content {
     order: 1;
     width: 100%;
-    border-bottom: 3px solid #dddddd;
     line-height: 1.5;
     font-size: 0.9em;
     display: none;
     padding-top: 20px;
+    margin-right: 40px;
   }
   
   .tabs__radio:checked + .tabs__label {
     font-weight: bold;
     color: #009578;
-    border-bottom: 2px solid #009578;
+    background-color: white;
+    border: none;
   }
   
   .tabs__radio:checked + .tabs__label + .tabs__content {
     display: initial;
+    background-color: white;;
   }
   
   h4{
@@ -48,4 +57,21 @@
   .faq__question{
     font-weight: bold;
   }
-  
+  .legend ul{
+    border: solid 1px #ddd;
+    padding: 10px;
+    margin-top: 15px;
+  }
+  .legend li{
+    display: inline-block;
+    margin: auto;
+  }
+
+  .two-col{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .chapters p{
+    font-weight: bold;
+  }
