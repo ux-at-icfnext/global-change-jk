@@ -1,3 +1,7 @@
+.header{
+  margin-right: 40px;
+  margin-left: 40px;
+}
 .tabs {
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +29,7 @@
     font-size: 0.9em;
     display: none;
     padding-top: 20px;
+    margin-right: 40px;
   }
   
   .tabs__radio:checked + .tabs__label {
