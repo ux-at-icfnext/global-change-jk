@@ -2,15 +2,28 @@
 layout: default
 ---
 <link href="/assets/css/proto/assessments.scss" rel="stylesheet">
-<div class="grid-container">
+<div class="header">
+  <h2>{{page.title}}</h2>
+  <div class="usa-alert usa-alert--info">
+    <div class="usa-alert__body">
+      <p class="usa-alert__text">
+        Development of the Fifth National Climate Assessment (NCA5) is currently underway, with anticipated delivery in 2023. This content will be updated as new information becomes available.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="two-col" style="display: grid; grid-template-columns: 1fr 3fr; gap: 2em; margin-top: 20px;">
   {%if page.cards%}
-    <div class="text">
-      <h3>Upcoming</h3>
+    <div class="text" style="order: 1; margin-left: 10px;">
+      <button type="" class="usa-button usa-button--outline" style="margin-bottom: 15px;">
+        Fourth National Climate Assessment
+      </button>
+      <h4>Upcoming</h4>
       {% include patterns/card/card-jk-small.md %}
-      <a href="/">View all events <i class="fa-solid fa-arrow-right-long"></i></a>
+      <a href="/" style="padding-left: 5px;">View all events <i class="fa-solid fa-arrow-right-long"></i></a>
     </div>
   {%endif%}
-    <div class="tabs">
+    <div class="tabs" style="margin-left: 20px; order: 2;">
         <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
         <label for="tab1" class="tabs__label">Overview</label>
         <div class="tabs__content">
