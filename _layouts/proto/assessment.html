@@ -2,32 +2,27 @@
 layout: default
 ---
 <link href="/assets/css/proto/assessments.scss" rel="stylesheet">
-<div class="header">
-  <h2>{{page.title}}</h2>
-  <div class="usa-alert usa-alert--info">
-    <div class="usa-alert__body">
-      <p class="usa-alert__text">
-        Development of the Fifth National Climate Assessment (NCA5) is currently underway, with anticipated delivery in 2023. This content will be updated as new information becomes available.
-      </p>
+<div class="grid-container">
+  <div class="text">
+    <h2>{{page.title}}</h2>
+    <div class="usa-alert usa-alert--info">
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">
+          Fourth NCA
+        </p>
+      </div>
     </div>
   </div>
-</div>
-<div class="two-col" style="display: grid; grid-template-columns: 1fr 3fr; gap: 2em; margin-top: 20px;">
-    <div class="text" style="order: 1; margin-left: 10px;">
-      <button type="" class="usa-button usa-button--outline" style="margin-bottom: 15px;">
-        Fourth National Climate Assessment
-      </button>
-      {%if page.cards%}
-        <h4>Upcoming</h4>
-        {% include patterns/card/card-jk-small.md %}
-        <a href="/" style="padding-left: 5px;">View all events <i class="fa-solid fa-arrow-right-long"></i></a>
-      {%endif%}
-    </div>
-    <div class="tabs" style="margin-left: 20px; order: 2;">
+    <div class="tabs">
         <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
         <label for="tab1" class="tabs__label">Overview</label>
         <div class="tabs__content">
-            <h3>About NCA5</h3>
+          {%if page.cards%}
+            <h4>Upcoming</h4>
+            {% include patterns/card/card-jk-small.md %}
+            <a href="/" style="padding-left: 5px;">View all events <i class="fa-solid fa-arrow-right-long"></i></a>
+          {%endif%}  
+          <h3>About NCA5</h3>
             <p>
               The Fifth National Climate Assessment (NCA5), currently in development, will analyze the impacts of 
               global change in the United States.
