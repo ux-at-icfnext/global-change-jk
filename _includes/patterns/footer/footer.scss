@@ -1,3 +1,52 @@
+
+.usa-footer__primary-section, .usa-footer__secondary-section, .usa-footer__fourth-section {
+    background-color: $denimcolor;
+    color:white;
+    a{
+        color:white;
+        text-decoration: underline;
+    }
+}
+.usa-footer__primary-section, .usa-footer__secondary-section {
+    padding-bottom: 2rem;
+}
+.usa-footer__fourth-section{
+    background-color: $denimcolor;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color:white;
+    a{
+        color:white;
+        text-decoration: underline;
+    }
+    p{
+        margin-bottom:.5rem;
+    }
+}
+.usa-footer__tertiary-section, .usa-footer__fifth-section{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: $midnightcolor;
+    color:white;
+    a{
+        color:white;
+        text-decoration: underline;
+    }
+}
+.usa-footer__tertiary-section, .usa-footer__fifth-section{
+    p{margin-bottom:0;}
+    @media only screen and (max-width: 880px) {
+        // &>div {margin-bottom:1rem;}
+      }
+}
+.usa-footer__secondary-section{
+    @media only screen and (max-width: 1024px) {
+        p {margin-bottom:1rem;}
+      }
+}
+.usa-footer{
+    font-size: 1rem;
+}
 .social-button {
     width: auto;
     padding: 15px;
@@ -8,7 +57,18 @@
     max-width: 50px;
     height: auto;
 }
-
+.usa-footer__nav{
+    display:flex;
+    justify-content:center;
+    border-bottom:1px solid $azurecolor;
+    padding-right:0;
+    padding-left:0;
+    min-width: auto;
+    a{
+        color:white;
+        text-decoration: underline;
+    }
+}
 .usa-footer__nav ul {
     max-width: 100%;
 }
@@ -16,3 +76,35 @@ ul.agencies {
     margin: 0;
     max-width: 100%;
 }
+[type=email]{
+    float: left;
+}
+footer .usa-input{
+    max-width:15rem;
+}
+footer {
+[role=email]{display:flex}
+.usa-search [type=submit], [type=email] {
+    height:40px;
+    margin-top:0;
+}
+}
+.newsletter{
+    display:flex;
+    border:1px solid $azurecolor;
+    button.usa-button{width:120px;font-weight: normal;background-color: $midnightcolor;}
+    .usa-input{border-width: 0;}
+}
+.social-media-icons{
+    a{
+        text-decoration: none;
+        margin-right: 10px
+    }
+}
+.seals-small, .seals-home{
+    a{
+        display:inline-block;
+        padding:10px;
+    }
+}
+ 
