@@ -58,6 +58,9 @@
                         <a href="">
                             <img src="../../assets/../../assets/icons/icon-twitter.svg">
                         </a>
+                        <a href="">
+                            <img src="../../assets/../../assets/icons/icon-youTube.svg">
+                        </a>
                     </div>
                 </div>
                 <div class="mobile-lg:grid-col-12 desktop:grid-col-4">
@@ -81,14 +84,14 @@
     <div class="usa-footer__tertiary-section">
         <div class="grid-container">
             <div class="grid-row grid-gap-lg flex-align-center">
-                <div class="desktop:grid-col-5">
+                <div class="desktop:grid-col-4">
                     <div>
                         <p>
                             <strong>GlobalChange.gov</strong> is made possible by our participating agencies
                         </p>
                     </div>
                 </div>
-                <div class="desktop:grid-col-7 seals-small">
+                <div class="desktop:grid-col-8 seals-small">
                     <div class="grid-row flex-justify-center">
                         <a href="">
                             <img src="../../assets/customImages/seals/small/USDA-55px.png" />

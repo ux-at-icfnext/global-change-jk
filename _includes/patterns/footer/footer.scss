@@ -35,6 +35,11 @@
 }
 .usa-footer__tertiary-section, .usa-footer__fifth-section{
     p{margin-bottom:0;}
+    @media only screen and (max-width: 880px) {
+        // &>div {margin-bottom:1rem;}
+      }
+}
+.usa-footer__secondary-section{
     @media only screen and (max-width: 1024px) {
         p {margin-bottom:1rem;}
       }

@@ -39,7 +39,7 @@
                 <div class="
               usa-footer__logo
               grid-row
-              mobile-lg:grid-col-auto desktop:grid-col-5">
+              mobile-lg:grid-col-auto desktop:grid-col-5 mobile-lg:margin-bottom-2">
                     <div class="mobile-lg:grid-col-12">
                         <p class="margin-0"><strong>U.S. Global change Research Program</strong></p>
                         <ul class="add-list-reset margin-0">
@@ -50,7 +50,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="mobile-lg:grid-col-12 desktop:grid-col-3">
+                <div class="mobile-lg:grid-col-12 desktop:grid-col-3 mobile-lg:margin-bottom-2">
                     <p class="margin-0"><strong>Social Media</strong></p>
                     <div class="social-media-icons">
                         <a href="">
@@ -59,9 +59,12 @@
                         <a href="">
                             <img src="../../assets/../../assets/icons/icon-twitter.svg">
                         </a>
+                        <a href="">
+                            <img src="../../assets/../../assets/icons/icon-youTube.svg">
+                        </a>
                     </div>
                 </div>
-                <div class="mobile-lg:grid-col-12 desktop:grid-col-4">
+                <div class="mobile-lg:grid-col-12 desktop:grid-col-4 mobile-lg:margin-bottom-2">
                     <p class="margin-0"><strong>Our Newsletter</strong></p>
                     <section aria-label="Newsletter component">
                         <form class="usa-search" role="email">
@@ -84,7 +87,7 @@
             <div class="grid-row grid-gap-lg flex-align-center">
                 <div class="desktop:grid-col-12">
                     <div>
-                        <p>
+                        <p class="text-center padding-bottom-2">
                             <strong>GlobalChange.gov</strong> is made possible by our participating agencies
                         </p>
                     </div>
