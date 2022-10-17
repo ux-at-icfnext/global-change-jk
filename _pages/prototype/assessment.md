@@ -8,23 +8,18 @@ description: assessment report landing
 body-class: assessments
 
 cards:
-  - title: Calls For Participation
-    date: |
-      120 characters max – ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla
-    link: "/"
-    label: Find out More
   - title: Human Health
     date: September 20 
     time: 12 PM–1:30 PM CT
     download: |
-      [Agenda](/) \| [ Flyer PDF]()
+      Agenda| Flyer PDF
     link: "/"
     label: Register
   - title: Water
     date: September 22 
     time: 12 PM–1:30 PM CT
     download: |
-      [Agenda](/) \| [ Flyer PDF]()
+      Agenda| Flyer PDF
     link: "/"
     label: Register
 

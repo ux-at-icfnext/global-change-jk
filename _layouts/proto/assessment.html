@@ -2,11 +2,28 @@
 layout: default
 ---
 <link href="/assets/css/proto/assessments.scss" rel="stylesheet">
-<div class="grid-container">
-    <div class="text">
-        {{ content }}
+<div class="header">
+  <h2>{{page.title}}</h2>
+  <div class="usa-alert usa-alert--info">
+    <div class="usa-alert__body">
+      <p class="usa-alert__text">
+        Development of the Fifth National Climate Assessment (NCA5) is currently underway, with anticipated delivery in 2023. This content will be updated as new information becomes available.
+      </p>
     </div>
-    <div class="tabs">
+  </div>
+</div>
+<div class="two-col" style="display: grid; grid-template-columns: 1fr 3fr; gap: 2em; margin-top: 20px;">
+    <div class="text" style="order: 1; margin-left: 10px;">
+      <button type="" class="usa-button usa-button--outline" style="margin-bottom: 15px;">
+        Fourth National Climate Assessment
+      </button>
+      {%if page.cards%}
+        <h4>Upcoming</h4>
+        {% include patterns/card/card-jk-small.md %}
+        <a href="/" style="padding-left: 5px;">View all events <i class="fa-solid fa-arrow-right-long"></i></a>
+      {%endif%}
+    </div>
+    <div class="tabs" style="margin-left: 20px; order: 2;">
         <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
         <label for="tab1" class="tabs__label">Overview</label>
         <div class="tabs__content">
@@ -94,7 +111,7 @@ layout: default
         </div>
         <input type="radio" class="tabs__radio" name="tabs-example" id="tab3">
         <label for="tab3" class="tabs__label">Chapters</label>
-        <div class="tabs__content">
+        <div class="tabs__content chapters">
             <h3>Chapters</h3>
             <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
               <h4 class="usa-accordion__heading">
@@ -107,6 +124,15 @@ layout: default
                 </button>
               </h4>
               <div id="m-a1" class="usa-accordion__content usa-prose">
+                <p>Chapter Lead</p><span>L. Ruby Leung, Battelle Fellow, Pacific Northwest National Laboratory</span>
+                <p>Federal Coordinating Lead</p><span>Adam J. Terando, Research Ecologist, U.S. Geological Survey 
+                  (USGS)</span>
+                <p>Agency Coordinating Lead</p><span>Lori M Bruhwiler, Physical Scientist, National Oceanic and 
+                  Atmospheric Administration (NOAA) Office of Oceanic and Atmospheric Research, Global Monitoring 
+                  Laboratory; Renu Joseph, Program Manager, Department of Energy (DOE); George Tselioudis, Research 
+                  Physical Scientist, National Aeronautics and Space Administration (NASA) Goddard Institute for Space 
+                  Studies</span>
+                <p>Subsections</p>
                 <ul>
                   <li>Subsection Title</li>
                   <li>Subsection Title</li>
@@ -122,6 +148,18 @@ layout: default
                 </button>
               </h4>
               <div id="m-a2" class="usa-accordion__content usa-prose">
+                <p>Chapter Lead</p>
+                <span>Kate Marvel, Research Scientist, Columbia University and National Aeronautics and Space 
+                  Administration (NASA) Goddard Institute for Space Studies
+                </span>
+                <p>Federal Coordinating Lead</p>
+                <span>Wenying Su, Senior Scientist, NASA Langley Research Center</span>
+                <p>Agency Coordinating Lead</p>
+                <span>Roberto A. Delgado, Jr., Program Director, National Science Foundation (NSF); Russell S. Vose, 
+                  Chief, Climate Analysis and Synthesis Branch, National Oceanic and Atmospheric Administration (NOAA) 
+                  National Centers for Environmental Information
+                </span>
+                <p>Subsections</p>
                 <ul>
                   <li>Subsection Title</li>
                   <li>Subsection Title</li>
@@ -141,6 +179,14 @@ layout: default
                 </button>
               </h4>
               <div id="m-a3" class="usa-accordion__content usa-prose">
+                <p>Chapter Lead</p>
+                <span>Elizabeth Payton, Water Resources Specialist, Western Water Assessment, Cooperative Institute for 
+                  Research in Environmental Sciences, University of Colorado Boulder
+                </span>
+                <p>Federal Coordinating Lead</p>
+                <span>Ariane O. Pinson, Climate Science Specialist, Albuquerque District, U.S. Army Corps of Engineers 
+                  (USACE)</span>
+                <p>Subsections</p>
                 <ul>
                   <li>Subsection Title</li>
                 </ul>
@@ -155,6 +201,11 @@ layout: default
                 </button>
               </h4>
               <div id="m-a4" class="usa-accordion__content usa-prose">
+                <p>Chapter Lead</p>
+                <span>Craig D. Zamuda, Senior Policy Advisor, Department of Energy (DOE)</span>
+                <p>Federal Coordinating Lead</p>
+                <span>Craig D. Zamuda, Senior Policy Advisor, DOE</span>
+                <p>Subsections</p>
                 <ul>
                   <li>Subsection Title</li>
                   <li>Subsection Title</li>
@@ -170,6 +221,12 @@ layout: default
                 </button>
               </h4>
               <div id="m-a5" class="usa-accordion__content usa-prose">
+                <p>Chapter Lead</p>
+                <span>Peter Thornton, Section Head, Earth Systems Science Section, Environmental Sciences Division, 
+                  Oak Ridge National Laboratory</span>
+                <p>Federal Coordinating Lead</p>
+                <span>Bradley C. Reed, Program Coordinator, U.S. Geological Survey (USGS)</span>
+                <p>Subsections</p>
                 <ul>
                   <li>Subsection Title</li>
                   <li>Subsection Title</li>
@@ -180,7 +237,7 @@ layout: default
         </div>
         <input type="radio" class="tabs__radio" name="tabs-example" id="tab4">
         <label for="tab4" class="tabs__label">Roles</label>
-        <div class="tabs__content">
+        <div class="tabs__content roles">
             <h3>Roles and Responsibilities</h3>
             <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
               <h4 class="usa-accordion__heading">
@@ -266,191 +323,6 @@ layout: default
               </div>
             </div>
         </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab5">
-        <label for="tab5" class="tabs__label">Leadership</label>
-        <div class="tabs__content">
-            <h3>Leadership</h3>
-            <h4>Chapter Title</h4>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Chapter Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      L. Ruby Leung, Battelle Fellow, Pacific Northwest National Laboratory
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Federal Coordinating Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      Adam J. Terando, Research Ecologist, U.S. Geological Survey (USGS)
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Agency Coordinating Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      Lori M Bruhwiler, Physical Scientist, National Oceanic and Atmospheric Administration (NOAA) 
-                      Office of Oceanic and Atmospheric Research, Global Monitoring Laboratory; Renu Joseph, 
-                      Program Manager, Department of Energy (DOE); George Tselioudis, Research Physical Scientist, 
-                      National Aeronautics and Space Administration (NASA) Goddard Institute for Space Studies
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <h4>Chapter Title</h4>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Chapter Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      L. Ruby Leung, Battelle Fellow, Pacific Northwest National Laboratory
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Federal Coordinating Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      Kate Marvel, Research Scientist, Columbia University and National Aeronautics and Space 
-                      Administration (NASA) Goddard Institute for Space Studies
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Agency Coordinating Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      Wenying Su, Senior Scientist, NASA Langley Research Center
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <h4>Chapter Title</h4>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Chapter Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      Roberto A. Delgado, Jr., Program Director, National Science Foundation (NSF); Russell S. Vose, 
-                      Chief, Climate Analysis and Synthesis Branch, National Oceanic and Atmospheric Administration 
-                      (NOAA) National Centers for Environmental Information
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Federal Coordinating Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      Elizabeth Payton, Water Resources Specialist, Western Water Assessment, Cooperative 
-                      Institute for Research in Environmental Sciences, University of Colorado Boulder
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Agency Coordinating Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      Ariane O. Pinson, Climate Science Specialist, Albuquerque District, U.S. Army Corps of 
-                      Engineers (USACE)
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <h4>Chapter Title</h4>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Chapter Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      Craig D. Zamuda, Senior Policy Advisor, Department of Energy (DOE)
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Federal Coordinating Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      Craig D. Zamuda, Senior Policy Advisor, DOE
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <ul class="usa-card-group">
-              <li class="usa-card">
-                <div class="usa-card__container">
-                  <div class="usa-card__header">
-                    <h2 class="usa-card__heading">Agency Coordinating Lead</h2>
-                  </div>
-                  <div class="usa-card__body">
-                    <p>
-                      N/A
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-        </div>
         <input type="radio" class="tabs__radio" name="tabs-example" id="tab6">
         <label for="tab6" class="tabs__label">Regions</label>
         <div class="tabs__content">
@@ -462,6 +334,14 @@ layout: default
             </p>
             <img alt="NCA5 Regions Map" class="regions-img" 
             src="https://www.globalchange.gov/sites/globalchange/files/NCA%20regions_sm.png">
+            <div class="legend">
+              <ul>
+                <li>Legend: </li>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+              </ul>
+            </div>
         </div>
         <input type="radio" class="tabs__radio" name="tabs-example" id="tab7">
         <label for="tab7" class="tabs__label">Engagement</label>
@@ -797,244 +677,66 @@ layout: default
         </div>
         <input type="radio" class="tabs__radio" name="tabs-example" id="tab10">
         <label for="tab10" class="tabs__label">Timeline</label>
-        <div class="tabs__content">
+        <div class="tabs__content timeline">
             <h3>Timeline</h3>
-            <h4>2022</h4>
-            <div class="grid-row grid-gap">
-                <div class="tablet:grid-col-6">
-                  <ul class="usa-collection">
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-30T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">FEB</span>
-                          <span class="usa-collection__calendar-date-day">20</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">
-                            Event Title
-                          </a>
-                        </h3>
-                        <p class="usa-collection__description">
-                          Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Consequat interdum 
-                          varius sit amet mattis vulputate enim. Gravida quis blandit turpis cursus. Cursus mattis 
-                          molestie a iaculis. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt.
-                        </p>
-                      </div>
+            <ol class="usa-process-list">
+              <li class="usa-process-list__item">
+                <h4 class="usa-process-list__heading">2022</h4>
+                <ul>
+                  <li>
+                    <p>Date/ Time Period</p>
+                    <p>Event/ Milestone - Description lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo,
+                      ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio
+                      lorem non turpis.</p>
+                  </li>
+                  <li>
+                    <p>Date/ Time Period</p>
+                    <p>Event/ Milestone - Description nullam sit amet enim. Suspendisse id velit vitae ligula volutpat
+                      condimentum.</p>
+                  </li>
+                  <li>
+                    <p>Date/ Time Period</p>
+                    <p>Event/ Milestone - Date - Description aliquam erat volutpat. Sed quis velit.</p>
+                  </li>
+                </ul>
+              </li>
+              <li class="usa-process-list__item">
+                <h4 class="usa-process-list__heading">2023</h4>
+                <p>
+                  <ul>
+                    <li>
+                      <p>Date/ Time Period</p>
+                      <p>Event/ Milestone - Description lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                        Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non 
+                        turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam 
+                        erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien.
+                      </p>
                     </li>
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-30T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">APR</span>
-                          <span class="usa-collection__calendar-date-day">03</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="https://trumpadministration.archives.performance.gov/sba-wosb-dashboard/">
-                            Event Title
-                          </a>
-                        </h3>
-                        <p class="usa-collection__description">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                        </p>
-                      </div>
-                    </li>
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-17T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">AUG</span>
-                          <span class="usa-collection__calendar-date-day">18</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="https://trumpadministration.archives.performance.gov/September-2020-Updates-Show-Progress/">
-                            Event Title
-                          </a>
-                        </h3>
-                        <p class="usa-collection__description">
-                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
-                          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
-                          architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
-                          sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
-                          voluptatem sequi nesciunt.
-                        </p>
-                      </div>
+                    <li>
+                      <p>Date/ Time Period</p>
+                      <p>Event/ Milestone - Event Description lorem ipsum dolor sit amet, consectetuer 
+                        adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id 
+                        pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat 
+                        condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus 
+                        pharetra posuere sapien.</p>
                     </li>
                   </ul>
-                </div>
-              </div>
-              <h4>2023</h4>
-              <div class="grid-row grid-gap">
-                <div class="tablet:grid-col-6">
-                  <ul class="usa-collection">
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-30T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">MAR</span>
-                          <span class="usa-collection__calendar-date-day">14</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">
-                            Event Title
-                          </a>
-                        </h3>
-                        <p class="usa-collection__description">
-                          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci 
-                          velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam 
-                          quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis 
-                          suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-30T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">JUL</span>
-                          <span class="usa-collection__calendar-date-day">30</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="https://trumpadministration.archives.performance.gov/sba-wosb-dashboard/">
-                            Event Title
-                          </a>
-                        </h3>
-                        <p class="usa-collection__description">
-                          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
-                          voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint 
-                          occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt 
-                          mollitia animi, id est laborum et dolorum fuga.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-17T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">NOV</span>
-                          <span class="usa-collection__calendar-date-day">12</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="https://trumpadministration.archives.performance.gov/September-2020-Updates-Show-Progress/">
-                            Event Title
-                          </a>
-                        </h3>
-                        <p class="usa-collection__description">
-                          Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta 
-                          nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere 
-                          possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam 
-                          et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
-                          sint et molestiae non recusandae.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <h4>2024</h4>
-              <div class="grid-row grid-gap">
-                <div class="tablet:grid-col-6">
-                  <ul class="usa-collection">
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-30T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">JAN</span>
-                          <span class="usa-collection__calendar-date-day">11</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">
-                            Event Title
-                          </a>
-                        </h3>
-                        <p class="usa-collection__description">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
-                          est laborum.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-30T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">MAY</span>
-                          <span class="usa-collection__calendar-date-day">30</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="https://trumpadministration.archives.performance.gov/sba-wosb-dashboard/">
-                            Event Title
-                          </a>
-                        </h3>
-                        <p class="usa-collection__description">
-                          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
-                          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
-                          architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
-                          sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
-                          voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
-                          amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
-                          labore et dolore magnam aliquam quaerat voluptatem.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-17T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">SEP</span>
-                          <span class="usa-collection__calendar-date-day">17</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="https://trumpadministration.archives.performance.gov/September-2020-Updates-Show-Progress/">
-                            Event Title
-                          </a>
-                        </h3>
-                        <p class="usa-collection__description">
-                          t harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta 
-                          nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere 
-                          possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam 
-                          et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
-                          sint et molestiae non recusandae.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+                </p>
+              </li>
+              <li class="usa-process-list__item">
+                <h4 class="usa-process-list__heading">2024</h4>
+                <ul>
+                  <li>
+                    <p>Date/ Time Period</p>
+                    <p>
+                      Event/ Milestone - Date - Event Description nullam sit amet enim. Suspendisse id velit vitae 
+                      ligula volutpatcondimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. 
+                      Vivamus pharetra posuere sapien.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ol>
         </div>
     </div>
 </div>
