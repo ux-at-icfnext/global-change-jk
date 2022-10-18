@@ -19,7 +19,7 @@ layout: left-rail
 
 <h3>Details</h3>
 <p>{{page.details}}</p>
-{% if page.prototype-links  %}
+{% if page.prototype  %}
 <h4>View Prototype</h4>
     {% for proto in page.prototype %}
         <p><a href="{{ proto.link }}">{{ proto.name }}</a></p>
@@ -28,7 +28,7 @@ layout: left-rail
 
 {% if page.specs %}
 <h2>Content Specifications</h2>
-<table>
+<table class="usa-table">
     <thead>
         <tr>
             <td>Name</td>
