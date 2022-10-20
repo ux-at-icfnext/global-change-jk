@@ -6,7 +6,12 @@
       aria-expanded="true"
       aria-controls="a1"
     >
-      First Amendment
+    <span class="accordion__toggle-icon-wrapper flex-inline flex-align-center flex-justify-center">
+    <i class="icon"></i>
+    </span>
+    <span class="accordion__toggle-label">
+    First Amendment
+    </span>
     </button>
   </h4>
   <div id="a1" class="usa-accordion__content usa-prose">
@@ -23,7 +28,12 @@
       aria-expanded="false"
       aria-controls="a2"
     >
+    <span class="accordion__toggle-icon-wrapper flex-inline flex-align-center flex-justify-center">
+    <i class="icon"></i>
+    </span>
+    <span class="accordion__toggle-label">
       Second Amendment
+      </span>
     </button>
   </h4>
   <div id="a2" class="usa-accordion__content usa-prose">
@@ -41,8 +51,12 @@
       class="usa-accordion__button"
       aria-expanded="false"
       aria-controls="a3"
-    >
+    ><span class="accordion__toggle-icon-wrapper flex-inline flex-align-center flex-justify-center">
+    <i class="icon"></i>
+    </span>
+    <span class="accordion__toggle-label">
       Third Amendment
+      </span>
     </button>
   </h4>
   <div id="a3" class="usa-accordion__content usa-prose">
@@ -58,7 +72,12 @@
       aria-expanded="false"
       aria-controls="a4"
     >
+    <span class="accordion__toggle-icon-wrapper flex-inline flex-align-center flex-justify-center">
+    <i class="icon"></i>
+    </span>
+    <span class="accordion__toggle-label">
       Fourth Amendment
+      </span>
     </button>
   </h4>
   <div id="a4" class="usa-accordion__content usa-prose">
@@ -75,8 +94,12 @@
       class="usa-accordion__button"
       aria-expanded="false"
       aria-controls="a5"
-    >
+    ><span class="accordion__toggle-icon-wrapper flex-inline flex-align-center flex-justify-center">
+    <i class="icon"></i>
+    </span>
+    <span class="accordion__toggle-label">
       Fifth Amendment
+      </span>
     </button>
   </h4>
   <div id="a5" class="usa-accordion__content usa-prose">
