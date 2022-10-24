@@ -1,0 +1,20 @@
+.usa-alert{
+    border-left: 3.25rem solid transparent;
+    border-right:0.5rem;
+    font-family: 'Roboto', Helvetica, serif;
+    &.usa-alert--info, &.usa-alert--warning, &.usa-alert--error, &.usa-alert--success{
+        &:before{
+            background-color: #fff;
+            left:-2.6rem;
+        }
+    }
+    &.usa-alert--info{border-left-color:$azurecolor;}
+    &.usa-alert--warning{border-left-color:$lemoncolor;}
+    &.usa-alert--error{border-left-color:$scarletcolor;}
+    &.usa-alert--success{border-left-color:$forestcolor;}
+    .usa-alert__heading{font-size: 1.25rem;font-weight: 600;}
+    .usa-alert__text{font-size: 1rem;}
+    .usa-alert__body {
+        padding-left: 0.833333rem;
+    }
+}
