@@ -1,0 +1,13 @@
+.usa-breadcrumb ul, .usa-breadcrumb ol{
+    font-family: "Roboto", Helvetica, sans serif;
+    font-size: 0.875rem;
+}
+.usa-breadcrumb__list-item:not(:last-child)::after{
+    bottom:0;
+    color:$forestcolor;
+    width:auto;
+    background-color: transparent;
+    content:'/';
+    -webkit-mask: none;
+    mask:none;
+}
