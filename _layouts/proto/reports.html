@@ -1,3 +1,32 @@
 ---
 layout: left-rail
 ---
+<link href="/assets/css/proto/resource.scss" rel="stylesheet">
+<div class="intro__text grid-container">
+    <p>{{page.intro-text}}</p>
+</div>
+<div class="resource__section grid-container">
+    <div class="pdf__section grid-container">
+        <div class="pdf">
+            <img src="https://www.appliedstemcell.com/pub/media/wysiwyg/.thumbs/.placeholder/pdf.png">
+        </div>
+        <div class="pdf__details">
+            <p>Title</p>
+            <p>Author</p>
+            <p>Publication Date</p>
+            <button class="usa-button">View<i class="fas fa-external-link-alt"></i></button>
+            <button class="usa-button">Download<i class="fas fa-external-link-alt"></i></button>
+        </div>
+    </div>
+</div>
+<div class="body-text grid-container">
+    <p>{{page.body-text}}</p>
+    {{ content }}
+    <h3 id="related__resources">Related Resources</h3>
+    <ul>
+      <li><a href="">Another video resource</a></li>
+      <li><a href="">Maybe a PDF resource</a></li>
+      <li><a href="">And why not an image </a></li>
+      <li><a href="">Or even a highlight</a></li>
+    </ul>
+</div>
