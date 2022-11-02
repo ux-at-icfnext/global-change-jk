@@ -2,3 +2,19 @@
     display: grid;
     grid-template-columns: auto auto;
 }
+.cart-combo-box{
+    width: 100px;
+}
+.cart-items{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.cart-items h5{
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.right label{
+    font-weight: bold;
+}
