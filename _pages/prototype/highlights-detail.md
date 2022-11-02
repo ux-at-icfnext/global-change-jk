@@ -1,7 +1,7 @@
 ---
 layout: proto/highlights-details
 categories: [prototype, highlights-details]
-title: Highlight Title
+title: Highlight Details
 type: [sub-nav-item, prototype]
 permalink: /prototype/highlights-details/
 description: Highlights Details
