@@ -1,7 +1,7 @@
 ---
 layout: proto/cart
 categories: [prototype, cart]
-title: Cart Step One
+title: Cart and Shipping
 type: [sub-nav-item, prototype]
 permalink: /prototype/cart-step-one/
 description: cart
