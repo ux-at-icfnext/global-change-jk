@@ -1,6 +1,7 @@
 .main-content{
     display: grid;
     grid-template-columns: auto auto;
+    gap: 2rem;
 }
 .cart-combo-box{
     width: 100px;
@@ -17,4 +18,9 @@
 }
 .right label{
     font-weight: bold;
+}
+.combo-input{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
 }
