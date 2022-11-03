@@ -1,0 +1,35 @@
+.main-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+.step-indicator{
+    padding-top: 20px;
+}
+.cart-combo-box{
+    width: 100px;
+}
+.cart-items{
+    display: grid;
+    grid-template-columns: auto auto;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.cart-items h5{
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.right label{
+    font-weight: bold;
+}
+.combo-input{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+.btn-group{
+    margin-top: 15px;
+}
+.req{
+    color: red;
+}

@@ -1,0 +1,35 @@
+---
+layout: left-rail
+---
+<link href="/assets/css/proto/report.scss" rel="stylesheet">
+
+<div class="intro__text grid-container">
+    <p class="small-text">Date: {{page.date}}</p>
+    <p>{{page.intro-text}}</p>
+</div>
+<div class="resource__section grid-container">
+    <div class="report__section grid-container">
+        <div class="pdf">
+            <img src="https://www.appliedstemcell.com/pub/media/wysiwyg/.thumbs/.placeholder/pdf.png">
+        </div>
+        <div class="pdf__details">
+            <p>Title</p>
+            <p>Author</p>
+            <p>Publication Date</p>
+            <button class="usa-button">Download PDF<i class="fas fa-external-link-alt"></i></button>
+            <br>
+            <button class="usa-button">Order (Free)<i class="fas fa-external-link-alt"></i></button>
+        </div>
+    </div>
+</div>
+<div class="body-text grid-container">
+    <p>{{page.body-text}}</p>
+    {{ content }}
+    <h3 id="related__resources">Related Reports</h3>
+    <ul>
+      <li><a href="">Report link</a></li>
+      <li><a href="">Report link</a></li>
+      <li><a href="">Slightly longer reoport link </a></li>
+      <li><a href="">Report link</a></li>
+    </ul>
+</div>
