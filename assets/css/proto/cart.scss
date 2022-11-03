@@ -3,6 +3,9 @@
     grid-template-columns: auto auto;
     gap: 2rem;
 }
+.step-indicator{
+    padding-top: 20px;
+}
 .cart-combo-box{
     width: 100px;
 }
@@ -26,4 +29,7 @@
 }
 .btn-group{
     margin-top: 15px;
+}
+.req{
+    color: red;
 }

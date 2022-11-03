@@ -4,15 +4,18 @@ layout: left-rail
 
 <link href="/assets/css/proto/cart.scss" rel="stylesheet">
 
-{% include patterns/step-indicator/step-indicator-jk.md %}
+<div class="step-indicator">
+    {% include patterns/step-indicator/step-indicator-jk.md %}
+</div>
+
 <div class="main-content">
     <div class="cart">
         <h3>Cart Items</h3>
         <div class="cart-items">
             <div class="left">
                 <h5>Item Name</h5>
-                <p>item id</p>
-                <p>Format</p>
+                <p>Item ID</p>
+                <p>Item Format</p>
             </div>
             <div class="right">
                 <label class="usa-label" for="fruit">Quantity</label>
@@ -36,8 +39,8 @@ layout: left-rail
         <div class="cart-items">
             <div class="left">
                 <h5>Item Name</h5>
-                <p>item id</p>
-                <p>Format</p>
+                <p>Item ID</p>
+                <p>Item Format</p>
             </div>
             <div class="right">
                 <label class="usa-label" for="fruit">Quantity</label>
@@ -61,13 +64,13 @@ layout: left-rail
     </div>
     <div class="shipping-details">
         <h3>Shipping Details</h3>
-        <label class="usa-label" for="input-type-text">First Name</label>
-        <input class="usa-input" id="input-type-text" name="input-type-text" />
-        <label class="usa-label" for="input-type-text">Last Name</label>
+        <label class="usa-label" for="input-type-text">First Name <span class="req" style="color: red;">*</span></label>
+        <input class="usa-input" id="input-type-text" name="input-type-text" required />
+        <label class="usa-label" for="input-type-text">Last Name <span class="req" style="color: red;">*</span></label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
         <label class="usa-label" for="input-type-text">Organization</label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
-        <label class="usa-label" for="fruit">Country</label>
+        <label class="usa-label" for="fruit">Country <span class="req" style="color: red;">*</span></label>
         <div class="usa-combo-box">
             <select class="usa-select" name="fruit" id="fruit">
                 <option value="apple">1</option>
@@ -82,11 +85,11 @@ layout: left-rail
                 <option value="10">10</option>
             </select>
         </div>
-        <label class="usa-label" for="input-type-text">Street Address</label>
+        <label class="usa-label" for="input-type-text">Street Address <span class="req" style="color: red;">*</span></label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
         <div class="combo-input">
             <div class="unit-type">
-                <label class="usa-label" for="fruit">Unit Type</label>
+                <label class="usa-label" for="fruit">Unit Type <span class="req" style="color: red;">*</span></label>
                 <div class="usa-combo-box">
                     <select class="usa-select" name="fruit" id="fruit">
                         <option value="apple">1</option>
@@ -107,11 +110,11 @@ layout: left-rail
                 <input class="usa-input" id="input-type-text" name="input-type-text" />
             </div>
         </div>
-        <label class="usa-label" for="input-type-text">City</label>
+        <label class="usa-label" for="input-type-text">City <span class="req" style="color: red;">*</span></label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
         <div class="combo-input">
             <div class="state">
-                <label class="usa-label" for="fruit">State</label>
+                <label class="usa-label" for="fruit">State <span class="req" style="color: red;">*</span></label>
                 <div class="usa-combo-box">
                     <select class="usa-select" name="fruit" id="fruit">
                         <option value="apple">1</option>
@@ -128,11 +131,11 @@ layout: left-rail
                 </div>
             </div>
             <div class="zip">
-                <label class="usa-label" for="input-type-text">ZIP Code</label>
+                <label class="usa-label" for="input-type-text">ZIP Code <span class="req" style="color: red;">*</span></label>
                 <input class="usa-input" id="input-type-text" name="input-type-text" />
             </div>
         </div>
-        <label class="usa-label" for="input-type-text">Phone</label>
+        <label class="usa-label" for="input-type-text">Phone <span class="req" style="color: red;">*</span></label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
         <div class="btn-group">
             {% include patterns/button-group/button-group.md %}
