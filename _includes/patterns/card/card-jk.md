@@ -21,9 +21,11 @@
           {{card.content}}
         </p>
       </div>
+      {% if card.button %}
       <div class="usa-card__footer">
         <button class="usa-button">{{card.button}}</button>
       </div>
+      {% endif %}
     </div>
   </li>
   {% endfor %}
