@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: left-rail
 categories: [prototype]
 title: Sample Prototype Page - Resource (Video)
 type: [sub-nav-item, prototype]
@@ -8,7 +8,7 @@ description: Sample prototype page, test component
 ---
 <link href="/assets/css/proto/resource.scss" rel="stylesheet">
 
-<div class="intro__text grid-container">
+<div class="intro__text">
     {%if page.categories contains "video"%}
         <p class="small-text">Date: {{page.date}} | Length: {{page.video-length}}</p>
     {%else%}
@@ -16,7 +16,7 @@ description: Sample prototype page, test component
     {%endif%}
     <p>{{page.intro-text}}</p>
 </div>
-<div class="resource__section grid-container">
+<div class="resource__section">
     {%if page.categories contains "video"%}
         <iframe width="420" height="315"
             src="{{page.video}}">
@@ -68,7 +68,7 @@ description: Sample prototype page, test component
         </div>
     {% endif %}
 </div>
-<div class="body-text grid-container">
+<div class="body-text">
     <p>{{page.body-text}}</p>
     {{ content }}
     <h3 id="related__resources">Related Resources</h3>
