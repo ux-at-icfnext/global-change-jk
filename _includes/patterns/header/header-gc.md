@@ -2,7 +2,7 @@
 <header class="usa-header usa-header--extended">
   <div class="usa-navbar">
     <div class="usa-logo" id="-logo">
-      <img src="/assets/img/logo.png" />
+      <img src="/assets/img/logo-img.png" />
       <em class="usa-logo__text"><a href="/" title="Home">U.S. Global Change Research Program</a></em>
     </div>
     <button class="usa-menu-btn">Menu</button>
