@@ -95,3 +95,7 @@ $grid-xl-max: 1400px;
         padding-right: 1rem;
     }
 }
+// 100% grid layout
+.grid-container.grid-fluid {
+    max-width: 100%;
+}
