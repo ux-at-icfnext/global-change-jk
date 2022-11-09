@@ -1,5 +1,5 @@
 ---
-layout: left-rail
+layout: default
 ---
 
 <link href="/assets/css/proto/cart.scss" rel="stylesheet">
@@ -13,11 +13,12 @@ layout: left-rail
         <h3>Cart Items</h3>
         <div class="cart-items">
             <div class="left">
-                <h5>Item Name</h5>
+                <h5>Need and Options for Subnational Scale Land-Use and Land-Cover Scenarios for the United States
+                </h5>
                 <p>Item ID</p>
                 <p>Item Format</p>
             </div>
-            <div class="right">
+            <div class="right" style="padding-left: 10px;">
                 <label class="usa-label" for="fruit">Quantity</label>
                 <div class="usa-combo-box cart-combo-box">
                     <select class="usa-select" name="fruit" id="fruit">
@@ -33,7 +34,7 @@ layout: left-rail
                         <option value="10">10</option>
                     </select>
                 </div>
-                <p><a href="">Remove</a></p>
+                <p class="remove"><a href="">Remove</a></p>
             </div>
         </div>
         <div class="cart-items">
@@ -58,19 +59,19 @@ layout: left-rail
                         <option value="10">10</option>
                     </select>
                 </div>
-                <p><a href="">Remove</a></p>
+                <p class="remove"><a href="">Remove</a></p>
             </div>
         </div>
     </div>
     <div class="shipping-details">
         <h3>Shipping Details</h3>
-        <label class="usa-label" for="input-type-text">First Name <span class="req" style="color: red;">*</span></label>
+        <label class="usa-label" for="input-type-text">First Name <span class="req">*</span></label>
         <input class="usa-input" id="input-type-text" name="input-type-text" required />
-        <label class="usa-label" for="input-type-text">Last Name <span class="req" style="color: red;">*</span></label>
+        <label class="usa-label" for="input-type-text">Last Name <span class="req">*</span></label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
         <label class="usa-label" for="input-type-text">Organization</label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
-        <label class="usa-label" for="fruit">Country <span class="req" style="color: red;">*</span></label>
+        <label class="usa-label" for="fruit">Country <span class="req">*</span></label>
         <div class="usa-combo-box">
             <select class="usa-select" name="fruit" id="fruit">
                 <option value="apple">1</option>
@@ -85,11 +86,11 @@ layout: left-rail
                 <option value="10">10</option>
             </select>
         </div>
-        <label class="usa-label" for="input-type-text">Street Address <span class="req" style="color: red;">*</span></label>
+        <label class="usa-label" for="input-type-text">Street Address <span class="req">*</span></label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
         <div class="combo-input">
             <div class="unit-type">
-                <label class="usa-label" for="fruit">Unit Type <span class="req" style="color: red;">*</span></label>
+                <label class="usa-label" for="fruit">Unit Type <span class="req">*</span></label>
                 <div class="usa-combo-box">
                     <select class="usa-select" name="fruit" id="fruit">
                         <option value="apple">1</option>
@@ -110,11 +111,11 @@ layout: left-rail
                 <input class="usa-input" id="input-type-text" name="input-type-text" />
             </div>
         </div>
-        <label class="usa-label" for="input-type-text">City <span class="req" style="color: red;">*</span></label>
+        <label class="usa-label" for="input-type-text">City <span class="req">*</span></label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
         <div class="combo-input">
             <div class="state">
-                <label class="usa-label" for="fruit">State <span class="req" style="color: red;">*</span></label>
+                <label class="usa-label" for="fruit">State <span class="req">*</span></label>
                 <div class="usa-combo-box">
                     <select class="usa-select" name="fruit" id="fruit">
                         <option value="apple">1</option>
@@ -131,11 +132,11 @@ layout: left-rail
                 </div>
             </div>
             <div class="zip">
-                <label class="usa-label" for="input-type-text">ZIP Code <span class="req" style="color: red;">*</span></label>
+                <label class="usa-label" for="input-type-text">ZIP Code <span class="req">*</span></label>
                 <input class="usa-input" id="input-type-text" name="input-type-text" />
             </div>
         </div>
-        <label class="usa-label" for="input-type-text">Phone <span class="req" style="color: red;">*</span></label>
+        <label class="usa-label" for="input-type-text">Phone <span class="req">*</span></label>
         <input class="usa-input" id="input-type-text" name="input-type-text" />
         <div class="btn-group">
             {% include patterns/button-group/button-group.md %}

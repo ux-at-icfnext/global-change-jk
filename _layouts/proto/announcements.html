@@ -1,19 +1,41 @@
 ---
 layout: left-rail
 ---
-<link href="/assets/css/proto/announcements.scss" rel="stylesheet">
+<link href="/assets/css/proto/collections-landing.scss" rel="stylesheet">
 
-<div class="page__header">
-    <div class="sort__by">
-        <label for="filters">Sort by:</label>
-        <select name="filters" id="filters">
-        <option value="date">Date</option>
-        <option value="author">Author</option>
-        </select>
-    </div>
-</div>
 <div class="intro-text">
     {{page.intro-text}}
+</div>
+<div class="page__header">
+    <div class="filter-section">
+        <h5>Search Announcements</h5>
+        <div class="search">
+            {%include patterns/search/search-jk.md%}
+        </div>
+        <div class="filters">
+            <div>
+                <label for="agency">Agency:</label>
+                <select name="filters" id="filters">
+                    <option value="date">Agency</option>
+                    <option value="author">Agency</option>
+                    <option value="date">Agency</option>
+                    <option value="author">Agency</option>
+                </select>
+            </div>
+            <div>
+                <label for="keyword">Keyword:</label>
+                <select name="filters" id="filters">
+                    <option value="date">Keyword</option>
+                    <option value="author">Keyword</option>
+                    <option value="date">Keyword</option>
+                    <option value="author">Keyword</option>
+                </select>
+            </div>
+        </div>
+        <div class="filter-buttons">
+            {% include patterns/button-group/button-group-jk.md %}
+        </div>
+    </div>
 </div>
 <div class="announcements_section">
     {%for item in page.announcements%}
