@@ -3,8 +3,12 @@ layout: left-rail
 ---
 <link href="/assets/css/proto/collections-landing.scss" rel="stylesheet">
 
+<div class="intro-text">
+    {{page.intro-text}}
+</div>
 <div class="page__header">
     <div class="filter-section">
+        <h5>Search Highlights</h5>
         <div class="search">
             {%include patterns/search/search-jk.md%}
         </div>
@@ -21,28 +25,28 @@ layout: left-rail
             <div>
                 <label for="topic">Topic:</label>
                 <select name="filters" id="filters">
-                    <option value="date">Keyword</option>
-                    <option value="author">Keyword</option>
-                    <option value="date">Keyword</option>
-                    <option value="author">Keyword</option>
+                    <option value="date">Topic</option>
+                    <option value="author">Topic</option>
+                    <option value="date">Topic</option>
+                    <option value="author">Topic</option>
                 </select>
             </div>
             <div>
                 <label for="region">Region:</label>
                 <select name="filters" id="filters">
-                    <option value="date">Agency</option>
-                    <option value="author">Agency</option>
-                    <option value="date">Agency</option>
-                    <option value="author">Agency</option>
+                    <option value="date">Region</option>
+                    <option value="author">Region</option>
+                    <option value="date">Region</option>
+                    <option value="author">Region</option>
                 </select>
             </div>
             <div>
                 <label for="year">Year:</label>
                 <select name="filters" id="filters">
-                    <option value="date">Keyword</option>
-                    <option value="author">Keyword</option>
-                    <option value="date">Keyword</option>
-                    <option value="author">Keyword</option>
+                    <option value="date">Year</option>
+                    <option value="author">Year</option>
+                    <option value="date">Year</option>
+                    <option value="author">Year</option>
                 </select>
             </div>
         </div>
@@ -50,9 +54,6 @@ layout: left-rail
             {% include patterns/button-group/button-group-jk.md %}
         </div>
     </div>
-</div>
-<div class="intro-text">
-    {{page.intro-text}}
 </div>
 <div class="announcements_section">
     {%for item in page.highlights%}
