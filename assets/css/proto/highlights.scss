@@ -12,7 +12,8 @@
     margin-top: 40px;
 }
 .filters{
-    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 .filter-tags{
     display: inline-block;

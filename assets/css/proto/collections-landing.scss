@@ -29,7 +29,15 @@
 .highlight-tags{
     padding-top: 0%;
 }
+.filter-section{
+    background-color: #EEEAEA;
+    padding: 20px;
+}
 .filters{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+.filter-buttons{
+    padding-top: 15px;
 }
