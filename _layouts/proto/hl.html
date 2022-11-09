@@ -25,15 +25,15 @@ layout: left-rail
                     <h4>{{item.title}}</h4>
                     <span>{{item.date}}</span>
                 </div>
+                <p>
+                    <ul class="usa-collection__meta" aria-label="Topics">
+                        <li class="usa-collection__meta-item usa-tag usa-tag--new">{{item.tags}}</li>
+                        <li class="usa-collection__meta-item usa-tag">{{item.tags}}</li>
+                        <li class="usa-collection__meta-item usa-tag">{{item.tags}}</li>
+                    </ul>
+                </p>
                 <p>{{item.content}}</p>
                 <a href="" class="announcement-link">{{item.link}}</a>
-                <p class="highlight-tags">
-                  <ul class="usa-collection__meta" aria-label="Topics">
-                      <li class="usa-collection__meta-item usa-tag usa-tag--new">{{item.tags}}</li>
-                      <li class="usa-collection__meta-item usa-tag">{{item.tags}}</li>
-                      <li class="usa-collection__meta-item usa-tag">{{item.tags}}</li>
-                  </ul>
-                </p>
             </div>
         </div>
     </div>
