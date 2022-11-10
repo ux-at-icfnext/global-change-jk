@@ -1,7 +1,7 @@
 
 <ul class="usa-card-group">
   {% for card in page.cards %}
-    <li class="usa-card {{card.class | default: 'tablet:grid-col-4'}}">
+    <li class="usa-card {{page.card-class | default: 'tablet:grid-col-4'}}">
       <div class="usa-card__container">
         <div class="usa-card__header">
           <h2 class="usa-card__heading">{{card.title}}</h2>
