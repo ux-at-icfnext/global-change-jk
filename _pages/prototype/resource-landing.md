@@ -16,70 +16,71 @@ accordion:
   - title: Year
     content: Filters
 
-
+card-class: tablet:grid-col-3
 cards:
   - title: Resource Title
-    img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
+    img: https://via.placeholder.com/100x80
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. 
+    button: Read More
+  - title: Resource Title
+    img: https://via.placeholder.com/100x80
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. 
+    button: Read More
+  - title: Resource Title
+    img: https://via.placeholder.com/100x80
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. 
+    button: Read More
+  - title: Resource Title
+    img: https://via.placeholder.com/100x80
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis.
+    button: Read More
+  - title: Resource Title
+    img: https://via.placeholder.com/100x80
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. 
+    button: Read More
+  - title: Resource Title
+    img: https://via.placeholder.com/100x80
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. 
+    button: Read More
+  - title: Resource Title
+    img: https://via.placeholder.com/100x80
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. 
     button: Read More
   - title: Resource Title
     img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. 
     button: Read More
   - title: Resource Title
-    img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
+    img: https://via.placeholder.com/100x80
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. 
     button: Read More
   - title: Resource Title
-    img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
-    button: Read More
-  - title: Resource Title
-    img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
-    button: Read More
-  - title: Resource Title
-    img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
-    button: Read More
-  - title: Resource Title
-    img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
-    button: Read More
-  - title: Resource Title
-    img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
-    button: Read More
-  - title: Resource Title
-    img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
-    button: Read More
-  - title: Resource Title
-    img: https://via.placeholder.com/100
-    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac...
+    img: https://via.placeholder.com/100x80
+    content: Resource Content - Nisl vel pretium lectus quam id leo in vitae turpis. 
     button: Read More
 
 ---
 
-<div class="hero-alt" markdown="1">
+<div class="hero-alt grid-row" markdown="1">
+<div class="grid-col-4" markdown="1">
 # Title for viewing resources
 
 summary text to add in hero -- 140 characters max -- Smiley was monstrous proud of his frog, and well he might be, for fellers that had trav
-
-![hero image](/assets/customImages/placeimg_800_300_grayscale_nature.jpg)
+</div>
+<div class="grid-col-8" markdown="1">
+![hero image](https://via.placeholder.com/1200x300)
+</div>
 </div>
 
-<div class="content-flex" markdown="1">
 
-<div class="rail-filters" markdown="1">
+<div class="grid-row" markdown="1">
+<div class="grid-col-2" markdown="1">
 _Filters_
 {% include patterns/accordion/accordion-multiselectable-jk.md %}
 </div>
-
-<div class="left-content" markdown="1">
-
+<div class="grid-col-10" markdown="1">
 {% include patterns/card/card-jk.md %}
+</div>
+</div>
 
-</div>
-</div>
 
