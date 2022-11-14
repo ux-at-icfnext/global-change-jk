@@ -7,34 +7,8 @@ layout: left-rail
     {{page.intro-text}}
 </div>
 <div class="page__header">
-    <div class="filter-section">
-        <h5>Search Announcements</h5>
-        <div class="search">
-            {%include patterns/search/search-jk.md%}
-        </div>
-        <div class="filters">
-            <div>
-                <label for="agency">Agency:</label>
-                <select name="filters" id="filters">
-                    <option value="date">Agency</option>
-                    <option value="author">Agency</option>
-                    <option value="date">Agency</option>
-                    <option value="author">Agency</option>
-                </select>
-            </div>
-            <div>
-                <label for="keyword">Keyword:</label>
-                <select name="filters" id="filters">
-                    <option value="date">Keyword</option>
-                    <option value="author">Keyword</option>
-                    <option value="date">Keyword</option>
-                    <option value="author">Keyword</option>
-                </select>
-            </div>
-        </div>
-        <div class="filter-buttons">
-            {% include patterns/button-group/button-group-jk.md %}
-        </div>
+    <div class="filters">
+        {%include patterns/accordion/accordion.md%}
     </div>
 </div>
 <div class="announcements_section">
