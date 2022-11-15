@@ -7,51 +7,9 @@ layout: left-rail
     {{page.intro-text}}
 </div>
 <div class="page__header">
-    <div class="filter-section">
-        <h5>Search Highlights</h5>
-        <div class="search">
-            {%include patterns/search/search-jk.md%}
-        </div>
+    <div class="filters-section">
         <div class="filters">
-            <div>
-                <label for="agency">Agency:</label>
-                <select name="filters" id="filters">
-                    <option value="date">Agency</option>
-                    <option value="author">Agency</option>
-                    <option value="date">Agency</option>
-                    <option value="author">Agency</option>
-                </select>
-            </div>
-            <div>
-                <label for="topic">Topic:</label>
-                <select name="filters" id="filters">
-                    <option value="date">Topic</option>
-                    <option value="author">Topic</option>
-                    <option value="date">Topic</option>
-                    <option value="author">Topic</option>
-                </select>
-            </div>
-            <div>
-                <label for="region">Region:</label>
-                <select name="filters" id="filters">
-                    <option value="date">Region</option>
-                    <option value="author">Region</option>
-                    <option value="date">Region</option>
-                    <option value="author">Region</option>
-                </select>
-            </div>
-            <div>
-                <label for="year">Year:</label>
-                <select name="filters" id="filters">
-                    <option value="date">Year</option>
-                    <option value="author">Year</option>
-                    <option value="date">Year</option>
-                    <option value="author">Year</option>
-                </select>
-            </div>
-        </div>
-        <div class="filter-buttons">
-            {% include patterns/button-group/button-group-jk.md %}
+            {%include patterns/accordion/accordion-jk.md%}
         </div>
     </div>
 </div>
@@ -68,7 +26,7 @@ layout: left-rail
                 <p>{{item.content}}</p>
                 <a href="" class="announcement-link">{{item.link}}</a>
                 <p class="highlight-tags">
-                  <ul class="usa-collection__meta" aria-label="Topics">
+                  <ul class="usa-collection__meta" aria-label="Topics" style="margin-left: 0rem;">
                       <li class="usa-collection__meta-item usa-tag usa-tag--new">{{item.tags}}</li>
                       <li class="usa-collection__meta-item usa-tag">{{item.tags}}</li>
                       <li class="usa-collection__meta-item usa-tag">{{item.tags}}</li>
