@@ -1,60 +1,43 @@
 ---
-layout: left-rail
+layout: default
 ---
-<link href="/assets/css/proto/collections-landing.scss" rel="stylesheet">
+<link href="/assets/css/proto/landing-page.scss" rel="stylesheet">
 
-<div class="intro-text">
-    {{page.intro-text}}
-</div>
-<div class="page__header">
-    <div class="filter-section">
-        <h5>Search Announcements</h5>
-        <div class="search">
-            {%include patterns/search/search-jk.md%}
-        </div>
-        <div class="filters">
-            <div>
-                <label for="agency">Agency:</label>
-                <select name="filters" id="filters">
-                    <option value="date">Agency</option>
-                    <option value="author">Agency</option>
-                    <option value="date">Agency</option>
-                    <option value="author">Agency</option>
-                </select>
-            </div>
-            <div>
-                <label for="keyword">Keyword:</label>
-                <select name="filters" id="filters">
-                    <option value="date">Keyword</option>
-                    <option value="author">Keyword</option>
-                    <option value="date">Keyword</option>
-                    <option value="author">Keyword</option>
-                </select>
-            </div>
-        </div>
-        <div class="filter-buttons">
-            {% include patterns/button-group/button-group-jk.md %}
-        </div>
+<div class="header">
+    <div class="intro-text">
+        <h3>{{page.title}}</h3>
+        {{page.intro-text}}
     </div>
+    {%if page.hero-image%}
+        <div class="hero">
+            <img src="{{page.hero-image}}"/>
+        </div>
+    {%endif%}
 </div>
-<div class="announcements_section">
-    {%for item in page.announcements%}
-    <div class="announcement-wrapper">
-        <div class="announcement">
-            <img src="{{item.img}}"/>
-            <div class="announcement-content">
-                <div class="announcement-header">
-                    <h4>{{item.title}}</h4>
-                    <span>{{item.date}}</span>
+<div class="main-content">
+    <div class="filters">
+        <p><em>Filters</em></p>
+        {%include patterns/accordion/accordion-jk.md%}
+    </div>
+    <div class="announcements_section">
+        {%for item in page.announcements%}
+        <div class="announcement-wrapper">
+            <div class="announcement">
+                <img src="{{item.img}}"/>
+                <div class="announcement-content">
+                    <div class="announcement-header">
+                        <h4>{{item.title}}</h4>
+                        <span>{{item.date}}</span>
+                    </div>
+                    <p>Author: {{item.author}}</p>
+                    <p>{{item.content}}</p>
+                    <a href="" class="announcement-link">{{item.link}}</a>
                 </div>
-                <p>Author: {{item.author}}</p>
-                <p>{{item.content}}</p>
-                <a href="" class="announcement-link">{{item.link}}</a>
             </div>
         </div>
+        {%endfor%}
+        <div class="pagination">
+            {% include patterns/pagination/pagination.md %}
+        </div>
     </div>
-    {%endfor%}
-</div>
-<div class="pagination">
-    {% include patterns/pagination/pagination.md %}
 </div>

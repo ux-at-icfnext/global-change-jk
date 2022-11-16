@@ -1,9 +1,13 @@
-.page__header{
+.header{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 3fr;
 }
-.intro-text{
-    margin-top: 20px;
+.filters{
+    padding-top: 30px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 .announcements_section{
     margin-top: 30px;
