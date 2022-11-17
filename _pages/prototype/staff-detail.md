@@ -10,12 +10,11 @@ description: Detail page for staff members
 <div class="content-flex" markdown="1">
 <div class="staffimage" markdown="1">
 
-![staff image](https://via.placeholder.com/400)
+![staff image](https://via.placeholder.com/300)
 
 </div>
 <div class="text" markdown="1">
 ## Staff member title
-### Staff member office
 
 [Contact via email]() 
 
