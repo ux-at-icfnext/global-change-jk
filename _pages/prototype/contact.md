@@ -22,7 +22,9 @@ name:
 
 <label class="usa-label"> Subject: 
 <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
-<input class="usa-input"/>
+<select class="usa-select" id="subject" name="subject">
+    <option value>-- Choose your subject --</option>  
+</select>
 
 <label class="usa-label"> Your message: 
 <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label>
