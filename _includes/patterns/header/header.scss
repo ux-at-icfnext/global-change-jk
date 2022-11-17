@@ -1,5 +1,5 @@
 //Global Change Header
-.usa-header usa-header--basic{display: flex;}
+.usa-header.usa-header--basic{display: flex;}
 header{
     height:150px;
     background: linear-gradient(180deg, #053B59 0%, #07527D 50%);
@@ -10,6 +10,10 @@ header{
 }
 .usa-header--basic .usa-nav-container{
     align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width:initial;
 }
 .z-index{
     z-index: 0;
@@ -51,4 +55,10 @@ header{
 }
 .usa-search usa-search--small{
     margin-bottom: 0;
+}
+.searchLink{
+    float:right;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:white;
 }

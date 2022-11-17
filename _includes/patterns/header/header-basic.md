@@ -134,7 +134,7 @@
         </li>
       </ul>
       <section aria-label="Search component">
-      <a href="/">National Climate Assessment (NCA)</a>
+      <a href="/" class="searchLink">National Climate Assessment (NCA)</a>
         <form class="usa-search usa-search--small" role="search">
           <label class="usa-sr-only" for="search-field">Search</label>
           <input
