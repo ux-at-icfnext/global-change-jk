@@ -38,6 +38,7 @@ name:
       ></textarea>
 
 
-[CAPTCHA HERE!!]
+
+![CAPTCHA HERE!!](/assets/icons/captcha.png)
 
 <button type="" class="usa-button">Send Email</button>
