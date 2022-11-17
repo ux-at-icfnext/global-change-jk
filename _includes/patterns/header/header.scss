@@ -1,4 +1,16 @@
 //Global Change Header
+.usa-header usa-header--basic{display: flex;}
+header{
+    height:150px;
+    background: linear-gradient(180deg, #053B59 0%, #07527D 50%);
+    .usa-nav__primary-item{
+    a, button{color:white!important;}
+    a:hover, button:hover{color:$limecolor!important;}
+    }
+}
+.usa-header--basic .usa-nav-container{
+    align-items: center;
+}
 .z-index{
     z-index: 0;
 }
@@ -13,9 +25,30 @@
        padding-top: 10px;
     }
 }
+.usa-logo{
+    margin-top: 1rem;
+}
 .nav-button {
     border: 1px solid #025da2;
     border-radius: 2px;
     position: absolute;
     right: 5px;
+}
+.usa-header--basic .usa-nav__link:hover::after, .usa-header--basic .usa-nav__primary-item>.usa-current::after{
+    background-color: none;
+    height:initial;
+    bottom:initial;
+}
+.usa-nav__submenu{
+    margin-left: 0;
+}
+.usa-nav__primary button:focus{
+    outline:0;
+    border-top: 4px solid $limecolor;
+}
+.usa-nav__primary button[aria-expanded=false] span::after{
+    background-color: white;
+}
+.usa-search usa-search--small{
+    margin-bottom: 0;
 }
