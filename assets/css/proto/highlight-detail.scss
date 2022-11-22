@@ -8,6 +8,19 @@
 image{
     width: 100%;
 }
-.caption{
+.caption-container{
     border-top: 1px solid lightgray;
+    margin-top: 10px;
+}
+.caption{
+    font-style: italic;
+}
+.highlight-image{
+    float: left;
+    margin: 15px;
+    margin-top: 0;
+}
+.mid-paragraph-img{
+    float: right;
+    margin: 15px;
 }
