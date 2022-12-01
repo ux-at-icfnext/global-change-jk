@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% if page.type contains "detail-page" %}
+    {% include partials/lib/breadcrumbs.html %}
+{% endif %}
+<div class="content-flex">
+    {% include partials/left-nav.html %}
+    <div class="text">
+        {{ content }}
+    </div>
+</div>
