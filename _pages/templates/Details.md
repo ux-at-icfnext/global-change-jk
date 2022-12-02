@@ -1,14 +1,14 @@
 ---
 layout: template
-categories: [templates, collections-landing]
+categories: [templates, Details Page]
 type: [sub-nav-item]
-title: Collections Landing Page Template
-permalink: /templates/basic/
+title: Details Page Template
+permalink: /templates/details/
 prototype: 
-  - name: Collections Landing
+  - name: Details Page
     link: "/prototype/collections-landing-page/"
-overview: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
-description: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
+overview: The Details Page template is used for providing additional information on a topic. Usually linked to a landing page with broader information.
+description: The Details Page template is used for providing additional information on a topic. Usually linked to a landing page with broader information.
 
 specs:
     - name: Title
