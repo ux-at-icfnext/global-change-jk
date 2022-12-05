@@ -15,7 +15,7 @@ description: Detail page for staff members
 </div>
 <div class="text" markdown="1">
 # {{ page.title }}
-
+## Staff Member name
 [Contact via email]() 
 
 Staff member biography -- 250 words maximum -- 
