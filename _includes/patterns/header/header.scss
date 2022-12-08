@@ -46,6 +46,11 @@ header{
 .usa-nav__submenu{
     margin-left: 0;
 }
+.usa-nav__primary button{
+    outline:0;
+    border-top: 4px solid transparent;
+    white-space: nowrap;
+}
 .usa-nav__primary button:focus{
     outline:0;
     border-top: 4px solid $limecolor;
