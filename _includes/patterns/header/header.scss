@@ -31,6 +31,10 @@ header{
 }
 .usa-logo{
     margin-top: 1rem;
+    svg{
+    object-fit: scale-down; 
+    max-width: 100%;
+    }
 }
 .nav-button {
     border: 1px solid #025da2;
@@ -42,6 +46,11 @@ header{
     background-color: none;
     height:initial;
     bottom:initial;
+}
+.usa-nav{
+    section{
+        min-width: 275px;
+    }
 }
 .usa-nav__submenu{
     margin-left: 0;
