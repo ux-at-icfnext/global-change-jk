@@ -7,8 +7,8 @@ permalink: /templates/indicator-page/
 prototype: 
   - name: Indicators
     link: "/prototype/indicators/"
-overview: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
-description: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
+overview: The Indicator template is an article-based template used to give users information on indicators.
+description: The Indicator template is an article-based template used to give users information on indicators.
 
 specs:
     - name: Title
@@ -21,21 +21,51 @@ specs:
       authored: yes
       content: 150 characters max
       searchable: yes
-    - name: Intro Text
-      type: text
+    - name: Headline
+      type: h3
       authored: yes
       content: ratio 4:1
       searchable:   
-    - name: Resource
-      type: PDF, Video, Podcast
+    - name: Intro text
+      type: text
       authored: yes
-    - name: Body
-      type: rich text
+    - name: Indicator
+      type: chart
       authored: yes
       content: 150 characters max
       searchable: yes
+    - name: View Meta Data, Enlarge, Download
+      type: links
+      authored: yes
+      content:
+      searchable: yes
+    - name: Contributers
+      type: links
+      authored: yes
+      content:
+      searchable: yes
+    - name: Caption
+      type: text
+      authored: yes
+      content:
+      searchable: yes
+    - name: Body Header
+      type: h3
+      authored: yes
+      content:
+      searchable: yes
+    - name: Body Copy
+      type: text
+      authored: yes
+      content:
+      searchable: yes
     - name: Related Resources
-      type: list
+      type: link
+      authored: yes
+      content:
+      searchable: yes
+    - name: Explore USGCRP Indicators
+      type: links
       authored: yes
       content:
       searchable: yes

@@ -5,10 +5,10 @@ type: [sub-nav-item]
 title: Resource Page Template
 permalink: /templates/resource-page/
 prototype: 
-  - name: Resource Page
+  - name: Resource PDF
     link: "/prototype/resource-pdf/"
-overview: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
-description: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
+overview: The Resource template is used to give users an overview of a specific resource and a way to access that resource.
+description: The Resource template is used to give users an overview of a specific resource and a way to access that resource.
 
 specs:
     - name: Title
