@@ -5,10 +5,10 @@ type: [sub-nav-item]
 title: Card Landing Page Template
 permalink: /templates/card-landing/
 prototype: 
-  - name: Card Landing Page
+  - name: Agencies Landing Page
     link: "/prototype/agencies/"
-overview: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
-description: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
+overview: The Card Landing template is used for landing pages that utilize the card component to display a list of content. Each card links to a details page for that specific item.
+description: The Card Landing template is used for landing pages that utilize the card component to display a list of content. Each card links to a details page for that specific item.
 
 specs:
     - name: Title
@@ -16,27 +16,9 @@ specs:
       authored: yes
       content: 80 characters max
       searchable: yes
-    - name: Date
-      type: text
+    - name: List item
+      type: Card
       authored: yes
       content: 150 characters max
-      searchable: yes
-    - name: Intro Text
-      type: text
-      authored: yes
-      content: ratio 4:1
-      searchable:   
-    - name: Resource
-      type: PDF, Video, Podcast
-      authored: yes
-    - name: Body
-      type: rich text
-      authored: yes
-      content: 150 characters max
-      searchable: yes
-    - name: Related Resources
-      type: list
-      authored: yes
-      content:
       searchable: yes
 ---
