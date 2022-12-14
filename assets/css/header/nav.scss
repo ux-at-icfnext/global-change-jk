@@ -177,3 +177,18 @@
  .hidden{
     display: none;
 }
+@media (max-width: 63.99em){
+    .usa-header.usa-header--basic {
+        display: grid;
+        align-items: center;
+        height: auto;
+        padding: 1rem;
+    }
+.usa-navbar {
+    border-bottom: none;
+    #-logo{margin-top: 0;}
+    }
+    .usa-nav{
+        width: 100vw;
+    }
+}
