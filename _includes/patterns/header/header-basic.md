@@ -1,6 +1,8 @@
 
 <div class="usa-overlay"></div>
 <header class="usa-header usa-header--basic">
+<div class="top-container">
+</div>
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo content-flex" id="-logo">
@@ -47,7 +49,7 @@
       <button class="usa-nav__close">
         <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
-      <ul class="usa-nav__primary usa-accordion mobile:grid-col-8">
+      <ul class="usa-nav__primary usa-accordion tablet:grid-col-8">
         <li class="usa-nav__primary-item">
           <button
             class="usa-accordion__button usa-nav__link usa-current"
@@ -132,7 +134,7 @@
           </ul>
         </li>
       </ul>
-      <section aria-label="Search component" class="mobile:grid-col-4">
+      <section aria-label="Search component" class="tablet:grid-col-4">
       <a href="/" class="searchLink">National Climate Assessment (NCA)</a>
         <form class="usa-search usa-search--small" role="search">
           <label class="usa-sr-only" for="search-field">Search</label>

@@ -190,5 +190,51 @@
     }
     .usa-nav{
         width: 100vw;
+        background-color: $midnightcolor;
+    }
+    nav
+    {
+    .grid-row{
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+        .usa-logo{
+            margin-top:0;
+            margin-left:0;
+        }
+    }
+    .usa-nav__close{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+        width:auto;
+        color:white;
+        text-transform: uppercase;
+        text-decoration: none;
+        float:none;
+        span{
+            display: block;
+            width: 20px;
+            height:20px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none'%3E%3Cpath fill='%23fff' d='m1.415 0 17.678 17.678-1.415 1.414L.001 1.415z'/%3E%3Cpath fill='%23fff' d='M.415 18 18.093.322l1.414 1.414L1.829 19.414z'/%3E%3C/svg%3E");
+            background-repeat:no-repeat;
+            text-indent: -99999px;
+            margin-right: 1rem;
+        }
+    }
+    }
+    .usa-nav__primary.usa-accordion{
+        max-width: inherit;
+    }
+    .usa-nav__primary-item{
+        border-bottom: 1px solid $emeraldcolor;
+    }
+}
+@media (max-width: 63.99em) and (min-width: 40em){
+    .usa-nav__primary .usa-current::after{
+        background-color: none;
+        width:0;
+        top:0;
     }
 }
