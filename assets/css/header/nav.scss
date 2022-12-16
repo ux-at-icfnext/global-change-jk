@@ -209,6 +209,11 @@
     border-bottom: none;
     #-logo{margin-top: 0;}
     }
+    .usa-nav section {
+        max-width: initial;
+        input{max-width: initial;}
+    }
+    .usa-nav__primary-item{border-top:0;}
     .usa-nav{
         width: 100vw;
         background-color: $midnightcolor;

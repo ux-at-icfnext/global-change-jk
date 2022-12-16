@@ -10,12 +10,21 @@
     
 }
 .top-container{
+    header{height:auto;background:transparent;}
+    header.usa-banner__header, .usa-banner__content{
+        color: white;
+    }
     background-color: black;
-    color:white;
     padding:2px 1rem;
     font-size: .75rem;
     font-family: 'Roboto', Helvetica, sans-serif;
-    a{margin-left: 1rem; display: inline-block;}
+    .usa-banner__button{color:$skycolor;}
+    .usa-banner{
+        background-color: transparent;
+        .usa-accordion{
+            color:white;
+        }
+    }
 }
 .logo-title{
     display: flex;
