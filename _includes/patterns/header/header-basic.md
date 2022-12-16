@@ -1,8 +1,10 @@
 
 <div class="usa-overlay"></div>
+  <div class="top-container">
+  🇺🇸 An official website of the United States government 
+  <a href="">Here's how you know <span></span></a>
+  </div>
 <header class="usa-header usa-header--basic">
-<div class="top-container">
-</div>
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo content-flex" id="-logo">
@@ -135,7 +137,7 @@
         </li>
       </ul>
       <section aria-label="Search component" class="tablet:grid-col-4">
-      <a href="/" class="searchLink">National Climate Assessment (NCA)</a>
+      <a href="/" class="searchLink"><span></span>National Climate Assessment (NCA)</a>
         <form class="usa-search usa-search--small" role="search">
           <label class="usa-sr-only" for="search-field">Search</label>
           <input
@@ -143,6 +145,7 @@
             id="search-field"
             type="search"
             name="search"
+            placeholder="Enter Search Term"
           />
           <button class="usa-button" type="submit">
             <img

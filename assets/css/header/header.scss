@@ -7,6 +7,15 @@
     width: 100%;
     z-index: 2;
     top: 0;
+    
+}
+.top-container{
+    background-color: black;
+    color:white;
+    padding:2px 1rem;
+    font-size: .75rem;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    a{margin-left: 1rem; display: inline-block;}
 }
 .logo-title{
     display: flex;
