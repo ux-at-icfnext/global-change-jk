@@ -29,9 +29,9 @@ specs:
     - name: Body
       type: rich text
       authored: yes
-    - name: Search Results
+    - name: List
       type: collection component
-      authored: yes
+      authored:
       content: 150 characters max
       searchable: yes
     - name: Filters

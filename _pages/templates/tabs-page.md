@@ -5,7 +5,7 @@ type: [sub-nav-item]
 title: Tabs Page Template
 permalink: /templates/tabs-page/
 prototype: 
-  - name: Tabs Page
+  - name: Assessment Page
     link: "/prototype/assessment/"
 overview: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
 description: The Collections Landing template is used for landing pages that utilize the collections component to display a list of content.
@@ -16,13 +16,13 @@ specs:
       authored: yes
       content: 80 characters max
       searchable: yes
-    - name: Date
-      type: text
+    - name: Alert
+      type: alert component
       authored: yes
       content: 150 characters max
       searchable: yes
-    - name: Intro Text
-      type: text
+    - name: List
+      type: tabs
       authored: yes
       content: ratio 4:1
       searchable:   
