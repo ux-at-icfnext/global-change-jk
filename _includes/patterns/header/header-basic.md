@@ -136,13 +136,15 @@
 </svg>
         </a>
       </div>
-      <button class="usa-menu-btn">Menu</button>
+      <button class="usa-menu-btn"><svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="/assets/img/sprite.svg#menu"></use>
+      </svg> Menu</button>
     </div>
     <nav aria-label="Primary navigation" class="usa-nav grid-row">
       <button class="usa-nav__close">
         <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
       </button>
-      <ul class="usa-nav__primary usa-accordion tablet:grid-col-8">
+      <ul class="usa-nav__primary usa-accordion tablet:grid-col-8 desktop:grid-col-7">
         <li class="usa-nav__primary-item">
           <button
             class="usa-accordion__button usa-nav__link usa-current"
@@ -227,7 +229,7 @@
           </ul>
         </li>
       </ul>
-      <section aria-label="Search component" class="tablet:grid-col-4">
+      <section aria-label="Search component" class="tablet:grid-col-4 desktop:grid-col-5">
       <a href="/" class="searchLink"><span></span>National Climate Assessment (NCA)</a>
         <form class="usa-search usa-search--small" role="search">
           <label class="usa-sr-only" for="search-field">Search</label>
@@ -239,11 +241,6 @@
             placeholder="Enter Search Term"
           />
           <button class="usa-button" type="submit">
-            <img
-              src="/assets/img/usa-icons-bg/search--white.svg"
-              class="usa-search__submit-icon"
-              alt="Search"
-            />
           </button>
         </form>
       </section>

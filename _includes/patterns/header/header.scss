@@ -36,6 +36,21 @@ header{
     max-width: 100%;
     }
 }
+@media (max-width: 64em){
+.usa-menu-btn{
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+    }
+    .usa-icon{
+        height:2em;
+        width:2em;
+        margin-right:.5rem;
+    }
+    .usa-menu-btn:hover{
+        background-color: transparent;
+    }
+}
 .nav-button {
     border: 1px solid #025da2;
     border-radius: 2px;
@@ -70,9 +85,13 @@ header{
 .usa-search usa-search--small{
     margin-bottom: 0;
 }
+.usa-search--small .usa-search__submit-icon{
+    display:none;
+}
 .searchLink{
     float:right;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color:white;
+    font-size: 0.875rem;
 }

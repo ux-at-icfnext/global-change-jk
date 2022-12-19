@@ -19,6 +19,7 @@
     font-size: .75rem;
     font-family: 'Roboto', Helvetica, sans-serif;
     .usa-banner__button{color:$skycolor;}
+    .usa-banner__button:after{background-color:$skycolor;}
     .usa-banner{
         background-color: transparent;
         .usa-accordion{
