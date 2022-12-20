@@ -1,4 +1,16 @@
 //Global Change Header
+.usa-header.usa-header--basic{display: flex;}
+header{
+    height:150px;
+    background: linear-gradient(180deg, #053B59 0%, #07527D 50%);
+}
+.usa-header--basic .usa-nav-container{
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width:initial;
+}
 .z-index{
     z-index: 0;
 }
@@ -13,9 +25,71 @@
        padding-top: 10px;
     }
 }
+.usa-logo{
+    margin-top: 1rem;
+    svg{
+    object-fit: scale-down; 
+    max-width: 100%;
+    }
+}
+@media (max-width: 64em){
+.usa-menu-btn{
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+    }
+    .usa-icon{
+        height:2em;
+        width:2em;
+        margin-right:.5rem;
+    }
+    .usa-menu-btn:hover{
+        background-color: transparent;
+    }
+}
 .nav-button {
     border: 1px solid #025da2;
     border-radius: 2px;
     position: absolute;
     right: 5px;
+}
+.usa-header--basic .usa-nav__link:hover::after, .usa-header--basic .usa-nav__primary-item>.usa-current::after{
+    background-color: none;
+    height:initial;
+    bottom:initial;
+}
+.usa-nav{
+    section{
+        max-width: 251px;
+    }
+}
+.usa-nav__submenu{
+    margin-left: 0;
+}
+@media (min-width: 64em){
+.usa-nav__primary button{
+    outline:0;
+    border-top: 4px solid transparent;
+    white-space: nowrap;
+}
+.usa-nav__primary button:focus{
+    outline:0;
+    border-top: 4px solid $limecolor;
+}
+.usa-nav__primary button[aria-expanded=false] span::after{
+    background-color: white;
+}
+.usa-search usa-search--small{
+    margin-bottom: 0;
+}
+.usa-search--small .usa-search__submit-icon{
+    display:none;
+}
+.searchLink{
+    float:right;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:white;
+    font-size: 0.875rem;
+}
 }
