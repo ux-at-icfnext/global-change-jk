@@ -3,10 +3,6 @@
 header{
     height:150px;
     background: linear-gradient(180deg, #053B59 0%, #07527D 50%);
-    .usa-nav__primary-item{
-    a, button{color:white!important;}
-    a:hover, button:hover{color:$limecolor!important;}
-    }
 }
 .usa-header--basic .usa-nav-container{
     align-items: center;
@@ -70,6 +66,7 @@ header{
 .usa-nav__submenu{
     margin-left: 0;
 }
+@media (min-width: 64em){
 .usa-nav__primary button{
     outline:0;
     border-top: 4px solid transparent;
@@ -94,4 +91,5 @@ header{
     margin-bottom: 1rem;
     color:white;
     font-size: 0.875rem;
+}
 }

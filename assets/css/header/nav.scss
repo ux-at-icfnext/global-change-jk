@@ -1,3 +1,15 @@
+header{
+    .usa-nav__primary-item{
+        a, button{color:white!important;}
+        a:hover, button:hover{color:$limecolor!important;}
+        .usa-nav__primary button[aria-expanded=false]:hover span::after{background-color: $limecolor;}
+        }
+        @media (min-width: 64em){
+        .usa-nav__primary button[aria-expanded=false]:hover span::after, .usa-nav__primary button[aria-expanded=true]:hover span::after{
+            background-color: $limecolor
+        }
+    }
+}
 .usa-nav-container{
     width:100%;
 }
@@ -212,12 +224,14 @@
         }
     .usa-accordion__button{
         width:auto;
+        
     }
-    .usa-accordion__button, .usa-nav__link{
+    .usa-accordion__button span{
             display: flex;
             align-items: center;
     }
-    .usa-nav__primary button[aria-expanded=false] span::after{
+    .usa-nav__primary button:focus{outline:1!important;}
+    .usa-nav__primary button[aria-expanded=false] span::after, .usa-nav__primary button[aria-expanded=true] span::after{
         right:-15px;
         background-repeat: no-repeat;
         height:8px;
@@ -227,13 +241,16 @@
         background-image: url("data:image/svg+xml,%3Csvg width='13' height='8' viewBox='0 0 13 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.4332 0L6.47773 4.94467L1.52227 0L0 1.52227L6.47773 8L12.9555 1.52227L11.4332 0Z' fill='white'/%3E%3C/svg%3E");
         background-color: transparent;
     }
+    .usa-nav__primary button[aria-expanded=true] span::after{
+        transform: rotate(180deg);
+    }
     .usa-nav__primary button:focus{
         border-top:0;
     }
     .usa-nav__primary button:hover{
         background-color: transparent;
         color:white!important;
-        outline:1px;
+        
     }
     .usa-nav__primary button.usa-current{
         font-weight: 500;
