@@ -8,7 +8,7 @@
       <div class="usa-card__media">
         <div class="usa-card__img">
           <img
-            src="../../assets/customImages/cards/Buffalofamily.webp"
+            src="/assets/customImages/cards/Buffalofamily.webp"
             alt="A placeholder image"
           />
         </div>
