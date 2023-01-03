@@ -1,7 +1,7 @@
 ---
 layout: pattern
 categories: [patterns, card]
-title: Card with media
+title: Link Card with Photo
 type: [detail-page]
 permalink: /patterns/card/card-with-media/
 description: |

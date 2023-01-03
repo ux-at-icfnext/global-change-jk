@@ -6,3 +6,47 @@
         height: auto;
     }
 }
+.usa-card__container{
+    border-width: 6px;
+    border-color: $denimcolor;
+    .usa-card__heading{
+        font-size:1.25rem;
+        font-family: $title-font;
+        color:$denimcolor;
+        border-bottom:3px solid $cloudcolor;
+        padding-bottom:1rem;
+        text-decoration: none;
+    }
+    .usa-card__body{
+        color:$denimcolor;
+        font-family: $body-font;
+    }
+    transition: all .4s;
+}
+.usa-card a{
+    text-decoration: none;
+}
+a:hover .usa-card__container{
+    background-color: $denimcolor;
+    color:white;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.18);
+    .usa-card__heading{
+        border-color:$limecolor;
+        color:white;
+    }
+    .usa-card__body{color:white;}
+
+}
+.usa-card-group .usa-card--flag img {
+    height: 100%;
+}
+.usa-card__multiple--links {
+    .usa-card__heading{
+        border-color:$limecolor;
+    }
+    .usa-button{
+        width:100%;
+        margin-bottom: 1rem;
+        font-weight: normal;
+    }
+}

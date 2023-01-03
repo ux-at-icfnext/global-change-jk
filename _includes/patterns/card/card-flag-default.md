@@ -1,6 +1,7 @@
  
  <ul class="usa-card-group">
   <li class="usa-card usa-card--flag  desktop:grid-col-6">
+  <a href="#">
     <div class="usa-card__container">
       <div class="usa-card__header">
         <h2 class="usa-card__heading">Default flag</h2>
@@ -8,7 +9,7 @@
       <div class="usa-card__media">
         <div class="usa-card__img">
           <img
-            src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg"
+            src="../../assets/customImages/cards/Coralbleaching.webp"
             alt="A placeholder image"
           />
         </div>
@@ -20,5 +21,6 @@
         <button class="usa-button">Visit Florida Keys</button>
       </div>
     </div>
+    </a>
     </li>
   </ul>

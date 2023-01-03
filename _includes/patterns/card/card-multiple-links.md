@@ -1,14 +1,14 @@
 
 <ul class="usa-card-group">
   <li class="usa-card tablet:grid-col-4">
-    <div class="usa-card__container">
+    <div class="usa-card__container usa-card__multiple--links">
       <div class="usa-card__header">
-        <h2 class="usa-card__heading">Inset media</h2>
+        <h2 class="usa-card__heading">Card Title...</h2>
       </div>
-      <div class="usa-card__media usa-card__media--inset">
+      <div class="usa-card__media">
         <div class="usa-card__img">
           <img
-            src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg"
+            src="../../assets/customImages/cards/Buffalofamily.webp"
             alt="A placeholder image"
           />
         </div>
@@ -23,7 +23,9 @@
         </p>
       </div>
       <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
+        <button class="usa-button">Link Copy #1</button>
+        <button class="usa-button">Link Copy #2</button>
+        <button class="usa-button">Link Copy #3</button>
       </div>
     </div>
   </li>
