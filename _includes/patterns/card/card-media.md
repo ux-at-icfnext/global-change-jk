@@ -1,14 +1,16 @@
 
+
 <ul class="usa-card-group">
-  <li class="usa-card tablet:grid-col-4">
+  <li class="usa-card tablet:grid-col-5">
+  <a href="#">
     <div class="usa-card__container">
       <div class="usa-card__header">
-        <h2 class="usa-card__heading">Card with Media</h2>
+        <h2 class="usa-card__heading">Link Card with Photo</h2>
       </div>
       <div class="usa-card__media">
         <div class="usa-card__img">
           <img
-            src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg"
+            src="../../assets/customImages/cards/Buffalofamily.webp"
             alt="A placeholder image"
           />
         </div>
@@ -19,9 +21,7 @@
           tenetur quo cupiditate, eaque qui officia recusandae.
         </p>
       </div>
-      <div class="usa-card__footer">
-        <button class="usa-button">Visit Florida Keys</button>
-      </div>
     </div>
+    </a>
   </li>
 </ul>
