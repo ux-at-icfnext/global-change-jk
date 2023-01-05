@@ -3,7 +3,7 @@ layout: template
 categories: [templates, collections-landing]
 type: [sub-nav-item]
 title: Collections Landing Page Template
-permalink: /templates/basic/
+permalink: /templates/collections-landing/
 prototype: 
   - name: Collections Landing
     link: "/prototype/collections-landing-page/"
@@ -19,7 +19,7 @@ specs:
     - name: Summary
       type: text
       authored: yes
-      content: 150 characters max
+      content: 250 characters max
       searchable: yes
     - name: Hero
       type: image

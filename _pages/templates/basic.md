@@ -19,10 +19,11 @@ specs:
     - name: Summary
       type: text
       authored: yes
-      content: 150 characters max
+      content: 250 characters max
       searchable: yes
     - name: Body
       type: rich text
       authored: yes
+      notes: alows h2, h3, h4, bullets, links, icons
     - name: Attachments
 ---
