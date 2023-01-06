@@ -16,22 +16,22 @@ specs:
       authored: yes
       content: 80 characters max
       searchable: yes
-    - name: Form Header
+    - name: Subtitle
       type: h4
       authored: yes
-      content:
+      content: 80 char max
       searchable: yes
     - name: Form
-      type: input
+      type: form
       authored: yes
-      content:
+      content: multi-valued see table below
       searchable:   
     - name: Validation
-      type: Validation
-      authored: yes
+      type: validation
+      authored:
     - name: Submit
       type: button
-      authored: yes
-      content: 150 characters max
+      authored:
+      content:
       searchable: yes
 ---

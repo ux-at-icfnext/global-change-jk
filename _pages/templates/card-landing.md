@@ -16,9 +16,9 @@ specs:
       authored: yes
       content: 80 characters max
       searchable: yes
-    - name: List item
-      type: Card
+    - name: List
+      type: usa-card
       authored: yes
-      content: 150 characters max
+      content: multi-valued see table below
       searchable: yes
 ---

@@ -29,15 +29,15 @@ specs:
     - name: Body
       type: rich text
       authored: yes
-    - name: List
+    - name: Section
       type: collection component
       authored:
-      content: 150 characters max
+      content: multi-valued see table below
       searchable: yes
     - name: Filters
       type: Accordion
       authored: yes
-      content:
+      content: multi-valued see table below
       searchable: yes
     - name: Attachments
     - name: Pagination

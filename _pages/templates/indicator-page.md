@@ -17,27 +17,29 @@ specs:
       content: 80 characters max
       searchable: yes
     - name: Date
-      type: text
+      type: small
       authored: yes
-      content: 150 characters max
+      content: date range format YYYY - YYYY
       searchable: yes
     - name: Headline
       type: h3
       authored: yes
-      content: ratio 4:1
+      content: 80 char max
       searchable:   
-    - name: Intro text
-      type: text
+    - name: Opening body
+      type: rich text
       authored: yes
+      content: recommended 150 word max
+      notes: allows h2, h3, h4, bullets, links, icons
     - name: Indicator
       type: chart
       authored: yes
-      content: 150 characters max
+      content: 
       searchable: yes
-    - name: View Meta Data, Enlarge, Download
+    - name: Indicator Links
       type: links
       authored: yes
-      content:
+      content: View Meta Data, Enlarge, Download
       searchable: yes
     - name: Contributers
       type: links
@@ -47,26 +49,21 @@ specs:
     - name: Caption
       type: text
       authored: yes
-      content:
+      content: recommended 150 word max
       searchable: yes
-    - name: Body Header
-      type: h3
+    - name: Body
+      type: rich text
       authored: yes
-      content:
-      searchable: yes
-    - name: Body Copy
-      type: text
-      authored: yes
-      content:
+      notes: allows h2, h3, h4, bullets, links, icons
       searchable: yes
     - name: Related Resources
       type: link
       authored: yes
-      content:
+      content: multi-valued - see table below
       searchable: yes
-    - name: Explore USGCRP Indicators
+    - name: Explore
       type: links
       authored: yes
-      content:
+      content: multi-valued - see table below
       searchable: yes
 ---
