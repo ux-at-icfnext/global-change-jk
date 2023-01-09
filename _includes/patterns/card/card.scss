@@ -21,7 +21,7 @@
         color:$denimcolor;
         font-family: $body-font;
     }
-    transition: all .4s;
+    transition: color .4s ease-out, background-color .4s ease-out;
 }
 .usa-card a{
     text-decoration: none;
