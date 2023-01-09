@@ -42,13 +42,13 @@
 </ul>
 <ul class="usa-button-group usa-button-group--segmented">
   <li class="usa-button-group__item">
-    <button type="button" class="usa-button usa-button--base">Map</button>
+    <button type="button" class="usa-button usa-button--disabled--outline">Map</button>
   </li>
   <li class="usa-button-group__item">
-    <button type="button" class="usa-button usa-button--base">Hybrid</button>
+    <button type="button" class="usa-button usa-button--disabled--outline">Hybrid</button>
   </li>
   <li class="usa-button-group__item">
-    <button type="button" class="usa-button usa-button--base">Satellite</button>
+    <button type="button" class="usa-button usa-button--disabled--outline">Satellite</button>
   </li>
 </ul>
 <ul class="usa-button-group usa-button-group--segmented">

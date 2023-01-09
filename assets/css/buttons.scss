@@ -1,3 +1,38 @@
 .usa-button{
     border-radius: 0;
+    font-weight: normal;
+ }
+ .usa-button.usa-button--outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px $denimcolor;
+    color: $denimcolor;
+}
+.usa-button.usa-button--accent-warm, .usa-button.usa-button--accent-warm:visited {
+    color: #1b1b1b;
+    background-color: $pumpkincolor;
+    &:hover{
+        background-color: #C78016;
+        color:#1b1b1b;
+    }
+   
+}
+.usa-button.usa-button--disabled--outline{
+    background-color: white;
+    box-shadow: inset 0 0 0 2px $cloudcolor;
+    color:$cloudcolor;
+    cursor: not-allowed;
+    &:hover{
+        background-color: white;
+        color:$cloudcolor;
+    }
+}
+.usa-button.usa-button--disabled{
+    background-color: $cloudcolor;
+    box-shadow: inset 0 0 0 2px $cloudcolor;
+    color:black;
+    cursor: not-allowed;
+}
+ .usa-button.usa-button--outline:hover{
+    background-color: $skycolor;
+    color:$denimcolor;
  }
