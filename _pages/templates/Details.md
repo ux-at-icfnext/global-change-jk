@@ -16,28 +16,11 @@ specs:
       authored: yes
       content: 80 characters max
       searchable: yes
-    - name: Date
-      type: date
-      authored: optional
-      content: shows date format "Month DD, YYYY"
-      searchable:
-    - name: Opening Body
-      type: rich text
-      authored: yes
-      content: recommended 150 word max
-      searchable: yes
-      notes: allows h2, h3, h4, bullets, link, icons
     - name: Image
       type: image
       authored: yes
       content: ratio 4:1
       searchable:
-    - name: Resource Item
-      type:
-      authored:
-      content: types - podcast, video, publication
-      searchable:
-      notes: read sub pages for each specification for each type
     - name: Body
       type: rich text
       authored: yes
@@ -47,4 +30,34 @@ specs:
       authored:
       content: multi-valued - see table below
       searchable: yes
+specs2: 
+  - name: List text
+    type: text
+    authored: yes
+    source: distation page title
+  - name: List link
+    type: href
+    authored: yes
+    source: distation page url
 ---
+
+### Related list item
+{% include partials/content-specs.md content=page.specs2 %} 
+
+## Functionality Specifications
+This section show the details on how to build the page based on the author selections.
+
+### Page Header
+The page header includes the page title (h1)
+
+### Body
+- Rich text (includes option for pull quotes)
+- Max-width 80ex
+- Typically includes rich text and optional images
+- Allows h2, h3, h4, bullets, link, icons
+
+## Related Resources
+Authors can choose up to 9 resources to features from this series.
+- Module title - h2 - content: "Related Resources"
+- list - page title of related resource - link options to resource page
+- url - page link of related resource
