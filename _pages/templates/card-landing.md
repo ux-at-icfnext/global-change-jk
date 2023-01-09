@@ -21,4 +21,22 @@ specs:
       authored: yes
       content: multi-valued see table below
       searchable: yes
+specs2:
+    - name: Card Image
+      type: image
+      authored: yes
+      content: ratio 1:1
+      searchable: yes    
+    - name: Card Title
+      type: h5
+      authored: yes
+      content: 80 characters max
+      searchable: yes
 ---
+
+### Card item
+{% include partials/content-specs.md content=page.specs2 %} 
+
+## Functionality Specifications
+This section shows the details on how to build the page based on the author selections.
+
