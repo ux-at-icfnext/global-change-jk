@@ -35,3 +35,17 @@ specs:
       content:
       searchable: yes
 ---
+
+### Form Component
+{% include partials/content-specs.md content=page.specs2 %} 
+
+## Functionality Specifications
+This section shows the details on how to build the page based on the author selections.
+
+### Page Header
+The page header includes the page title (h1)
+
+## Form
+The form includes a heading and multiple form controls
+- Heading is an h4
+- Form controls can include input, summary box, combobox, validation, buttons, etc.

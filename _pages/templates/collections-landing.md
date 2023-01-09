@@ -42,3 +42,32 @@ specs:
     - name: Attachments
     - name: Pagination
 ---
+
+### Collection Component
+{% include partials/content-specs.md content=page.specs2 %} 
+
+### Filter Component
+{% include partials/content-specs.md content=page.specs2 %} 
+
+## Functionality Specifications
+This section shows the details on how to build the page based on the author selections.
+
+### Page Header
+The page header includes the page title (h1) and summary text.
+- The summary has max-character count of 140
+
+## Filters
+The filters are represented by an accordion component. Each section of the accordion contains a label and corresponding filters.
+- Accordion button label is an h4
+- Filters
+
+## Collection Section
+The collection section includes a list of collection components that each represent a search result. Each component includes an optional image, basic information on the search result item, and a link to the item's corresponding page.
+- Each collection component includes some combination of an optional image, a heading, a date, body copy, a url linking to typically a details page, and tags
+- The image ratio is 1:1
+- The heading is an h4
+- Date format: Month DD, YYYY
+- The body is made up of rich text
+
+## Pagination
+A bound pagination is used to navigate the search results
