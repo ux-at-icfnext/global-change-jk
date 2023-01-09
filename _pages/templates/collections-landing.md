@@ -54,7 +54,6 @@ This section shows the details on how to build the page based on the author sele
 
 ### Page Header
 The page header includes the page title (h1) and summary text.
-- Only the Video Resource pages include the length component
 - The summary has max-character count of 140
 
 ## Filters
