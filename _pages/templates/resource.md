@@ -5,8 +5,8 @@ type: [sub-nav-item]
 title: Resource Details Page Template
 permalink: /templates/resource/
 prototype: 
-  - name: Agency Details Page
-    link: "/prototype/agency-details/"
+  - name: Resource Video Page
+    link: "/prototype/resource-video/"
 overview: The Details Page template is used for providing additional information on a topic. Usually secondary to a landing page with broader information.
 description:  The Resource Detail template houses various resources types that all have their own required aspects. On this overview page, you will see the common functionaly and content types. The requirements for each resource type will be linked in a sub-page.
 
@@ -15,18 +15,15 @@ specs:
   - name: Title
     type: h1
     authored: yes
-    required: yes
     content: 80 characters max
     searchable: yes
   - name: Date
     type: date
     authored: yes
-    required: yes
     content: shows date format "Month DD, YYYY"
   - name: Summary
     type: meta tags
     authored: yes
-    required: yes
     content: 250 characters max
     notes: used in meta tags only
   - name: Length
@@ -38,7 +35,7 @@ specs:
     content: reccommended 150 word max
     searchable: yes
     notes: allows h2, h3, h4, bullets, links, icons
-  - name: resource item
+  - name: Resource Item
     content: types - podcast, video, publication, webinar
     notes: read sub pages for each specification for each type
   - name: Body
@@ -55,19 +52,16 @@ specs:
   - name: Filter Criteria
     type: taxonomy terms
     authored: yes
-    required: yes
     notes: author must choose the taxonomy terms that are applied to this page.
 
 specs2: 
   - name: List text
     type: text
     authored: yes
-    required: yes
     source: distation page title
   - name: List link
     type: href
     authored: yes
-    required: yes
     source: distation page url
 ---
 
