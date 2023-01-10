@@ -41,13 +41,48 @@ specs:
       searchable: yes
     - name: Attachments
     - name: Pagination
+      type: pagination
+      authored:
+      content: Bound Pagination
+specs2:
+    - name: Optional Image
+      type: image
+      authored: yes
+      content: ratio 1:1
+      searchable: yes    
+    - name: Collection Heading
+      type: h4
+      authored: yes
+      content: 80 characters max
+      searchable: yes
+    - name: Collection Body
+      type: text
+      authored: yes
+      content:
+      searchable: yes
+    - name: Collection Link
+      type: href
+      authored:
+      content: Continue Reading
+      searchable: yes
+specs3:
+    - name: Accordion Label
+      type: button
+      authored: yes
+      content:
+      searchable: yes    
+    - name: Accordion Content
+      type:
+      authored: yes
+      content:
+      searchable: yes
 ---
 
 ### Collection Component
 {% include partials/content-specs.md content=page.specs2 %} 
 
 ### Filter Component
-{% include partials/content-specs.md content=page.specs2 %} 
+{% include partials/content-specs.md content=page.specs3 %} 
 
 ## Functionality Specifications
 This section shows the details on how to build the page based on the author selections.
