@@ -7,8 +7,8 @@ permalink: /templates/details/
 prototype: 
   - name: Agency Details Page
     link: "/prototype/agency-details/"
-overview: The Details Page template is used for providing additional information on a topic. Usually secondary to a landing page with broader information.
-description: The Details Page template is used for providing additional information on a topic. Usually secondary to a landing page with broader information.
+overview: The Details Page template is used for providing additional information on a topic or item. Usually secondary to a landing page.
+description: The Details Page template is used for providing additional information on a topic or item. Usually secondary to a landing page.
 
 specs:
     - name: Title
@@ -31,14 +31,14 @@ specs:
       content: multi-valued - see table below
       searchable: yes
 specs2: 
-  - name: List text
-    type: text
+  - name: List Title
+    type: h2
     authored: yes
-    source: distation page title
+    content:
   - name: List link
     type: href
     authored: yes
-    source: distation page url
+    content: distation page url
 ---
 
 ### Related list item
@@ -54,7 +54,7 @@ The page header includes the page title (h1)
 - Rich text (includes option for pull quotes)
 - Max-width 80ex
 - Typically includes rich text and optional images
-- Allows h2, h3, h4, bullets, link, icons
+- Allows h2, h3, h4, bullets, links, icons
 
 ## Related Resources
 Authors can choose up to 9 resources to features from this series.
