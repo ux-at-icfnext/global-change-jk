@@ -22,13 +22,12 @@ specs:
     authored: yes
     content: shows date format "Month DD, YYYY"
   - name: Summary
-    type: meta tags
+    type: text
     authored: yes
     content: 250 characters max
-    notes: used in meta tags only
   - name: Length
     type: time
-    content: lenth of video or podcast format "hh:mm:ss"
+    content: lenth of video format "hh:mm:ss"
   - name: Opening Body
     type: rich text
     authored: yes
@@ -43,16 +42,9 @@ specs:
     authored: yes
     searchable: yes
     notes: allows h2, h3, h4, bullets, links, icons, quotes
-  - name: Series
-    type: list
-    content: multivalued - see table below
   - name: Related
     type: list
-    content: multivalued - see table below
-  - name: Filter Criteria
-    type: taxonomy terms
-    authored: yes
-    notes: author must choose the taxonomy terms that are applied to this page.
+    content: multi-valued - see table below
 
 specs2: 
   - name: List text
@@ -73,7 +65,8 @@ This section show the details on how to build the page based on the author selec
 
 ### Page Header
 The page header includes the page title (h1), date, and length and opening body.
-- The date label changes by type of resource... please see the resource pages for which date label. (Options include:"Date Published", "Current through Date", "Event Date")
+- The date format follows Month DD, YYYY
+- Only the Video Resources have the length included
 - The body has a max-width of 80ex
 
 ### Resource Item
