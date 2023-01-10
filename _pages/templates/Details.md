@@ -34,11 +34,11 @@ specs2:
   - name: List Title
     type: h2
     authored: yes
-    source: Related Resources
+    content:
   - name: List link
     type: href
     authored: yes
-    source: distation page url
+    content: distation page url
 ---
 
 ### Related list item
