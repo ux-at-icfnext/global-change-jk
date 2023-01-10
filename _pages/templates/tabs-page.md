@@ -21,13 +21,13 @@ specs:
       authored: yes
       content: 150 characters max
       searchable: yes
-    - name: List
+    - name: Section
       type: tabs
       authored: yes
-      content: ratio 4:1
+      content: multi-valued - see table below
       searchable:   
-    - name: Resource
-      type: PDF, Video, Podcast
+    - name: Upcoming Events
+      type: cards
       authored: yes
     - name: Body
       type: rich text
