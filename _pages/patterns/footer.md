@@ -7,6 +7,7 @@ variations: true
 permalink: /patterns/footer/
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
+  Please note that the indentifier has been combined with the footer pattern in this library system.
     
 usa-link: "https://designsystem.digital.gov/components/footer/"
 specification: |
