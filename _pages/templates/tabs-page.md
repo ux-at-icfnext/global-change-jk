@@ -16,11 +16,6 @@ specs:
       authored: yes
       content: 80 characters max
       searchable: yes
-    - name: Alert
-      type: alert component
-      authored: yes
-      content: 150 characters max
-      searchable: yes
     - name: Section
       type: tabs
       authored: yes
