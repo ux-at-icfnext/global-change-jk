@@ -17,7 +17,7 @@ specs:
       content: 80 characters max
       searchable: yes
     - name: Date
-      type: small
+      type: date
       authored: yes
       content: date range format YYYY - YYYY
       searchable: yes
@@ -32,7 +32,7 @@ specs:
       content: recommended 150 word max
       notes: allows h2, h3, h4, bullets, links, icons
     - name: Indicator Section
-      type: Chart
+      type: Media
       authored: yes
       content: multi-valued - see table below
       searchable: yes
@@ -53,7 +53,7 @@ specs:
       searchable: yes
 specs2: 
   - name: Indicator
-    type: data table or chart
+    type: media
     authored: yes
     content:
   - name: Indicator Links
@@ -65,7 +65,7 @@ specs2:
     authored: yes
     content: Contributer Name
   - name: Indicator Caption
-    type: em text
+    type: text
     authored: yes
     content: recommended 150 word max
 specs3: 

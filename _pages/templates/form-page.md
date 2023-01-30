@@ -27,16 +27,6 @@ specs2:
       authored: yes
       content: 80 characters max
       searchable: yes
-    - name: Form Controls
-      type: form controls
-      authored: yes
-      content: input, summary box, combobox, buttons, etc.
-      searchable: yes
-    - name: Validation
-      type: validation
-      authored: yes
-      content:
-      searchable: yes
 ---
 
 ### Form Component
