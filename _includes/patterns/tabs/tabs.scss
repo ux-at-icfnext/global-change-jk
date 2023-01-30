@@ -1,0 +1,58 @@
+
+    :root {
+        --baseblue:#E4F0F7;
+        --basehl:#CBE7F7;
+          }
+      .tabs__tab-list {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+      }
+      
+      .tabs__trigger {
+          background: var(--baseblue);
+          // border: 1px solid;
+          border-bottom: 3px solid transparent;
+          color: $denimcolor;
+          display: block;
+          font-weight: normal;
+          margin: 0 1px;
+          padding: 10px 20px;
+          text-decoration: none;
+          transition: background .5s, border-color .1s, color .5s;
+          &:hover{
+              background: var(--basehl);
+              font-weight: normal;
+          }
+          &.is-selected{
+              background:$midnightcolor;
+              color:white;
+              border-color:$limecolor;
+              font-weight: bold;
+              transition-delay: .3s;
+          }
+      }
+      
+      .tabs__panel {
+         display:block;
+          padding: 20px;
+          padding-left:0;
+          .is-initialized & {
+           display:block;
+          }
+      
+          &.is-hidden {
+              display:none;
+          }
+      }
+      
+      p:last-child {
+          margin-bottom: 0;
+      }
+      
+      :focus {
+          box-shadow: 0 0 4px dodgerblue;
+          outline: none!important;
+      }
+      

@@ -14,10 +14,20 @@ layout: default
       </div>
     </div>
   </div>
-    <div class="tabs">
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
-        <label for="tab1" class="tabs__label">Overview</label>
-        <div class="tabs__content">
+  <div class="tabs basic-tabs">
+    <ul role="tablist" class="tabs__tab-list">
+      <li role="presentation"><a href="#Overview" role="tab" aria-controls="overview" class="tabs__trigger basic-tab-trigger">Overview</a></li>
+        <li role="presentation"><a href="#Mandate" role="tab" aria-controls="Mandate" class="tabs__trigger basic-tab-trigger">Mandate</a></li>
+        <li role="presentation"><a href="#Chapters" role="tab" aria-controls="Chapters" class="tabs__trigger basic-tab-trigger">Chapters</a></li>
+        <li role="presentation"><a href="#Roles" role="tab" aria-controls="Roles" class="tabs__trigger basic-tab-trigger">Roles</a></li>
+        <li role="presentation"><a href="#Regions" role="tab" aria-controls="Regions" class="tabs__trigger basic-tab-trigger">Regions</a></li>
+        <li role="presentation"><a href="#Engagement" role="tab" aria-controls="Engagement" class="tabs__trigger basic-tab-trigger">Engagement</a></li>
+        <li role="presentation"><a href="#Workshops" role="tab" aria-controls="Workshops" class="tabs__trigger basic-tab-trigger">Workshops</a></li>
+        <li role="presentation"><a href="#FAQs" role="tab" aria-controls="FAQs" class="tabs__trigger basic-tab-trigger">FAQs</a></li>
+        <li role="presentation"><a href="#Timeline" role="tab" aria-controls="Timeline" class="tabs__trigger basic-tab-trigger">Timeline</a></li>
+
+    </ul>
+          <section id="Overview" role="tabpanel" class="tabs__panel basic-tab-panel">
           {%if page.cards%}
             <h4>Upcoming</h4>
             {% include patterns/card/event-jk.md %}
@@ -56,10 +66,8 @@ layout: default
               <a href=""><li>link two</li></a>
               <a href=""><li>link three</li></a>
             </ul>
-        </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab2">
-        <label for="tab2" class="tabs__label">Mandate</label>
-        <div class="tabs__content">
+          </section>
+          <section id="Mandate" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Mandate</h3>
             <p>
               The U.S. Global Change Research Program (USGCRP) was established by Presidential initiative in 1989 
@@ -104,10 +112,8 @@ layout: default
                     </p>
                 </li>
             </ul>
-        </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab3">
-        <label for="tab3" class="tabs__label">Chapters</label>
-        <div class="tabs__content chapters">
+          </section>
+          <section id="Chapters" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Chapters</h3>
             <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
               <h4 class="usa-accordion__heading">
@@ -230,10 +236,8 @@ layout: default
                 </ul>
               </div>
             </div>
-        </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab4">
-        <label for="tab4" class="tabs__label">Roles</label>
-        <div class="tabs__content roles">
+          </section>
+          <section id="Roles" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Roles and Responsibilities</h3>
             <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
               <h4 class="usa-accordion__heading">
@@ -318,10 +322,8 @@ layout: default
                 </p>
               </div>
             </div>
-        </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab6">
-        <label for="tab6" class="tabs__label">Regions</label>
-        <div class="tabs__content">
+          </section>
+          <section id="Regions" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Regions</h3>
             <p>
               Consequat ac felis donec et odio. Egestas quis ipsum suspendisse ultrices gravida dictum. Sapien et 
@@ -338,10 +340,8 @@ layout: default
                 <li>Item 3</li>
               </ul>
             </div>
-        </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab7">
-        <label for="tab7" class="tabs__label">Engagement</label>
-        <div class="tabs__content">
+          </section>
+          <section id="Engagement" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Engagement</h3>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
@@ -373,10 +373,8 @@ layout: default
               <li><a href="">Link</a></li>
               <li><a href="">Link</a></li>
             </ul>
-        </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab8">
-        <label for="tab8" class="tabs__label">Workshops</label>
-        <div class="tabs__content">
+          </section>
+          <section id="Workshops" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Workshops</h3>
             <h4 class="workshop__month">January</h4>
             <div class="grid-row grid-gap">
@@ -572,10 +570,8 @@ layout: default
                   </ul>
                 </div>
               </div>
-        </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab9">
-        <label for="tab9" class="tabs__label">FAQs</label>
-        <div class="tabs__content FAQ">
+            </section>
+            <section id="FAQs" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>FAQs</h3>
             <div class="usa-accordion usa-accordion--multiselectable" data-allow-multiple>
               <h4 class="usa-accordion__heading">
@@ -670,10 +666,8 @@ layout: default
                 </p>
               </div>
             </div>
-        </div>
-        <input type="radio" class="tabs__radio" name="tabs-example" id="tab10">
-        <label for="tab10" class="tabs__label">Timeline</label>
-        <div class="tabs__content timeline">
+          </section>
+          <section id="Timeline" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Timeline</h3>
             <ol class="usa-process-list">
               <li class="usa-process-list__item">
@@ -733,6 +727,7 @@ layout: default
                 </ul>
               </li>
             </ol>
+          </section>
         </div>
-    </div>
 </div>
+<script src="{{site.baseurl}}/assets/js/tabs.js"></script>
