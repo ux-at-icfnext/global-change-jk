@@ -2,47 +2,7 @@
   margin-right: 40px;
   margin-left: 40px;
 }
-.tabs {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    font-family: sans-serif;
-  }
   
-  .tabs__label {
-    padding: 10px 16px;
-    cursor: pointer;
-    background-color: #f0f0f0;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    height:fit-content;
-  }
-  
-  .tabs__radio {
-    display: none;
-  }
-  
-  .tabs__content {
-    order: 1;
-    width: 100%;
-    line-height: 1.5;
-    font-size: 0.9em;
-    display: none;
-    padding-top: 20px;
-    margin-right: 40px;
-  }
-  
-  .tabs__radio:checked + .tabs__label {
-    font-weight: bold;
-    color: #009578;
-    background-color: white;
-    border: none;
-  }
-  
-  .tabs__radio:checked + .tabs__label + .tabs__content {
-    display: initial;
-    background-color: white;;
-  }
   
   h4{
     font-weight: bold;

@@ -32,7 +32,7 @@
           &.is-selected{
               background: var(--darkblue);
               color:white;
-              border-color:var(--lime);
+              border-color:$limecolor;
               font-weight: bold;
               transition-delay: .3s;
           }
@@ -42,7 +42,7 @@
          display:block;
           padding: 20px;
           .is-initialized & {
-           display:inherit;
+           display:block;
           }
       
           &.is-hidden {
