@@ -27,4 +27,4 @@
         <p>Suspendisse potenti. Aliquam nisl enim, tristique tempus placerat at, posuere in lectus. Lorem ipsum dolor sit amet, consectetur <em>adipiscing elit</em>. Suspendisse potenti H<sub>2</sub>0. </p>
     </section>
 </div>
-<script src="{{site.baseurl}}/assets/js/tabs.js"></script>
+<script src="{{site.baseurl}}/assets/customJS/tabs.js"></script>
