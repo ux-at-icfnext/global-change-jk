@@ -1,0 +1,8 @@
+.usa-table thead td, .usa-table thead th{
+    background-color: $midnightcolor;
+    color:white;
+    border-bottom:1px solid $limecolor;
+}
+.usa-prose>.usa-table--striped tbody tr:nth-child(odd) td, .usa-prose>.usa-table--striped tbody tr:nth-child(odd) th, .usa-table--striped tbody tr:nth-child(odd) td, .usa-table--striped tbody tr:nth-child(odd) th{
+    background-color: #e4F0f7;
+}
