@@ -1,0 +1,49 @@
+.announcement-wrapper{
+    margin-bottom: 1rem;
+    ul, ol{
+        max-width: initial;
+        margin-left:0;
+    }
+    
+    .announcement-header{
+        border-bottom:3px solid $cloudcolor;
+        margin-bottom: 10px;
+        h4{margin-bottom: 10px;}
+    }
+    .announcement-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{margin-right: 15px;}
+        @media screen and (max-width:600px) {flex-direction:column;}
+    }
+    time {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    }
+    .usa-collection{
+        font-family:'Lora', 'Times New Roman', Times, serif;
+    }
+    .usa-collection__body {
+        padding-bottom: 1rem;
+        margin-left: 0;
+    }
+    .usa-collection__item, .usa-prose .usa-collection__item{
+        max-width: initial;
+    }
+    .usa-collection__item, .usa-prose .usa-collection__item{
+        border-top:0;
+        border-bottom:3px solid $cloudcolor;
+    }
+}
+.usa-collection__meta{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.usa-collection__meta-item.usa-tag{
+    background-color: var(--baseblue);
+}
+.usa-collection__meta-item.usa-tag--new{
+    background-color: $forestcolor;
+}
