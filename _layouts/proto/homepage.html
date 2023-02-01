@@ -1,0 +1,37 @@
+---
+---
+<html>
+    {% include partials/head.html %}
+    <body>
+        <div class="hero-home-section" style="background-image:url({{page.hero-image}})">  
+        {% if page.type contains "prototype" %}
+            {% include patterns/header/header-basic.md %}
+        {% else %}
+            <div class="header-container">
+                {% include partials/lib/header.html %}
+            </div> 
+        {% endif %}
+    </div>
+    <!-- end background image -->
+        <div id="wrapper-container" class="">&nbsp;</div>
+        {% if page.type contains "prototype" %}
+            <div class="prototype-content">
+                {{ content }}
+            </div>
+        {% else %}
+            <div class="content">
+                {{ content }}
+            </div>
+        {% endif %}
+        {% if page.type contains "prototype" %}
+            {% include patterns/footer/footer-small.md %}
+        {% else %}
+            {% include partials/lib/footer.html %}
+        {% endif %}
+        <script src="https://kit.fontawesome.com/7f6845086e.js" crossorigin="anonymous"></script>
+        <script src="{{site.baseurl}}/assets/js/uswds.min.js"></script>
+        <script src="{{site.baseurl}}/assets/customJS/nav_mobile.js"></script>
+        <script src="{{site.baseurl}}/assets/customJS/template_img.js"></script>
+        <script src="{{site.baseurl}}/assets/customJS/theme_mode.js"></script>
+    </body>
+</html>
