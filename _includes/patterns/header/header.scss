@@ -79,6 +79,9 @@ header{
 .usa-nav__primary button[aria-expanded=false] span::after{
     background-color: white;
 }
+.usa-search__input, [type=search]{
+    border-right:1px solid;
+}
 .usa-search usa-search--small{
     margin-bottom: 0;
 }
