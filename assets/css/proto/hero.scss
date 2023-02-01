@@ -54,7 +54,7 @@
     }
 }
 .hero-home-section{
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0;
     min-height: 527px;
@@ -72,4 +72,28 @@
         background: rgba($color: #000000, $alpha: .3);
         z-index: 0;
     }
+    .searchLink{
+        visibility: hidden;
+    }
+    .special-alert{
+        position: absolute;
+        z-index: 1;
+        top:25px;
+        width: 100%;
+        padding:.2rem;
+        display: flex;
+        justify-content: center;
+        background-color: $lemoncolor;
+        color:black;
+        font-family: 'Roboto', Helvetica;
+        font-weight: 600;
+        font-size: .875rem;
+        a{color:black;}
+    }
+    @media (max-width: 63.99em){
+    .usa-header.usa-header--basic {
+        margin-top: 3%;
+        position: relative;
+    }
+}
 }
