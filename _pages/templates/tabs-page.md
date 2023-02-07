@@ -65,7 +65,7 @@ specs:
       content: multi-valued - see table below
       searchable: yes
 specs2: 
-  - name: Chapters Lable
+  - name: Chapters Label
     type: short text
     authored: yes
     content: max 80 chars
@@ -74,7 +74,7 @@ specs2:
     authored: yes
     content:
 specs3: 
-  - name: Role Lable
+  - name: Role Label
     type: short text
     authored: yes
     content: max 80 chars
@@ -82,49 +82,73 @@ specs3:
     type: long text
     authored: yes
     content:
-specs2: 
-  - name: Opportunities
-    type: h2
-    authored: yes
-    content:
-  - name: List link
+specs4: 
+  - name: Opportunity Link
     type: href
     authored: yes
-    content: distation page url
-specs3: 
-  - name: Workshops
-    type: h2
-    authored: yes
-    content:
-  - name: List link
+    content: destination page url
+specs5: 
+  - name: Workshop Title
     type: href
     authored: yes
-    content: distation page url
-specs2: 
-  - name: FAQs
-    type: h2
+    content: destination page url
+  - name: Date
+    type: date
+    authored: yes
+    content: format Mon, dd
+  - name: Time
+    type: time
+    authored: yes
+    content: format hour AM/ PM - hour AM/PM
+  - name: Summary
+    type: long text
     authored: yes
     content:
-  - name: List link
+  - name: Registration Link
     type: href
     authored: yes
-    content: distation page url
-specs3: 
-  - name: Timeline
-    type: h2
+    content: Registration
+  - name: Agenda PDF Attachment
+    type: href
+    authored: yes
+    content: Agenda
+specs6: 
+  - name: FAQ Label
+    type: short text
+    authored: yes
+    content: max 80 chars
+  - name: FAQ Content
+    type: long text
     authored: yes
     content:
-  - name: List link
-    type: href
+specs7: 
+  - name: Date
+    type: date
     authored: yes
-    content: distation page url
+    content:
+  - name: Content
+    type: long text
+    authored: yes
+    content:
 ---
 
 ### Chapters List
 {% include partials/content-specs.md content=page.specs2 %} 
 
-### Source Report
-{% include partials/content-specs.md content=page.specs2 %}
+### Roles and Responsibilities List
+{% include partials/content-specs.md content=page.specs3 %}
+
+### Opportunities
+{% include partials/content-specs.md content=page.specs4 %} 
+
+### Workshops
+{% include partials/content-specs.md content=page.specs5 %}
+
+### FAQs List
+{% include partials/content-specs.md content=page.specs6 %} 
+
+### Timeline
+{% include partials/content-specs.md content=page.specs7 %}
 
 ## Functionality Specifications
 This section show the details on how to build the page based on the author selections.
@@ -132,20 +156,49 @@ This section show the details on how to build the page based on the author selec
 ### Page Header
 The page header includes the page title (h1)
 
-### Body
-- Rich text (includes option for pull quotes)
-- Max-width 80ex
-- Typically includes rich text and optional images
-- Allows h2, h3, h4, bullets, links, icons
+### Tabs
+9 tabs can fit on one full-width page
+- Label
+- Tab Content (opperates like a subpage and can include text, rich text, various components, etc.)
 
-## Related Resources
-Authors can choose up to 9 resources to features from this series.
-- Module title - h2 - content: "Related Resources"
-- list - page title of related resource - link options to resource page
-- url - page link of related resource
+## Overview
+An overview of the Assessment Report.
+- Upcoming Events - Card Components
+- Link to events landing page
+- About Section - long text
+- Previous Assessments Links - urls
+- Sustained Resources Links - urls
 
-## Source Report
-Each highlight detail page should have 1 source report to list here.
-- Module title - h2 - content: "Source Report"
-- list - page title of source report - link options to report page
-- url - page link of source report
+## Mandate
+- Rich Text
+
+## Chapters
+- Accordion - accordion label (short text), accordion content (rich text)
+
+## Roles and Responisibilities
+- Accordion - accordion label (short text), accordion content (rich text)
+
+## Regions
+- Summary - long text
+- Media - map of the specified regions within the US
+- Map Legend
+
+## Engagement
+- Rich Text
+
+## Workshops
+Collection Component:
+- Date
+- Time
+- PDF Link
+- Registration Link
+- Agenda Link
+- Description - short text
+
+## FAQs
+- Accordion - accordion label (short text), accordion content (rich text)
+
+## Timeline
+Process List Component
+- Label - date (YYYY format)
+- Unordered List
