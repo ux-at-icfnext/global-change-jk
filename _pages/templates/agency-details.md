@@ -2,13 +2,13 @@
 layout: template
 categories: [templates, Details Page]
 type: [sub-nav-item]
-title: Details Page Template
-permalink: /templates/details/
+title: Agency Details Page Template
+permalink: /templates/agency-details/
 prototype: 
   - name: Agency Details Page
     link: "/prototype/agency-details/"
-overview: The Details Page template is used for providing additional information on a topic or item. Usually secondary to a landing page.
-description: The Details Page template is used for providing additional information on a topic or item. Usually secondary to a landing page.
+overview: The Agency Details Page template is a subpage used to provide additional information on a topic.
+description: The Agency Details Page template is used for providing additional information on a topic or item.
 
 specs:
     - name: Title
@@ -16,15 +16,20 @@ specs:
       authored: yes
       content: 80 characters max
       searchable: yes
-    - name: Image
-      type: image
+    - name: slug
+      type: short text
       authored: yes
-      content: ratio 4:1
+      content:
       searchable:
     - name: Body
       type: rich text
       authored: yes
       notes: allows h2, h3, h4, bullets, link, icons
+    - name: Media
+      type: image
+      authored: yes
+      content: ratio 1:1
+      searchable:
     - name: Related Resources
       type: list
       authored:
