@@ -83,3 +83,9 @@ Authors can choose up to 9 resources to features from this series.
 - Module title - h2 - content: "Related Resources"
 - list - page title of related resource - link options to resource page
 - url - page link of related resource
+
+## Source Report
+Each highlight detail page should have 1 source report to list here.
+- Module title - h2 - content: "Source Report"
+- list - page title of source report - link options to report page
+- url - page link of source report
