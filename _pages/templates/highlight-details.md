@@ -64,7 +64,7 @@ specs3:
 {% include partials/content-specs.md content=page.specs2 %} 
 
 ### Source Report
-{% include partials/content-specs.md content=page.specs2 %}
+{% include partials/content-specs.md content=page.specs3 %}
 
 ## Functionality Specifications
 This section show the details on how to build the page based on the author selections.
