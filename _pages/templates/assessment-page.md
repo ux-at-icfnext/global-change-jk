@@ -1,6 +1,6 @@
 ---
 layout: template
-categories: [templates, tabs]
+categories: [templates, assessment page]
 type: [sub-nav-item]
 title: Assessment Page Template
 permalink: /templates/assessment-page/
