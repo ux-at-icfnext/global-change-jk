@@ -12,7 +12,7 @@
       
       .tabs__trigger {
           background: var(--baseblue);
-          // border: 1px solid;
+          font-family: $title-font;
           border-bottom: 3px solid transparent;
           color: $denimcolor;
           display: block;

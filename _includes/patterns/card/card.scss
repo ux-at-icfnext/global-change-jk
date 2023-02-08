@@ -8,17 +8,17 @@
 }
 .usa-card__container{
     border-width: 6px;
-    border-color: $denimcolor;
+    border-color: $cloudcolor;
     .usa-card__heading{
         font-size:1.25rem;
         font-family: $title-font;
-        color:$denimcolor;
-        border-bottom:3px solid $cloudcolor;
+        color:black;
+        border-bottom:3px solid $azurecolor;
         padding-bottom:1rem;
         text-decoration: none;
     }
     .usa-card__body{
-        color:$denimcolor;
+        color:black;
         font-family: $body-font;
     }
     transition: color .4s ease-out, background-color .4s ease-out;
