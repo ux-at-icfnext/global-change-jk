@@ -1,0 +1,89 @@
+.home{
+    background-color: $denimcolor;
+    font-family: Roboto, Helvetica, Arial sans-serif;
+}
+.explore-container{
+    min-height: 125px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color:white;
+    display: flex;
+    place-content: center center;
+    h2{margin-top:3rem;font-weight: normal;}
+}
+.center-section{
+    background-image:url(../../assets/customImages/homepage/explore-hp-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .content{
+        margin: 0;
+        margin-top: 0;
+    }
+}
+.home{
+    .mainImageContainer{
+       position: relative;
+       width: 100%;
+       height: 525px;
+        .info-container{
+            position: absolute;
+            bottom:100px;
+            left:15px;
+            display:flex;
+            flex-direction:column;
+            color:white;
+            a{color:white;}
+        }
+    }
+    .announcement{
+        margin-bottom: 10px;
+    }
+    .announcement-wrapper .announcement-container{
+        justify-content: start;
+    }
+    .usa-collection__meta-item.usa-tag{
+        background-color: $pumpkincolor;
+        margin-bottom: 5px;
+        border-radius: 0;
+    }
+    .announcement-content a{
+        color:white;
+    }
+    a.more{
+        margin-top: 1.5rem;
+        border-bottom:2px solid $pumpkincolor;
+        color:white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+    .highlight-tags {
+        time{color: white; font-size: small; display: block;text-transform: uppercase;}
+        a{color:white; display:block;}
+        h3, h4{
+            color:white;
+            margin: 10px 0 10px 0;
+            padding: 0;
+        }
+        .download{font-weight: 300;}
+    }
+    .register-button{
+        background-color: white;
+        color:$navycolor;
+        font-weight: 500;
+        border:0;
+        padding: 10px;
+    }
+    .lower-light{
+        background: $cloudcolor;
+        h2{
+            display: flex;
+            place-content: center;
+            color:$denimcolor;
+            font-weight: 600;
+            margin: 0;
+            padding-top: 3rem;
+        }
+    }
+}
