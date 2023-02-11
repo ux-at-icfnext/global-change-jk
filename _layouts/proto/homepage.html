@@ -2,7 +2,7 @@
 ---
 <html>
     {% include partials/head.html %}
-    <body>
+    <body class="home">
         <div class="hero-home-section" style="background-image:url({{page.hero-image}})">  
             <div class="special-alert">{{page.alert-info}} <a href="{{page.alert-link}}">{{page.alert-link-text}}</a></div>
         {% if page.type contains "prototype" %}
@@ -14,16 +14,160 @@
         {% endif %}
     </div>
     <!-- end background image -->
-        <div id="wrapper-container" class="">&nbsp;</div>
-        {% if page.type contains "prototype" %}
-            <div class="prototype-content">
-                {{ content }}
+    
+    <div class="explore-container">
+        <h2>Explore</h2>
+    </div>
+    <div class="center-section">
+        <div class="content">
+            <div class="grid-container padding-top-6 padding-bottom-6">
+                <div class="grid-row grid-gap">
+                  <div class="desktop:grid-col-7 tablet:grid-col-12">
+                    <div class="image-wrapper">
+                        <div class="mainImageContainer" style="background:linear-gradient(to bottom, rgb(2 2 2 / 15%), rgb(3 0 2 / 84%)), url({{page.large-image}})">
+                       
+                        <div class="info-container">
+                            <div class="usa-tag">Indicator</div>
+                            <time>Date Range 1979-2021</time>
+                            <a href="">Annual Greehouse Gas Index</a>
+                        </div>
+                    
+                    </div>
+                </div>
+                    
+                    <div class="grid-row grid-gap margin-top-105">
+                        <div class="grid-col-6">
+                            <div class="image-wrapper">
+                            <img src="{{page.sub_one-image}}" alt="">
+                            </div>
+                            <div class="highlight-tags margin-top-4">
+                                <div class="usa-collection__meta-item usa-tag">Report</div>
+                                <time>Year: 2023</time>
+                                <a href="">The U.S. Global Change Research Program 2022-2031 Strategic Plan</a>
+                            </div>
+                    </div>
+                        <div class="grid-col-6">
+                            <div class="image-wrapper">
+                            <img src="{{page.sub_two-image}}" alt="">
+                        </div>
+                            <div class="highlight-tags margin-top-4">
+                                <div class="usa-collection__meta-item usa-tag">Event</div>
+                                <time>September 20: 12 PM - 1:30 PM Ct</time>
+                                <a href="">The U.S. Global Change Research Program 2022-2031 Strategic Plan</a>
+                                <h3>Human Nature</h3>
+                                <a href="" class="download">Agenda Flyer (PDF 1.3MB</a>
+                                <button class="register-button margin-top-1" >Register</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                <div class="desktop:grid-col-5 tablet:grid-col-12">
+                    <div class="announcements_section">
+                    
+                        <div class="announcement-wrapper">
+                            <div class="announcement">
+                                <div class="highlight-tags">
+                                    <div class="usa-collection__meta-item usa-tag">Highlight</div>
+                                </div>
+                                <div class="announcement-container">
+                                    <div class="hov">    
+                                <img src="{{page.highlight_one-image}}"/>
+                                </div>
+                                <div class="announcement-content">
+                                    <a href="">Improving monitoring of forest carbon stocks</a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="announcement">
+                                <div class="highlight-tags">
+                                    <div class="usa-collection__meta-item usa-tag">Highlight</div>
+                                </div>
+                                <div class="announcement-container">
+                                <div class="hov">    
+                                <img src="{{page.highlight_two-image}}"/>
+                                </div>
+                                <div class="announcement-content">
+                                    <a href="">Request for Public Comment on the Draft Fifth National Climate Assessment (Open)</a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="announcement">
+                                <div class="highlight-tags">
+                                    <div class="usa-collection__meta-item usa-tag">Notice</div>
+                                </div>
+                                <div class="announcement-container">
+                                    <div class="hov">    
+                                <img src="{{page.highlight_one-image}}"/>
+                                </div>
+                                <div class="announcement-content">
+                                    <a href="">Request for Public Comment on the Draft Fifth National Climate Assessment (Open)</a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="announcement">
+                                <div class="highlight-tags">
+                                    <div class="usa-collection__meta-item usa-tag">Highlight</div>
+                                </div>
+                                <div class="announcement-container">
+                                    <div class="hov">     
+                                <img src="{{page.highlight_two-image}}"/>
+                                </div>
+                                <div class="announcement-content">
+                                    <a href="">Request for Public Comment on the Draft Fifth National Climate Assessment (Open)</a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="announcement">
+                                <div class="highlight-tags">
+                                    <div class="usa-collection__meta-item usa-tag">Notice</div>
+                                </div>
+                                <div class="announcement-container">
+                                    <div class="hov">      
+                                <img src="{{page.highlight_one-image}}"/>
+                                </div>
+                                <div class="announcement-content">
+                                    <a href="">Request for Public Comment on the Draft Fifth National Climate Assessment (Open)</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="" class="more">See More</a>
+                    </div>
+                </div>
+                </div>
+              </div>   
+            {{ content }}
+
+        </div>   
+                
+    </div>
+    <div class="lower-light">
+        <h2>Latest Resources</h2>
+        <div class="grid-container padding-top-6 padding-bottom-6">
+            <div class="grid-row grid-gap">
+              <div class="grid-col-4">
+                <img src="{{page.resource-one}}" alt="" class="margin-bottom-4">
+                <a href="" class="text-bold margin-bottom-4 display-inline-block">Impacts, Risks, and Adaptation in a Changing Climate: An Overview of the Fourth National Climate Assessment</a>
+                <p>Ben DeAngelo, 18 June 2019</p>
+                <a href="">View Slides</a>
+              </div>
+              <div class="grid-col-4">
+                <img src="{{page.resource-two}}" alt="" class="margin-bottom-4">
+                <a href="" class="text-bold margin-bottom-4 display-inline-block">Podcast Title... Lorem ipsum dolor sit amet, consectetur adipiscing elit...</a>
+                <p>Author, [Release Date]</p>
+                <a href="">View Transcript</a>
+              </div>
+              <div class="grid-col-4">
+                <img src="{{page.resource-three}}" alt="" class="margin-bottom-4">
+                <a href="" class="text-bold margin-bottom-4 display-inline-block">
+                    PDF Title... Lorem ipsum dolor sit amet, consectetur adipiscing elit sed...
+                    <p>Author, [Publication Date]</p>
+                    <a href="">Download (PDF 1.3MB)</a>
+                </a>
+              </div>
             </div>
-        {% else %}
-            <div class="content">
-                {{ content }}
-            </div>
-        {% endif %}
+        </div>
+    </div>
         {% if page.type contains "prototype" %}
             {% include patterns/footer/footer-small.md %}
         {% else %}

@@ -1,0 +1,107 @@
+.home{
+    background-color: $denimcolor;
+    font-family: Roboto, Helvetica, Arial sans-serif;
+}
+.explore-container{
+    min-height: 125px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color:white;
+    display: flex;
+    place-content: center center;
+    h2{margin-top:3rem;font-weight: normal;}
+}
+.center-section{
+    background-image:url(../../assets/customImages/homepage/explore-hp-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .content{
+        margin: 0;
+        margin-top: 0;
+    }
+}
+.home{
+    .image-wrapper{
+        overflow:hidden;
+    }
+    .mainImageContainer{
+       position: relative;
+       width: 570px;
+       height: 525px;
+       overflow: hidden;
+       background-size: contain;
+        .info-container{
+            position: absolute;
+            bottom:50px;
+            left:15px;
+            color:white;
+            .usa-tag{border-radius: 0;background-color: $pumpkincolor; margin-bottom: 10px;display: inline-block;}
+            time{display: block;text-transform: uppercase; }
+            a{color:white; font-size: 1.375rem;}
+        }
+        
+    }
+    .announcement{
+        margin-bottom: 10px;
+    }
+    .announcement-wrapper .announcement-container{
+        display:grid;
+        grid-template-columns: 150px 1fr;
+
+    }
+    .usa-collection__meta-item.usa-tag{
+        background-color: $pumpkincolor;
+        margin-bottom: 5px;
+        border-radius: 0;
+        color:white;
+    }
+    .announcement-content a{
+        color:white;
+    }
+    a.more{
+        margin-top: 1.5rem;
+        border-bottom:2px solid $pumpkincolor;
+        color:white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+    .highlight-tags {
+        time{color: white; font-size: small; display: block;text-transform: uppercase;}
+        a{color:white; display:block;}
+        h3, h4{
+            color:white;
+            margin: 10px 0 10px 0;
+            padding: 0;
+        }
+        .download{font-weight: 300;}
+    }
+    .register-button{
+        background-color: white;
+        color:$navycolor;
+        font-weight: 500;
+        border:0;
+        padding: 10px;
+    }
+    .lower-light{
+        background: $cloudcolor;
+        color:$denimcolor;
+        h2{
+            display: flex;
+            place-content: center;
+            color:$denimcolor;
+            font-weight: 600;
+            margin: 0;
+            padding-top: 3rem;
+        }
+    }
+    .hov{overflow:hidden;width:100%}
+    .image-wrapper:hover .mainImageContainer, .hov:hover img, .image-wrapper:hover img{
+        transition: transform .2s;
+        transform: scale(1.1);
+        .info-container{
+            transform:translateX(20px);
+        }
+    }
+}
