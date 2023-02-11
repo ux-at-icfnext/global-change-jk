@@ -95,7 +95,7 @@
                 <div class="desktop:grid-col-7 seals-small">
                     <div class="grid-row flex-justify-center">
                         <a href="">
-                            <img src="../../assets/customImages/seals/small/USDA-55px.png" />
+                            <img src="../../assets/customImages/seals/svg/USDA.svg" />
                         </a>
                         <a href="">
                             <img src="../../assets/customImages/seals/small/DOC-55px.png" />

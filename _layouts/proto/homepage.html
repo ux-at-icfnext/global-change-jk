@@ -22,7 +22,8 @@
         <div class="content">
             <div class="grid-container padding-top-6 padding-bottom-6">
                 <div class="grid-row grid-gap">
-                  <div class="grid-col-6">
+                  <div class="desktop:grid-col-7 tablet:grid-col-12">
+                    <div class="image-wrapper">
                         <div class="mainImageContainer" style="background:linear-gradient(to bottom, rgb(2 2 2 / 15%), rgb(3 0 2 / 84%)), url({{page.large-image}})">
                        
                         <div class="info-container">
@@ -32,10 +33,13 @@
                         </div>
                     
                     </div>
+                </div>
                     
                     <div class="grid-row grid-gap margin-top-105">
                         <div class="grid-col-6">
+                            <div class="image-wrapper">
                             <img src="{{page.sub_one-image}}" alt="">
+                            </div>
                             <div class="highlight-tags margin-top-4">
                                 <div class="usa-collection__meta-item usa-tag">Report</div>
                                 <time>Year: 2023</time>
@@ -43,7 +47,9 @@
                             </div>
                     </div>
                         <div class="grid-col-6">
+                            <div class="image-wrapper">
                             <img src="{{page.sub_two-image}}" alt="">
+                        </div>
                             <div class="highlight-tags margin-top-4">
                                 <div class="usa-collection__meta-item usa-tag">Event</div>
                                 <time>September 20: 12 PM - 1:30 PM Ct</time>
@@ -55,7 +61,7 @@
                         </div>
                     </div>
                   </div>
-                <div class="grid-col-6">
+                <div class="desktop:grid-col-5 tablet:grid-col-12">
                     <div class="announcements_section">
                     
                         <div class="announcement-wrapper">
@@ -64,7 +70,9 @@
                                     <div class="usa-collection__meta-item usa-tag">Highlight</div>
                                 </div>
                                 <div class="announcement-container">
+                                    <div class="hov">    
                                 <img src="{{page.highlight_one-image}}"/>
+                                </div>
                                 <div class="announcement-content">
                                     <a href="">Improving monitoring of forest carbon stocks</a>
                                 </div>
@@ -75,7 +83,9 @@
                                     <div class="usa-collection__meta-item usa-tag">Highlight</div>
                                 </div>
                                 <div class="announcement-container">
+                                <div class="hov">    
                                 <img src="{{page.highlight_two-image}}"/>
+                                </div>
                                 <div class="announcement-content">
                                     <a href="">Request for Public Comment on the Draft Fifth National Climate Assessment (Open)</a>
                                 </div>
@@ -86,7 +96,9 @@
                                     <div class="usa-collection__meta-item usa-tag">Notice</div>
                                 </div>
                                 <div class="announcement-container">
+                                    <div class="hov">    
                                 <img src="{{page.highlight_one-image}}"/>
+                                </div>
                                 <div class="announcement-content">
                                     <a href="">Request for Public Comment on the Draft Fifth National Climate Assessment (Open)</a>
                                 </div>
@@ -97,7 +109,9 @@
                                     <div class="usa-collection__meta-item usa-tag">Highlight</div>
                                 </div>
                                 <div class="announcement-container">
+                                    <div class="hov">     
                                 <img src="{{page.highlight_two-image}}"/>
+                                </div>
                                 <div class="announcement-content">
                                     <a href="">Request for Public Comment on the Draft Fifth National Climate Assessment (Open)</a>
                                 </div>
@@ -108,7 +122,9 @@
                                     <div class="usa-collection__meta-item usa-tag">Notice</div>
                                 </div>
                                 <div class="announcement-container">
+                                    <div class="hov">      
                                 <img src="{{page.highlight_one-image}}"/>
+                                </div>
                                 <div class="announcement-content">
                                     <a href="">Request for Public Comment on the Draft Fifth National Climate Assessment (Open)</a>
                                 </div>
@@ -131,19 +147,19 @@
             <div class="grid-row grid-gap">
               <div class="grid-col-4">
                 <img src="{{page.resource-one}}" alt="" class="margin-bottom-4">
-                <a href="">Impacts, Risks, and Adaptation in a Changing Climate: An Overview of the Fourth National Climate Assessment</a>
+                <a href="" class="text-bold margin-bottom-4 display-inline-block">Impacts, Risks, and Adaptation in a Changing Climate: An Overview of the Fourth National Climate Assessment</a>
                 <p>Ben DeAngelo, 18 June 2019</p>
                 <a href="">View Slides</a>
               </div>
               <div class="grid-col-4">
                 <img src="{{page.resource-two}}" alt="" class="margin-bottom-4">
-                <a href="">Podcast Title... Lorem ipsum dolor sit amet, consectetur adipiscing elit...</a>
+                <a href="" class="text-bold margin-bottom-4 display-inline-block">Podcast Title... Lorem ipsum dolor sit amet, consectetur adipiscing elit...</a>
                 <p>Author, [Release Date]</p>
                 <a href="">View Transcript</a>
               </div>
               <div class="grid-col-4">
                 <img src="{{page.resource-three}}" alt="" class="margin-bottom-4">
-                <a href="">
+                <a href="" class="text-bold margin-bottom-4 display-inline-block">
                     PDF Title... Lorem ipsum dolor sit amet, consectetur adipiscing elit sed...
                     <p>Author, [Publication Date]</p>
                     <a href="">Download (PDF 1.3MB)</a>

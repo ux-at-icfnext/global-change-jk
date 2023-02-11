@@ -2,7 +2,7 @@
 layout: proto/homepage
 categories: [prototype, homepage]
 title: Homepage
-type: [prototype]
+type: [sub-nav-item, prototype]
 permalink: /prototype/homepage/
 description: Homepage page
 date: "January 27, 2022"
