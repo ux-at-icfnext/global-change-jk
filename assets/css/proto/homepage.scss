@@ -100,5 +100,8 @@
     .image-wrapper:hover .mainImageContainer, .hov:hover img, .image-wrapper:hover img{
         transition: transform .2s;
         transform: scale(1.1);
+        .info-container{
+            transform:translateX(20px);
+        }
     }
 }

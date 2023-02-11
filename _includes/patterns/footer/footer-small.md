@@ -45,6 +45,12 @@
                         <ul class="add-list-reset margin-0">
                             <li>1800 G Street, NW, Suite 9100</li>
                             <li>Washington, D. C. 20006 USA</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mobile-lg:grid-col-12 desktop:grid-col-4">
+                    <div class="mobile-lg:grid-col-12">
+                        <ul class="add-list-reset margin-0">
                             <li>TEL: +1 202 223 6262</li>
                             <li><a href="mailto:">Contact Us</a></li>
                         </ul>
@@ -64,21 +70,6 @@
                         </a>
                     </div>
                 </div>
-                <div class="mobile-lg:grid-col-12 desktop:grid-col-4">
-                    <p class="margin-0"><strong>Our Newsletter</strong></p>
-                    <section aria-label="Newsletter component">
-                        <form class="usa-search" role="email">
-                            <label class="usa-sr-only" for="email-field">Sign up</label>
-                            <div class="newsletter">
-                                <input class="usa-input" id="email-field" type="email" name="Sign up"
-                                    placeholder="Email Address" />
-                                <button class="usa-button" type="submit">
-                                    <span class="usa-search__submit-text">Sign Up </span>
-                                </button>
-                            </div>
-                        </form>
-                    </section>
-                </div>
             </div>
         </div>
     </div>
@@ -95,7 +86,7 @@
                 <div class="desktop:grid-col-7 seals-small">
                     <div class="grid-row flex-justify-center">
                         <a href="">
-                            <img src="../../assets/customImages/seals/svg/USDA.svg" />
+                            <img src="../../assets/customImages/seals/small/USDA-55px.png" />
                         </a>
                         <a href="">
                             <img src="../../assets/customImages/seals/small/DOC-55px.png" />
@@ -132,6 +123,9 @@
                         </a>
                         <a href="">
                             <img src="../../assets/customImages/seals/small/USAID-55px.png" />
+                        </a>
+                        <a href="" style="width:75px">
+                            <img src="../../assets/customImages/seals/svg/DHS.svg" />
                         </a>
                     </div>
                 </div>
