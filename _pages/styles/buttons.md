@@ -24,10 +24,10 @@ A button draws attention to important actions with a large selectable surface.
 
 <h4 class="site-preview-heading">Secondary color</h4>
 <button type="" class="usa-button usa-button--secondary">Default</button>
-<button type="" class="usa-button usa-button--secondary usa-button--hover">
+<button type="" class="usa-button usa-button--secondary usa-button--secondary--hover">
   Hover
 </button>
-<button type="" class="usa-button usa-button--secondary usa-button--active">
+<button type="" class="usa-button usa-button--secondary usa-button--secondary--active">
   Active
 </button>
 <button type="" class="usa-button usa-button--secondary usa-focus">
