@@ -2,8 +2,8 @@
 layout: pattern
 categories: [patterns, collection]
 title: Collection
-type: [sub-nav-item]
-permalink: /patterns/collection/
+type:
+permalink:
 variations: true
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
