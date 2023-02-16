@@ -35,7 +35,7 @@
           "
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
-            >Interagency Working Groups</a
+            >Interagency Groups</a
           >
         </li>
         <li
@@ -46,7 +46,7 @@
           "
         >
           <a class="usa-footer__primary-link" href="javascript:void(0);"
-            >National Climate Assessment (NCA)</a
+            >National Climate Assessment</a
           >
         </li>
       </ul>

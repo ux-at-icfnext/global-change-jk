@@ -14,20 +14,20 @@
               mobile-lg:grid-col-auto
               usa-footer__primary-content
             ">
-                        <a class="usa-footer__primary-link" href="javascript:void(0);">Stragegic Plan</a>
+                        <a class="usa-footer__primary-link" href="javascript:void(0);">Strategic Plan</a>
                     </li>
                     <li class="
               mobile-lg:grid-col-auto
               usa-footer__primary-content
             ">
-                        <a class="usa-footer__primary-link" href="javascript:void(0);">Interagency Working Groups</a>
+                        <a class="usa-footer__primary-link" href="javascript:void(0);">Interagency Groups</a>
                     </li>
                     <li class="
               mobile-lg:grid-col-auto
               usa-footer__primary-content
             ">
                         <a class="usa-footer__primary-link" href="javascript:void(0);">National Climate Assessment
-                            (NCA)</a>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -41,7 +41,7 @@
               grid-row
               mobile-lg:grid-col-auto desktop:grid-col-5 mobile-lg:margin-bottom-2">
                     <div class="mobile-lg:grid-col-12">
-                        <p class="margin-0"><strong>U.S. Global change Research Program</strong></p>
+                        <p class="margin-0"><strong>U.S. Global Change Research Program</strong></p>
                         <ul class="add-list-reset margin-0">
                             <li>1800 G Street, NW, Suite 9100</li>
                             <li>Washington, D. C. 20006 USA</li>
