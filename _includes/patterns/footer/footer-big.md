@@ -66,7 +66,7 @@
                 </div>
                 <div class="mobile-lg:grid-col-12 desktop:grid-col-4 mobile-lg:margin-bottom-2">
                     <p class="margin-0"><strong>Our Newsletter</strong></p>
-                    <section aria-label="Newsletter component">
+                    <section aria-label="Newsletter component" class="newsletter-component>
                         <form class="usa-search" role="email">
                             <label class="usa-sr-only" for="email-field">Sign up</label>
                             <div class="newsletter">
