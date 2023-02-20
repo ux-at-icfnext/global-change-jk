@@ -2,8 +2,8 @@
 layout: pattern
 categories: [patterns, site-alert]
 title: Site alert
-type: [sub-nav-item]
-permalink: /patterns/site-alert/
+type: 
+permalink: 
 variations: true
 overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. 
 description: |
