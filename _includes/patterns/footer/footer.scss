@@ -96,8 +96,16 @@ footer {
 .newsletter{
     display:flex;
     border:1px solid $azurecolor;
-    button.usa-button{width:120px;font-weight: normal;background-color: $midnightcolor;}
+    button.usa-button{width:120px;font-weight: normal;background-color: $midnightcolor;margin-right: 0;padding: 0;}
     .usa-input{border-width: 0;}
+}
+.newsletter-component{
+    .usa-search{
+        .usa-button{
+            background-image: none;
+            color: white;
+        }
+    }
 }
 .social-media-icons{
     a{
