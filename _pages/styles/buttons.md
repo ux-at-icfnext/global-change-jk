@@ -33,10 +33,10 @@ A button draws attention to important actions with a large selectable surface.
 <button type="" class="usa-button usa-button--secondary usa-focus">
   Focus
 </button>
-<button type="" class="usa-button usa-button--secondary" disabled="disabled">
+<button type="" class="usa-button" disabled="disabled">
   Disabled
 </button>
-<button type="" class="usa-button usa-button--secondary usa-button--unstyled">
+<button type="" class="usa-button usa-button--secondary usa-button--unstyled usa-button--secondary--unstyled">
   Unstyled button
 </button>
 
