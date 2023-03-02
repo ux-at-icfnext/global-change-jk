@@ -26,7 +26,7 @@
             of individuals and teams across the federal workforce who make a
             profound difference in the lives of the American people.
           </p>
-          <a href="" class="announcement-link">Continue Reading</a>
+          <a href="" class="announcement-link">Continue Reading</a><i class="fa-solid fa-arrow-right"></i>
         </div>
       </li>
       <li class="usa-collection__item announcement-wrapper">
@@ -53,7 +53,7 @@
             of individuals and teams across the federal workforce who make a
             profound difference in the lives of the American people.
           </p>
-          <a href="" class="announcement-link">Continue Reading</a>
+          <a href="" class="announcement-link">Continue Reading</a><i class="fa-solid fa-arrow-right"></i>
         </div>
       </li>
       <li class="usa-collection__item announcement-wrapper">
@@ -80,7 +80,7 @@
             of individuals and teams across the federal workforce who make a
             profound difference in the lives of the American people.
           </p>
-          <a href="" class="announcement-link">Continue Reading</a>
+          <a href="" class="announcement-link">Continue Reading</a><i class="fa-solid fa-arrow-right"></i>
         </div>
       </li>
     </ul>
