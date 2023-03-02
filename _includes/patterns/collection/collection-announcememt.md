@@ -19,7 +19,7 @@
                 </h3>
                 <span>March 2, 2023</span>
             </div>
-          <p>By Sondra Ainsworth and Constance Lu</p>
+          <p class="author">Author Sondra Ainsworth and Constance Lu</p>
           <p class="usa-collection__description">
             Today, the Administration announces the winners of the Gears of
             Government President’s Award. This program recognizes the contributions

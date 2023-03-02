@@ -1,6 +1,7 @@
 .announcement-header{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
     padding-bottom: 1rem;
 }
 .announcement-wrapper{
@@ -10,4 +11,7 @@
 }
 .announcement-wrapper .announcement-header{
     border-bottom: 3px solid #0F9EFB;
+}
+.author{
+    font-style: italic;
 }
