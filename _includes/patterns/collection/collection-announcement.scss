@@ -3,6 +3,9 @@
     grid-template-columns: 3fr 1fr;
     gap: 1rem;
     padding-bottom: 1rem;
+    span{
+        font-weight: bold;
+    }
 }
 .announcement-wrapper{
     margin-bottom: 30px;
