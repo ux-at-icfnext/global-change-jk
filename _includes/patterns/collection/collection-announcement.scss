@@ -1,4 +1,13 @@
 .announcement-header{
     display: grid;
     grid-template-columns: auto auto;
+    padding-bottom: 1rem;
+}
+.announcement-wrapper{
+    margin-bottom: 30px;
+    padding: 15px;
+    border-top: 0;
+}
+.announcement-wrapper .announcement-header{
+    border-bottom: 3px solid #0F9EFB;
 }
