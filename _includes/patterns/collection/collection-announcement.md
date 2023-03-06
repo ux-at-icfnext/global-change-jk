@@ -1,7 +1,7 @@
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col-6">
     <h3 class="site-preview-heading tablet:margin-top-0">Announcement Collection</h3>
-    <ul class="usa-collection">
+    <ul class="usa-collection annnouncement">
       <li class="usa-collection__item announcement-wrapper">
         <img
         class="usa-collection__img"
