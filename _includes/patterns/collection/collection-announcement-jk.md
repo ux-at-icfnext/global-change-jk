@@ -4,28 +4,29 @@
     <ul class="usa-collection annnouncement">
     {%for item in page.announcements%}
       <li class="usa-collection__item announcement-wrapper">
+      {%if item.img %}
         <img
         class="usa-collection__img"
-        src="/assets/images/announcement_collection.png"
-        alt="Iowa_wind"
+        src="{{item.img}}"
+        alt="{{item.alt}}"
         />
+        {%else%}
+        <img class="usa-collection__img">
+        {%endif%}
         <div class="usa-collection__body">
             <div class="announcement-header">
                 <h3 class="usa-collection__heading">
                     <a
                     class="usa-link"
-                    href="https://trumpadministration.archives.performance.gov/presidents-winners-press-release/">
-                    Gears of Government President’s Award winners
+                    href="{{item.href}}">
+                    {{item.title}}
                     </a>
                 </h3>
-                <span>March 2, 2023</span>
+                <span>{{item.date}}</span>
             </div>
-          <p class="author">Author Sondra Ainsworth and Constance Lu</p>
+          <p class="author">Author {{item.author}}</p>
           <p class="usa-collection__description">
-            Today, the Administration announces the winners of the Gears of
-            Government President’s Award. This program recognizes the contributions
-            of individuals and teams across the federal workforce who make a
-            profound difference in the lives of the American people.
+            {{item.content}}
           </p>
           <a href="" class="announcement-link">Continue Reading</a><i class="fa-solid fa-arrow-right"></i>
         </div>
