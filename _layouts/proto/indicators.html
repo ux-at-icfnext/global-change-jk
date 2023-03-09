@@ -1,17 +1,18 @@
 ---
-layout: left-rail
+layout: proto/left-rail
 ---
 <link href="/assets/css/proto/indicators.scss" rel="stylesheet">
 
 <div class="intro__text">
-    <p class="small-text date__range">Date Range: {{page.start-date}} - {{page.end-date}}</p>
-    <p>{{page.intro-text}}</p>
+    <h1>{{site.data.contentful.spaces.indicator-page.indicator.indicatorPage[0].page_title}}</h1>
+    <p class="small-text date__range">Date Range: {{site.data.contentful.spaces.indicator-page.indicator.indicatorPage[0].date}} - {{site.data.contentful.spaces.indicator-page.indicator.indicatorPage[0].end_date}}</p>
+    <p>{{site.data.contentful.spaces.indicator-page.indicator.indicatorPage[0].opening_body[0].content}}</p>
 </div>
 <div class="headline">
     <h3>Headline</h3>
 </div>
 <div class="summary__blurb">
-    <p>{{page.indicator-summary}}</p>
+    <p>{{site.data.contentful.spaces.indicator-page.indicator.indicatorPage[0].headline_section}}</p>
 </div>
 <div class="visualizer">
     <img src="https://www.columnfivemedia.com/wp-content/uploads/2021/03/How-to-use-data-visualization-report-design.png"/>

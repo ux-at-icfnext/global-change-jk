@@ -5,8 +5,8 @@ layout: default
 
 <div class="header">
     <div class="intro-text">
-        <h3>{{page.title}}</h3>
-        {{page.intro-text}}
+        <h3>{{site.data.contentful.spaces.collections-landing-page.collections.collectionsLandingPage[0].page_title}}</h3>
+        {{site.data.contentful.spaces.collections-landing-page.collections.collectionsLandingPage[0].summary}}
     </div>
     {%if page.hero-image%}
         <div class="hero">

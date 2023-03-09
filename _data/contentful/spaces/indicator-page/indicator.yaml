@@ -7,31 +7,23 @@ indicatorPage:
     content_type_id: indicatorPage
     revision: 6
   page_title: USGCRP Indicator Details - Annual Greenhouse Gas Index
-  date: !ruby/object:DateTime 2023-02-14 00:00:00.000000000 -05:00
-  end_date: !ruby/object:DateTime 2023-05-14 00:00:00.000000000 -05:00
+  date: !ruby/object:DateTime 2023-02-14
+  end_date: !ruby/object:DateTime 2023-05-14
   headline_section: The Annual Greenhouse Gas Index (AGGI) is a measure of the capacity
     of Earth’s atmosphere to trap heat as a result of the presence of long-lived greenhouse
     gases. The AGGI provides standardized information about how human activity has
     affected the climate system through greenhouse gas emissions.
   opening_body:
-    data: {}
-    content:
-    - data: {}
-      content:
-      - data: {}
-        marks: []
-        value: "The warming influence of greenhouse gases in the atmosphere has increased
-          substantially over the last several decades. In 2021, the AGGI was 1.49,
-          representing an increase of 49% since 1990, the base year for the Kyoto
-          Protocol (an international agreement in which countries pledged to reduce
-          greenhouse gas emissions to below 1990 levels). Carbon dioxide (CO₂) is
-          the largest contributor to radiative forcing. Year-to-year variations in
-          how much the AGGI value increases generally correspond to how much CO₂ increases
-          each year, because CO₂ is responsible for about two-thirds of the radiative
-          forcing among all greenhouse gases.\n\n"
-        nodeType: text
-      nodeType: paragraph
-    nodeType: document
+  - sys:
+    content: "The warming influence of greenhouse gases in the atmosphere has increased
+      substantially over the last several decades. In 2021, the AGGI was 1.49,
+      representing an increase of 49% since 1990, the base year for the Kyoto
+      Protocol (an international agreement in which countries pledged to reduce
+      greenhouse gas emissions to below 1990 levels). Carbon dioxide (CO₂) is
+      the largest contributor to radiative forcing. Year-to-year variations in
+      how much the AGGI value increases generally correspond to how much CO₂ increases
+      each year, because CO₂ is responsible for about two-thirds of the radiative
+      forcing among all greenhouse gases.\n\n"
   body:
     data: {}
     content:
