@@ -6,7 +6,11 @@ chaptersList:
     updated_at: !ruby/object:DateTime 2023-03-02 16:54:48.855000000 Z
     content_type_id: chaptersList
     revision: 1
-  chapter_label: NCA5 Chapters
+  section_label: NCA5 Chapters
+  chapters:
+  - sys:
+    chapter:
+    content:
   chapter_content: "Subject to change\n\n- Overview/Summary Findings\n- Earth System\n-
     Climate Trends\n- Earth Systems Processes\n- National Topics\n- Water\n- Energy
     Supply, Delivery, and Demand\n- Land Cover and Land-Use Change\n- Forests\n- Ecosystems,

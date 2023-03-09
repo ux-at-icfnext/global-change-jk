@@ -5,13 +5,13 @@ layout: left-rail
 
 <div class="{{ page.cards.class | default: 'gray-wrapper' }}">
     <ul class="usa-card-group">
-      {% for card in page.cards %}
+      {% for item in site.data.contentful.spaces.card-landing-page.agencies.cards %}
         <li class="{{ page.cards.columns | default: 'tablet:grid-col-3'}} usa-card usa-card--title-only">
-          <a href="{{ card.link }}">
+          <a href="{{ item.link }}">
           <div class="usa-card__container">
             <div class="usa-card__body">
-              <img src="{{card.img}}"/>
-              <h5 class="agency-title">{{ card.title}}</h5>
+              <img src="{{item.img}}"/>
+              <h5 class="agency-title">{{ item.title}}</h5>
             </div>
           </div>
             </a>
