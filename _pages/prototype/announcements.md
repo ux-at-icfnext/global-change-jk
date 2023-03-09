@@ -6,7 +6,7 @@ type: [sub-nav-item, prototype]
 permalink: /prototype/announcements/
 description: Announcements page
 date: "January 27, 2022"
-hero-image: https://via.placeholder.com/1200x300
+hero-image: /assets/images/landing-page-hero.png
 intro-text: Summary text to add in hero – 140 characters max – temp incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus.
 accordion:
   - title: Agency
