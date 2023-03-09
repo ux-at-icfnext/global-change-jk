@@ -1,4 +1,5 @@
----collectionsLandingPage:
+---
+collectionsLandingPage:
 - sys:
     id: 5DnlR9cqjtAm6Hwis8SDx8
     created_at: !ruby/object:DateTime 2023-03-02 16:45:21.586000000 Z
