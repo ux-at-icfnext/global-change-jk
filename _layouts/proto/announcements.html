@@ -7,12 +7,13 @@ layout: default
     {%if page.hero-image%}
         <div class="hero">
             <img class="hero-image" src="{{page.hero-image}}"/>
-        </div>
+            <div class="overlay"></div> 
     {%endif%}
-    <div class="intro-text">
-        <h3>{{page.title}}</h3>
-        {{page.intro-text}}
-    </div>
+            <div class="intro-text">
+                <h3>{{page.title}}</h3>
+                {{page.intro-text}}
+            </div>
+        </div>
 </div>
 <div class="main-content">
     <div class="filters">
