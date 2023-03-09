@@ -44,6 +44,8 @@ assessmentReport:
       content_type_id: assessmentReportWorkshops
       revision: 1
     workshop_title: Human Social Systems
+    month: JAN
+    day: 11
     workshop_date: !ruby/object:DateTime 2022-01-11 00:00:00.000000000 -05:00
     summary: "Please join the authors of the Fifth National Climate Assessment for
       a virtual \nworkshop to share your thoughts on the climate change-related issues

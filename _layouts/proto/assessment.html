@@ -35,24 +35,7 @@ layout: default
           {%endif%}  
           <h3>About NCA5</h3>
             <p>
-              The Fifth National Climate Assessment (NCA5), currently in development, will analyze the impacts of 
-              global change in the United States.
-            </p>
-            <p>
-              The development of NCA5 is overseen by a Federal Steering Committee appointed by the Subcommittee on 
-              Global Change Research (SGCR) and comprising representatives from USGCRP agencies. NOAA, as the 
-              administrative agency for NCA5, is responsible for establishing procedures for the report, releasing 
-              Federal Register Notices, and certifying the report meets Information Quality Act and Evidence Act 
-              standards.
-            </p>
-            <p>
-              The process is designed to be transparent and inclusive, offering multiple opportunities for public 
-              participation. As in previous assessments, NCA5 will undergo an extensive, multi-phase process of 
-              internal and external review from federal agency experts, the general public, and external peer 
-              review by a panel of experts established by the National Academies of Sciences, Engineering, and 
-              Medicine. This approach is designed to result in a report that is authoritative, timely, relevant, 
-              and policy neutral; valued by authors and users; accessible to the widest possible audience; and 
-              fully compliant with the GCRA and other applicable laws and policies.
+              {{site.data.contentful.spaces.assessment-report-page.assessment-report.assessmentReport[0].about}}
             </p>
             <h4>Previous Assessments</h4>
             <ul>
@@ -70,48 +53,8 @@ layout: default
           <section id="Mandate" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Mandate</h3>
             <p>
-              The U.S. Global Change Research Program (USGCRP) was established by Presidential initiative in 1989 
-              and mandated by Congress in the Global Change Research Act (GCRA) of 1990. Its mandate is to develop 
-              and coordinate “a comprehensive and integrated United States research program which will assist the 
-              Nation and the world to understand, assess, predict, and respond to human-induced and natural processes 
-              of global change.”
+              {{site.data.contentful.spaces.assessment-report-page.assessment-report.assessmentReport[0].mandate | markdownify}}
             </p>
-            <p>
-              USGCRP comprises 13 federal agencies that conduct or use research on global change and its impacts on 
-              society. It functions under the direction of the Subcommittee on Global Change Research of the National 
-              Science and Technology Council’s Committee on Environment.
-            </p>
-            <p>
-              USGCRP has four major sets of responsibilities: (a) coordinating global change research across the 
-              Federal Government, (b) developing and distributing mandated products, (c) helping to inform decisions, 
-              and (d) facilitating international research coordination.
-            </p>
-            <p>
-              In addition to an annual report to Congress and a Strategic Plan, the GCRA mandates that USGCRP prepare 
-              and submit to the President and the Congress a quadrennial assessment, referred to as the National 
-              Climate Assessment (NCA), which:
-            </p>
-            <ul>
-                <li>
-                    <p>
-                      Integrate[s], evaluate[s], and interpret[s] the findings of the Program and discuss[es] the 
-                      scientific uncertainties associated with such findings
-                    </p>
-                </li>
-                <li>
-                    <p>
-                      Analyze[s] the effects of global change on the natural environment, agriculture, energy 
-                      production and use, land and water resources, transportation, human health and welfare, 
-                      human social systems, and biological diversity
-                    </p>
-                </li>
-                <li>
-                    <p>
-                      Analyze[s] current trends in global change, both human-induced and natural, and project[s] 
-                      major trends for the subsequent 25 to 100 years
-                    </p>
-                </li>
-            </ul>
           </section>
           <section id="Chapters" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Chapters</h3>
@@ -346,12 +289,7 @@ layout: default
           <section id="Engagement" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Engagement</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                et dolore magna aliqua. In vitae turpis massa sed. Et odio pellentesque diam volutpat commodo sed 
-                egestas egestas fringilla. Amet cursus sit amet dictum sit amet justo donec. Porta lorem mollis 
-                aliquam ut porttitor. Netus et malesuada fames ac turpis egestas sed tempus urna. Viverra tellus 
-                in hac habitasse. Elementum curabitur vitae nunc sed velit dignissim. Cum sociis natoque penatibus 
-                et. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis.
+              {{site.data.contentful.spaces.assessment-report-page.assessment-report.assessmentReport[0].engagement_summary}}
             </p>
             <h4>Current Opportunities</h3>
             <p>
@@ -361,8 +299,9 @@ layout: default
               in hac habitasse.
             </p>
             <ul>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
+              {%for item in site.data.contentful.spaces.assessment-report-page.assessment-report.assessmentReport[0].opportunities%}
+              <li><a href="">{{item.opportunity_title}}</a></li>
+              {%endfor%}
             </ul>
             <p>
                 Netus et malesuada fames ac turpis egestas 
@@ -379,202 +318,10 @@ layout: default
           <section id="Workshops" role="tabpanel" class="tabs__panel basic-tab-panel">
             <h3>Workshops</h3>
             <h4 class="workshop__month">January</h4>
-            <div class="grid-row grid-gap">
-              <div class="tablet:grid-col-6">
-                <ul class="usa-collection">
-                  <li class="usa-collection__item">
-                    <div class="usa-collection__calendar-date">
-                      <time datetime="2020-01-11T12:00:00+01:00">
-                        <span class="usa-collection__calendar-date-month">JAN</span>
-                        <span class="usa-collection__calendar-date-day">11</span>
-                      </time>
-                    </div>
-                    <div class="usa-collection__body">
-                      <h3 class="usa-collection__heading">
-                        <a
-                        class="usa-link"
-                        href="">
-                        Human Social Systems(PDF)
-                        </a>
-                      </h3>
-                      <ul class="usa-collection__meta" aria-label="More information">
-                        <li class="usa-collection__meta-item">
-                            <p><time datetime="2020-01-11T12:00:00+01:00">12 PM–4 PM ET</time></p>
-                            <a href="">Register</a>
-                            <span> | </span>
-                            <a href="">Agenda</a>
-                        </li>
-                      </ul>
-                      <p class="usa-collection__description">
-                        Nisl nunc mi ipsum faucibus vitae. Neque aliquam vestibulum morbi blandit. Massa id neque 
-                        aliquam vestibulum. Viverra aliquet eget sit amet tellus cras adipiscing enim. Eu lobortis 
-                        elementum nibh tellus molestie nunc non blandit. Scelerisque purus semper eget duis at tellus.
-                      </p>
-                    </div>
-                  </li>
-                  <li class="usa-collection__item">
-                    <div class="usa-collection__calendar-date">
-                      <time datetime="2020-01-11T12:00:00+01:00">
-                        <span class="usa-collection__calendar-date-month">JAN</span>
-                        <span class="usa-collection__calendar-date-day">11</span>
-                      </time>
-                    </div>
-                    <div class="usa-collection__body">
-                      <h3 class="usa-collection__heading">
-                        <a
-                        class="usa-link"
-                        href="">
-                        Ecosystems, Ecosystem Services, and Biodiversity(PDF)
-                        </a>
-                      </h3>
-                      <ul class="usa-collection__meta" aria-label="More information">
-                        <li class="usa-collection__meta-item">
-                            <p><time datetime="2020-01-11T12:00:00+01:00">12 PM–4 PM ET</time></p>
-                            <a href="">Register</a>
-                            <span> | </span>
-                            <a href="">Agenda</a>
-                        </li>
-                      </ul>
-                      <p class="usa-collection__description">
-                        Nisl nunc mi ipsum faucibus vitae. Neque aliquam vestibulum morbi blandit. Massa id neque 
-                        aliquam vestibulum. Viverra aliquet eget sit amet tellus cras adipiscing enim. Eu lobortis 
-                        elementum nibh tellus molestie nunc non blandit. Scelerisque purus semper eget duis at tellus.
-                      </p>
-                    </div>
-                  </li>
-                  <li class="usa-collection__item">
-                    <div class="usa-collection__calendar-date">
-                      <time datetime="2020-01-12T12:00:00+01:00">
-                        <span class="usa-collection__calendar-date-month">JAN</span>
-                        <span class="usa-collection__calendar-date-day">12</span>
-                      </time>
-                    </div>
-                    <div class="usa-collection__body">
-                      <h3 class="usa-collection__heading">
-                        <a
-                        class="usa-link"
-                        href="">
-                        Alaska(PDF)
-                        </a>
-                      </h3>
-                      <ul class="usa-collection__meta" aria-label="More information">
-                        <li class="usa-collection__meta-item">
-                            <p><time datetime="2020-01-11T12:00:00+01:00">8:30 AM –1 PM AKST</time></p>
-                            <a href="">Register</a>
-                            <span> | </span>
-                            <a href="">Agenda</a>
-                        </li>
-                      </ul>
-                      <p class="usa-collection__description">
-                        Nisl nunc mi ipsum faucibus vitae. Neque aliquam vestibulum morbi blandit. Massa id neque 
-                        aliquam vestibulum. Viverra aliquet eget sit amet tellus cras adipiscing enim. Eu lobortis 
-                        elementum nibh tellus molestie nunc non blandit. Scelerisque purus semper eget duis at tellus.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-              <h4 class="workshop__month">February</h4>
-              <div class="grid-row grid-gap">
-                <div class="tablet:grid-col-6">
-                  <ul class="usa-collection">
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-02-01T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">FEB</span>
-                          <span class="usa-collection__calendar-date-day">1</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="">
-                          Southeast(PDF)
-                          </a>
-                        </h3>
-                        <ul class="usa-collection__meta" aria-label="More information">
-                          <li class="usa-collection__meta-item">
-                              <p><time datetime="2020-02-01T12:00:00+01:00">11 AM–3:30 PM ET</time></p>
-                              <a href="">Register</a>
-                              <span> | </span>
-                              <a href="">Agenda</a>
-                          </li>
-                        </ul>
-                        <p class="usa-collection__description">
-                          Nisl nunc mi ipsum faucibus vitae. Neque aliquam vestibulum morbi blandit. Massa id neque 
-                          aliquam vestibulum. Viverra aliquet eget sit amet tellus cras adipiscing enim. Eu lobortis 
-                          elementum nibh tellus molestie nunc non blandit. Scelerisque purus semper eget duis at tellus.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-30T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">FEB</span>
-                          <span class="usa-collection__calendar-date-day">07</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="">
-                          Adaptation(PDF)
-                          </a>
-                        </h3>
-                        <ul class="usa-collection__meta" aria-label="More information">
-                          <li class="usa-collection__meta-item">
-                              <p><time datetime="2020-01-11T12:00:00+01:00">11 AM–3:30 PM ET</time></p>
-                              <a href="">Register</a>
-                              <span> | </span>
-                              <a href="">Agenda</a>
-                          </li>
-                        </ul>
-                        <p class="usa-collection__description">
-                          Nisl nunc mi ipsum faucibus vitae. Neque aliquam vestibulum morbi blandit. Massa id neque 
-                          aliquam vestibulum. Viverra aliquet eget sit amet tellus cras adipiscing enim. Eu lobortis 
-                          elementum nibh tellus molestie nunc non blandit. Scelerisque purus semper eget duis at tellus.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="usa-collection__item">
-                      <div class="usa-collection__calendar-date">
-                        <time datetime="2020-09-30T12:00:00+01:00">
-                          <span class="usa-collection__calendar-date-month">FEB</span>
-                          <span class="usa-collection__calendar-date-day">09</span>
-                        </time>
-                      </div>
-                      <div class="usa-collection__body">
-                        <h3 class="usa-collection__heading">
-                          <a
-                          class="usa-link"
-                          href="">
-                          Climate Effects on U.S. International Interests(PDF)
-                          </a>
-                        </h3>
-                        <ul class="usa-collection__meta" aria-label="More information">
-                          <li class="usa-collection__meta-item">
-                              <p><time datetime="2020-01-11T12:00:00+01:00">10 AM–2 PM ET</time></p>
-                              <a href="">Register</a>
-                              <span> | </span>
-                              <a href="">Agenda</a>
-                          </li>
-                        </ul>
-                        <p class="usa-collection__description">
-                          Nisl nunc mi ipsum faucibus vitae. Neque aliquam vestibulum morbi blandit. Massa id neque 
-                          aliquam vestibulum. Viverra aliquet eget sit amet tellus cras adipiscing enim. Eu lobortis 
-                          elementum nibh tellus molestie nunc non blandit. Scelerisque purus semper eget duis at tellus.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              {% include/patterns/collection/collection-workshops.md %}
             </section>
             <section id="FAQs" role="tabpanel" class="tabs__panel basic-tab-panel">
-            <h3>{{site.data.contentful.spaces.assessment-report.assessmentReport[0].fa_qs[0].section_label}}</h3>
+            <h3>{{site.data.contentful.spaces.assessment-report-page.assessment-report.assessmentReport[0].fa_qs[0].section_label}}</h3>
             {% include patterns/accordion/accordion-faqs.md %}
           </section>
           <section id="Timeline" role="tabpanel" class="tabs__panel basic-tab-panel">

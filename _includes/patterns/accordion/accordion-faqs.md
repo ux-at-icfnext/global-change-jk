@@ -1,5 +1,5 @@
 <div class="usa-accordion">
-    {% for item in site.data.contentful.spaces.assessment-report.assessmentReport[0].fa_qs[0].list %}
+    {% for item in site.data.contentful.spaces.assessment-report-page.assessment-report.assessmentReport[0].fa_qs[0].list %}
         <h4 class="usa-accordion__heading">
             <button
             class="usa-accordion__button"
