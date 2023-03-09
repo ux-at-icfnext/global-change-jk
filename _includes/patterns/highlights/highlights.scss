@@ -1,16 +1,16 @@
-.announcement-wrapper{
+.highlight-wrapper{
     margin-bottom: 1rem;
     ul, ol{
         max-width: initial;
         margin-left:0;
     }
     
-    .announcement-header{
+    .highlight-header{
         border-bottom:3px solid #0F9EFB;
         margin-bottom: 10px;
         h4{margin-bottom: 10px;}
     }
-    .announcement-container{
+    .highlight-container{
         display: flex;
         align-items: center;
         justify-content: center;
