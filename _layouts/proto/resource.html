@@ -1,5 +1,5 @@
 ---
-layout: left-rail
+layout: proto/left-rail
 categories: [prototype]
 title: Sample Prototype Page - Resource (Video)
 type: [sub-nav-item, prototype]
@@ -9,12 +9,13 @@ description: Sample prototype page, test component
 <link href="/assets/css/proto/resource.scss" rel="stylesheet">
 
 <div class="intro__text">
+    <h1>{{site.data.contentful.spaces.resource-details-page.resource-details.resourceDetailsPage[0].page_title}}</h1>
     {%if page.categories contains "video"%}
         <p class="small-text">Date: {{page.date}} | Length: {{page.video-length}}</p>
     {%else%}
-        <p class="small-text">Date: {{page.date}}</p>
+        <p class="small-text">Date: {{site.data.contentful.spaces.resource-details-page.resource-details.resourceDetailsPage[0].date}}</p>
     {%endif%}
-    <p>{{page.intro-text}}</p>
+    <p>{{site.data.contentful.spaces.resource-details-page.resource-details.resourceDetailsPage[0].summary | markdownify}}</p>
 </div>
 <div class="resource__section">
     {%if page.categories contains "video"%}

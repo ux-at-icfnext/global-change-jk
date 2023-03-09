@@ -4,15 +4,16 @@ layout: default
 <link href="/assets/css/proto/landing-page.scss" rel="stylesheet">
 
 <div class="header">
-    <div class="intro-text">
-        <h3>{{page.title}}</h3>
-        {{page.intro-text}}
-    </div>
     {%if page.hero-image%}
         <div class="hero">
-            <img src="{{page.hero-image}}"/>
-        </div>
+            <img class="hero-image" src="{{page.hero-image}}"/>
+            <div class="overlay"></div> 
     {%endif%}
+            <div class="intro-text">
+                <h3>{{page.title}}</h3>
+                {{page.intro-text}}
+            </div>
+        </div>
 </div>
 <div class="main-content">
     <div class="filters">
