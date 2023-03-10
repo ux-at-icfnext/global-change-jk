@@ -1,7 +1,7 @@
 ---
-layout: left-rail
+layout: proto/basic
 categories: [prototype]
-title: Hi! I'm a basic page
+title: Basic Page
 type: [sub-nav-item, prototype]
 permalink: /prototype/basic-page/
 description: A basic prototype page

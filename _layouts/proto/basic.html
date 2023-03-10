@@ -1,0 +1,19 @@
+---
+layout: proto/left-rail
+---
+<link href="/assets/css/proto/basic.scss" rel="stylesheet">
+
+<div class="header">
+    {%if page.hero-image%}
+    <div class="hero">
+        <img class="hero-image" src="{{page.hero-image}}"/>
+    </div>
+    {%endif%}
+    <h1>{{site.data.contentful.spaces.basic-page.basic.basicPage[0].page_title}}</h1>
+</div>
+<div clsss="summary-content" style="margin-bottom: 1rem;">
+    {{site.data.contentful.spaces.basic-page.basic.basicPage[0].summary}}
+</div>
+<div clsss="body-content">
+    {{site.data.contentful.spaces.basic-page.basic.basicPage[0].body_markdown | markdownify}}
+</div>
