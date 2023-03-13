@@ -1,15 +1,15 @@
 <div class="usa-accordion">
-    {% for item in site.data.contentful.spaces.assessment-report-page.roles_and_responsibilities.rolesAndResponsibilitiesList[0].roles %}
+    {% for item in site.data.contentful.spaces.assessment-report-page.chapters_list.chaptersList[0].chapters %}
         <h4 class="usa-accordion__heading">
             <button
             class="usa-accordion__button"
             aria-expanded="false"
-            aria-controls="r-a{{forloop.index}}"
+            aria-controls="c-a{{forloop.index}}"
             >
-                {{ item.role }}
+                {{ item.chapter }}
             </button>
         </h4>
-        <div id="r-a{{forloop.index}}" class="usa-accordion__content usa-prose">
+        <div id="c-a{{forloop.index}}" class="usa-accordion__content usa-prose">
             <p>
                 {{ item.content | markdownify }}
             </p>
