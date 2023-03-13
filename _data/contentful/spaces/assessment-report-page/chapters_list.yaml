@@ -9,19 +9,125 @@ chaptersList:
   section_label: NCA5 Chapters
   chapters:
   - sys:
-    chapter:
+    chapter: Overview/Summary Findings
     content:
-  chapter_content: "Subject to change\n\n- Overview/Summary Findings\n- Earth System\n-
-    Climate Trends\n- Earth Systems Processes\n- National Topics\n- Water\n- Energy
-    Supply, Delivery, and Demand\n- Land Cover and Land-Use Change\n- Forests\n- Ecosystems,
-    Ecosystem Services, and Biodiversity\n- Coastal Effects\n- Oceans and Marine Resources\n-
-    Agriculture, Food Systems, and Rural Communities\n- Built Environment, Urban Systems,
-    and Cities \n- Transportation \n- Air Quality \n- Human Health \n- Tribes and
-    Indigenous Peoples\n- Climate Effects on U.S. International Interests \n- Sector
-    Interactions, Multiple Stressors, and Complex Systems \n- Economics* \n- Human
-    Social Systems* \n- Regions\n- Northeast \n- Southeast \n- U.S. Caribbean \n-
-    Midwest \n- Northern Great Plains \n- Southern Great Plains \n- Northwest \n-
-    Southwest \n- Alaska \n- Hawai'i and U.S.-Affiliated Pacific Islands \n- Response
-    \n- Adaptation \n- Mitigation \n- Appendices\n- Process \n- Information Quality
-    \n- Scenarios and Datasets\n- Indicators* \n\n*New chapters"
+  - sys:
+    chapter: Earth System
+    content:  
+  - sys:
+    chapter: Climate Trends
+    content:
+  - sys:
+    chapter: Earth Systems Processes
+    content: 
+  - sys:
+    chapter: National Topics
+    content:
+  - sys:
+    chapter: Energy Supply, Delivery, and Demand
+    content:  
+  - sys:
+    chapter: Land Cover and Land-Use Change
+    content:
+  - sys:
+    chapter: Forests
+    content: 
+  - sys:
+    chapter: Ecosystems, Ecosystem Services, and Biodiversity
+    content:
+  - sys:
+    chapter: Water
+    content:  
+  - sys:
+    chapter: Coastal Effects
+    content:
+  - sys:
+    chapter: Oceans and Marine Resources
+    content: 
+  - sys:
+    chapter: Agriculture, Food Systems, and Rural Communities
+    content:
+  - sys:
+    chapter: Built Environment, Urban Systems, and Cities
+    content:  
+  - sys:
+    chapter: Transportation
+    content:
+  - sys:
+    chapter: Air Quality
+    content: 
+  - sys:
+    chapter: Human Health
+    content:
+  - sys:
+    chapter: Tribes and Indigenous Peoples
+    content:  
+  - sys:
+    chapter: Climate Effects on U.S. International Interests
+    content:
+  - sys:
+    chapter: Sector Interactions, Multiple Stressors, and Complex Systems
+    content: 
+  - sys:
+    chapter: Economics*
+    content:
+  - sys:
+    chapter: Human Social Systems*
+    content:  
+  - sys:
+    chapter: Regions
+    content:
+  - sys:
+    chapter: Northeast
+    content: 
+  - sys:
+    chapter: Southeast
+    content:
+  - sys:
+    chapter: U.S. Caribbean
+    content:  
+  - sys:
+    chapter: Midwest
+    content:
+  - sys:
+    chapter: Northern Great Plains
+    content: 
+  - sys:
+    chapter: Southern Great Plains \n- Northwest
+    content:
+  - sys:
+    chapter: Southwest
+    content:  
+  - sys:
+    chapter: Alaska
+    content:
+  - sys:
+    chapter: Hawai'i and U.S.-Affiliated Pacific Islands
+    content: 
+  - sys:
+    chapter: Response
+    content:
+  - sys:
+    chapter: Adaptation
+    content:  
+  - sys:
+    chapter: Mitigation
+    content:
+  - sys:
+    chapter: Appendices
+    content: 
+  - sys:
+    chapter: Process
+    content:
+  - sys:
+    chapter: Information Quality
+    content:  
+  - sys:
+    chapter: Scenarios and Datasets
+    content:
+  - sys:
+    chapter: Indicators*
+    content: 
+  before: Subject to change
+  after: "*New chapters"
 ---
