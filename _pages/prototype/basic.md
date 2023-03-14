@@ -1,7 +1,7 @@
 ---
 layout: proto/basic
 categories: [prototype]
-title: Basic Page
+title: About Page
 type: [sub-nav-item, prototype]
 permalink: /prototype/basic-page/
 description: A basic prototype page
