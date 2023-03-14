@@ -198,16 +198,16 @@
           </button>
           <ul id="basic-nav-section-one" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/agencies/"><span>Agencies</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/basic-page/"><span>Our Mission</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/staff/"><span>Our Staff</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/contact-form"><span>Contact Us</span></a>
             </li>
           </ul>
         </li>
@@ -221,13 +221,13 @@
           </button>
           <ul id="basic-nav-section-two" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/assessment/"><span>National Climate Assessments</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/indicators/"><span>Indicators</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/highlights/"><span>Highlights</span></a>
             </li>
           </ul>
         </li>
@@ -241,13 +241,7 @@
           </button>
           <ul id="basic-nav-section-three" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
-            </li>
-            <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/reports/"><span>Reports</span></a>
             </li>
           </ul>
         </li>
@@ -261,13 +255,13 @@
           </button>
           <ul id="basic-nav-section-four" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/resource-pdf/"><span>PDFs</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/resource-podcast/"><span>Podcasts</span></a>
             </li>
             <li class="usa-nav__submenu-item">
-              <a href=""><span>&lt;Navigation link&gt;</span></a>
+              <a href="https://globalchange.netlify.app/prototype/resource-video/"><span>Videos and Webinars</span></a>
             </li>
           </ul>
         </li>
