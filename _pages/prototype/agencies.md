@@ -10,6 +10,7 @@ cards:
  - title: U.S Department of Agriculture  
    img: /assets/icons/agencies/USDA-280px.png
    alt: USDA 
+   link: https://globalchange.netlify.app/prototype/agency-details/
  - title: Department of Commerce  
    img: /assets/icons/agencies/DOC-280px.png
    alt: DOC

@@ -10,7 +10,8 @@ cards:
  - title: Staff Member Name
    content: staff member title   
    img: /assets/customImages/placeimg_320_200_grayscale_nature.jpg
-   alt: an image of a staff member  
+   alt: an image of a staff member 
+   link: https://globalchange.netlify.app/prototype/staff/
  - title: Staff Member Name
    content: staff member title   
    img: /assets/customImages/placeimg_320_200_grayscale_nature.jpg
@@ -77,7 +78,7 @@ cards:
     <li class="usa-card tablet:grid-col-3">
       <div class="usa-card__container">
         <div class="usa-card__header">
-          <a href=""><h2 class="usa-card__heading">{{card.title}}</h2></a>
+          <a href="{{card.link}}"><h2 class="usa-card__heading">{{card.title}}</h2></a>
         </div>
         {% if card.img %}
             <div class="usa-card__media {{card.media-class}}">

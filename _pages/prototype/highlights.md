@@ -21,6 +21,7 @@ accordion:
 highlights:
   - title: Improving monitoring of forest carbon stocks
     tags: Observations
+    link: https://globalchange.netlify.app/prototype/highlights-details/
     img: https://via.placeholder.com/220
     content: SilvaCarbon leverages state-of-the-art science and technology to advance the generation and use of information in managing forest and terrestrial carbon.
     link: Read More

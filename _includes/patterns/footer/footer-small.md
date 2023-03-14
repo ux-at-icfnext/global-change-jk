@@ -8,7 +8,7 @@
               mobile-lg:grid-col-auto
               usa-footer__primary-content
             ">
-                        <a class="usa-footer__primary-link" href="javascript:void(0);"> Annual Reports</a>
+                        <a class="usa-footer__primary-link" href="https://globalchange.netlify.app/prototype/library/"> Annual Reports</a>
                     </li>
                     <li class="
               mobile-lg:grid-col-auto
@@ -26,7 +26,7 @@
               mobile-lg:grid-col-auto
               usa-footer__primary-content
             ">
-                        <a class="usa-footer__primary-link" href="javascript:void(0);">National Climate Assessment
+                        <a class="usa-footer__primary-link" href="https://globalchange.netlify.app/prototype/assessment/">National Climate Assessment
                             </a>
                     </li>
                 </ul>

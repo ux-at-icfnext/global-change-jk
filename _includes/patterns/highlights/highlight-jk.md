@@ -7,7 +7,7 @@
     <div class="highlight-container"> 
       <img src="https://via.placeholder.com/220">
       <div class="announcement-content">
-          <p><a href="">{{item.title}}</a></p>
+          <p><a href="{{item.link}}">{{item.title}}</a></p>
           <p>{{item.content}}</p>
           <a href="" class="announcement-link">Read More</a>
           <p><em>By Sondra Ainsworth and Constance Lu</em></p>
