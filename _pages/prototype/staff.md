@@ -78,7 +78,7 @@ cards:
     <li class="usa-card tablet:grid-col-3">
       <div class="usa-card__container">
         <div class="usa-card__header">
-          <a href="{{card.link}}"><h2 class="usa-card__heading">{{card.title}}</h2></a>
+          <a href="https://globalchange.netlify.app/prototype/staff-detail/"><h2 class="usa-card__heading">{{card.title}}</h2></a>
         </div>
         {% if card.img %}
             <div class="usa-card__media {{card.media-class}}">
