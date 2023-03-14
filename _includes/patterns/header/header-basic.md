@@ -241,7 +241,7 @@
           </button>
           <ul id="basic-nav-section-three" class="usa-nav__submenu">
             <li class="usa-nav__submenu-item">
-              <a href="https://globalchange.netlify.app/prototype/reports/"><span>Reports</span></a>
+              <a href="https://globalchange.netlify.app/prototype/library/"><span>Reports</span></a>
             </li>
           </ul>
         </li>
