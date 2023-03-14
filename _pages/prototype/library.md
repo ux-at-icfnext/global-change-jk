@@ -24,6 +24,7 @@ highlights:
     img: https://via.placeholder.com/220
     content: USGCRP’s 2022-2031 Strategic Plan lays the foundation for meeting a new set of challenges and demands for useful, accessible, and inclusive data and information alongside advancements in understanding of a rapidly changing environment. It was developed by the Subcommittee on Global Change Research and draws on feedback from Federal agencies, the...
     link: Read More
+    url: https://globalchange.netlify.app/prototype/reports/
   - title: "Our Changing Planet: The U.S. Global Change Research Program for Fiscal Year 2022"
     tags: Tag
     content: The FY2022 edition of USGCRP’s annual report to Congress, Our Changing Planet, responds to the Global Change Research Act mandate to provide an overview of the Program’s progress in delivering on its strategic goals as well as a summary of agency expenditures under USGCRP’s budget crosscut.
