@@ -267,7 +267,7 @@
         </li>
       </ul>
       <section aria-label="Search component" class="tablet:grid-col-12 desktop:grid-col-5">
-      <a href="/" class="searchLink"><span></span>National Climate Assessment (NCA)</a>
+      <a href="https://globalchange.netlify.app/prototype/assessment/" class="searchLink"><span></span>National Climate Assessment (NCA)</a>
         <form class="usa-search usa-search--small" role="search">
           <label class="usa-sr-only" for="search-field">Search</label>
           <input

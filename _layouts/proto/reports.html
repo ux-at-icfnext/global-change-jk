@@ -13,9 +13,9 @@ layout: left-rail
             <img src="https://www.appliedstemcell.com/pub/media/wysiwyg/.thumbs/.placeholder/pdf.png">
         </div>
         <div class="pdf__details">
-            <p>Title</p>
-            <p>Author</p>
-            <p>Publication Date</p>
+            <p>{{page.report-title}}</p>
+            <p>{{page.report-author}}</p>
+            <p>{{page.report-date}}</p>
             <button class="usa-button">Download PDF<i class="fas fa-external-link-alt"></i></button>
             <br>
             <button class="usa-button">Order (Free)<i class="fas fa-external-link-alt"></i></button>
@@ -27,9 +27,8 @@ layout: left-rail
     {{ content }}
     <h3 id="related__resources">Related Reports</h3>
     <ul>
-      <li><a href="">Report link</a></li>
-      <li><a href="">Report link</a></li>
-      <li><a href="">Slightly longer reoport link </a></li>
-      <li><a href="">Report link</a></li>
+        {%for item in page.related-reports%}
+            <li><a href="">{{item.link}}</a></li>
+        {%endfor%}
     </ul>
 </div>
