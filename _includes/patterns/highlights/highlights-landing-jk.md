@@ -8,7 +8,7 @@
                 <span>{{item.date}}</span>
             </div>
             <p>{{item.content}}</p>
-            <a href="" class="announcement-link">{{item.link}}</a>
+            <a href="{{item.url}}" class="announcement-link">{{item.link}}</a>
             <p class="highlight-tags">
                 <ul class="usa-collection__meta" aria-label="Topics" style="margin-left: 0rem;">
                     <li class="usa-collection__meta-item usa-tag usa-tag--new">{{item.tags}}</li>
