@@ -2,12 +2,19 @@
 layout: proto/library
 categories: [prototype, library]
 title: Library
+page-title: Reports & Assessments
 type: [sub-nav-item, prototype]
 permalink: /prototype/library/
 description: Library page
 date: "January 27, 2022"
 hero-image: https://via.placeholder.com/1200x300
-intro-text: Summary text to add in hero – 140 characters max – temp incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus.
+intro-text: 'The Reports Library features scientific assessments, annual reports, strategic
+research plans, and other resources produced by USGCRP and the collaborative efforts
+of our member agencies. Select reports by other authoritative scientific bodies
+with whom we work, such as the Intergovernmental Panel on Climate Change (IPCC)
+and the National Research Council (NRC), are also accessible here. Most reports
+are available for download (open and click View); some can be ordered in print
+free of charge (open and click Add to Cart). '
 body-text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit.
 accordion:
   - title: Filter

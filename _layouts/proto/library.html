@@ -3,18 +3,6 @@ layout: default
 ---
 <link href="/assets/css/proto/landing-page.scss" rel="stylesheet">
 
-<div class="header">
-    {%if page.hero-image%}
-        <div class="hero">
-            <img class="hero-image" src="/assets/images/landing-page-hero.png"/>
-            <div class="overlay"></div>
-    {%endif%}
-            <div class="intro-text">
-                <h3>{{site.data.contentful.spaces.collections-landing-page.collections.collectionsLandingPage[1].page_title}}</h3>
-                {{site.data.contentful.spaces.collections-landing-page.collections.collectionsLandingPage[1].summary}}
-            </div>
-        </div>
-</div>
 <div class="main-content">
     <div class="filters">
         <p><em>Filters</em></p>
