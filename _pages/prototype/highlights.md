@@ -2,12 +2,13 @@
 layout: proto/highlights
 categories: [prototype, highlight]
 title: Highlights
+page-title: Highlights
 type: [sub-nav-item, prototype]
 permalink: /prototype/highlights/
 description: Highlights page
 date: "January 27, 2022"
 hero-image: https://via.placeholder.com/1200x300
-intro-text: Summary text to add in hero – 140 characters max – temp incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus.
+intro-text:  Since 1989, the U.S. Global Change Research Program (USGCRP) has submitted annual reports to Congress called Our Changing Planet. The reports describe the status of USGCRP research activities, provide progress updates, and document recent accomplishments. In particular, Our Changing Planet highlights progress and accomplishments in interagency activities. These highlights represent the broad spectrum of USGCRP activities that extend from Earth system observations, modeling, and fundamental research through synthesis and assessment, decision support, education, and public engagement. Highlights describe the state of science at the time of publication of each yearly report, and may not reflect more recent advances in understanding. The date of publication of the source report is noted on each highlight page.
 body-text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum velit euismod in pellentesque. Libero justo laoreet sit amet cursus. Purus semper eget duis at tellus. Nisl vel pretium lectus quam id leo in vitae turpis. Sed risus pretium quam vulputate dignissim suspendisse in. Lacinia quis vel eros donec ac. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Odio ut enim blandit volutpat. Sed pulvinar proin gravida hendrerit.
 accordion:
   - title: Topic

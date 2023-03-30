@@ -2,6 +2,7 @@
 layout: proto/announcements
 categories: [prototype, announcements]
 title: Announcements
+page-title: Announcements
 type: [sub-nav-item, prototype]
 permalink: /prototype/announcements/
 description: Announcements page
