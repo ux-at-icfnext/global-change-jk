@@ -5,7 +5,7 @@
     <body>
         {% if page.type contains "prototype" %}
             {% include patterns/header/header-basic.md %}
-            {%if page.hero-image == "false" %}
+            {%if page.hero-image = false %}
                 {% include patterns/breadcrumb/breadcrumb-jk.md %}
             {%endif%}
         {% else %}
