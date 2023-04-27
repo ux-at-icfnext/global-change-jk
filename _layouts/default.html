@@ -5,6 +5,9 @@
     <body>
         {% if page.type contains "prototype" %}
             {% include patterns/header/header-basic.md %}
+            {%if page.hero-image = false %}
+                {% include patterns/breadcrumb/breadcrumb-jk.md}
+            {%endif%}
         {% else %}
             <div class="header-container">
                 {% include partials/lib/header.html %}
@@ -13,23 +16,15 @@
         <div class="header">
             {%if page.hero-image%}
                 <div class="hero">
-                    {% include patterns/breadcrumb/breadcrumb-jk.md %}
+                    {% include patterns/breadcrumb/breadcrumb-jk.md}
                     <img class="hero-image" src="/assets/images/landing-page-hero.png"/>
                     <div class="overlay"></div>
+            {%endif%}
                     <div class="intro-text">
                         <h3>{{page.page-title}}</h3>
                         <p>{{page.intro-text}}</p>
                     </div>
                 </div>
-            {%endif%}
-            {% if page.hero-image == false %}
-                {% include patterns/breadcrumb/breadcrumb-jk.md %}
-                    <div class="intro-text">
-                        <h3>{{page.page-title}}</h3>
-                        <p>{{page.intro-text}}</p>
-                    </div>
-                </div>
-            {%endif%}
         </div>
         {% if page.type contains "prototype" %}
             <div class="prototype-content">

@@ -31,6 +31,9 @@
     width: 100%;
     padding-top: 0;
     position: relative;
+    .usa-breadcrumb{
+        z-index: 3;
+    }
 }
 .overlay {
     position: absolute; /* Sit on top of the page content */
