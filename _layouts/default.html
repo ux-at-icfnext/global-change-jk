@@ -5,7 +5,9 @@
     <body>
         {% if page.type contains "prototype" %}
             {% include patterns/header/header-basic.md %}
-            {% include patterns/breadcrumb/breadcrumb-jk.md}
+            {%if page.hero-image == "false" %}
+                {% include patterns/breadcrumb/breadcrumb-jk.md}
+            {%endif%}
         {% else %}
             <div class="header-container">
                 {% include partials/lib/header.html %}
