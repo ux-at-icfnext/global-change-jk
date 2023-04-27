@@ -1,6 +1,6 @@
 
 {% assign breadcrumbs = page.url | split: '/' %}
-<nav class="usa-breadcrumb usa-nav-container
+<nav class="usa-breadcrumb
 {% if page.breadcrumbWrapping == true %} 
   usa-breadcrumb--wrap 
 {% endif %}" 
