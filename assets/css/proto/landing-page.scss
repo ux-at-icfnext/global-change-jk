@@ -25,10 +25,12 @@
     margin-top: 20px;
     margin-right: 10px;
 }
-.hero{
-    .usa-breadcrumb{
-        position:absolute;
-        z-index: 3;
+.usa-breadcrumb{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    a{
+        color: white;
     }
 }
 .hero-image{
