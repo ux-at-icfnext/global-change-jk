@@ -32,8 +32,13 @@
 }
 .usa-breadcrumb__link{
     color: white;
+    font-weight: bold;
 }
 .usa-breadcrumb__link:visited{
+    color: white;
+    font-weight: 300;
+}
+.usa-breadcrumb__list-item:not(:last-child)::after{
     color: white;
 }
 .hero-image{
