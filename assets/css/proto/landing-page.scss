@@ -25,6 +25,24 @@
     margin-top: 20px;
     margin-right: 10px;
 }
+.usa-breadcrumb{
+    position: absolute;
+    z-index: 3;
+    color: white;
+}
+.usa-breadcrumb__link{
+    color: white;
+}
+.usa-breadcrumb__link:visited{
+    color: white;
+}
+.usa-breadcrumb__list-item:last-child{
+    color: white;
+    font-weight: bold;
+}
+.usa-breadcrumb__list-item:not(:last-child)::after{
+    color: white;
+}
 .hero-image{
     background-size: cover;
     height: 300px;
