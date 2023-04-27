@@ -38,6 +38,10 @@
     color: white;
     font-weight: 300;
 }
+.usa-breadcrumb__list-item:last-child{
+    color: white;
+    font-weight: bold;
+}
 .usa-breadcrumb__list-item:not(:last-child)::after{
     color: white;
 }
